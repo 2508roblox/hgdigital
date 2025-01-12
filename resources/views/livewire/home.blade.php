@@ -18,7 +18,7 @@
         <!-- backtotop - end -->
         
          <!-- Preloader - Start -->
-         <div id="xb-loadding" class="xb-loader style-3"><div class="xb-dual-ring"></div></div>
+         {{-- <div id="xb-loadding" class="xb-loader style-3"><div class="xb-dual-ring"></div></div> --}}
         <!-- Preloader - End -->
         
         <div class="body_wrap">
@@ -1560,7 +1560,256 @@
                     </div>
                  </section>
                 <!-- testimonial section end  -->
-        
+                <section class="pricing pt-130 pb-130">
+                    <div class="container">
+                        <div class="sec-title--two text-center mb-60">
+
+                            <span style="visibility: visible;
+                            animation-duration: 600ms;
+                            animation-name: fadeInDown;
+                            border: 1px solid rgba(255, 255, 255, 0.22);
+                            background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.1) 100%);
+                            box-shadow: 0 2px 4px 0 rgba(44, 64, 94, 0.08), 0 1px 1px 0 rgba(44, 64, 94, 0.04), 0 0 0 1px rgba(44, 64, 94, 0.06);
+                            color: #9596a8;" class="sub-title wow fadeInDown" data-wow-duration="600ms" style="visibility: visible; animation-duration: 600ms; animation-name: fadeInDown;"><img loading="lazy" src="http://localhost:8000/assets/img/icon/dollar-icon.svg" alt=""><span >Bảng giá dịch vụ Website</span></span>
+
+                            
+                            <h2 class="title wow fadeInDown" data-wow-delay="150ms" data-wow-duration="600ms" style="visibility: visible; animation-duration: 600ms; animation-delay: 150ms; animation-name: fadeInDown;">Bảng giá thiết kế web trọn gói
+                            </h2>
+                        </div>
+                        <div class="xb-pricing-nav-wrap text-center mb-110">
+                            <ul class="xb-pricing-nav ul_li_center nav nav-tabs" id="myTab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                  <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">billed yearly <span>30%</span></button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                  <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false" tabindex="-1">Billed monthly</button>
+                                </li>
+                              </ul>
+                        </div>
+                        <div class="pg-pricing_content">
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                    <div class="row mt-none-30">
+                                        <div class="col-lg-4 mt-30">
+                                            <div class="pg-pricing-item pos-rel">
+                                                <div class="xb-item--inner o-hidden pos-rel">
+                                                    <div class="xb-item--holder ul_li">
+                                                        <div class="xb-item--icon"><img src="assets/img/icon/pricing-icon01.svg" alt=""></div>
+                                                        <div class="xb-item--right">
+                                                            <h3 class="xb-item--title">Basic</h3>
+                                                            <span class="xb-item--text">For businesses starting.</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="xb-item--price">
+                                                        <h2 class="xb-item--number">$299</h2>
+                                                        <span class="xb-item--time">Per Month</span>
+                                                    </div>
+                                                    <div class="xb-item--line"></div>
+                                                    <h4 class="xb-item--feature">Features</h4>
+                                                    <ul class="xb-item--list list-unstyled">
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt=""> In-depth Keyword Research</li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt=""> On-Page SEO Optimization</li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt=""> Technical SEO Audits</li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt=""> Monthly Performance Reporting</li>
+                                                        <li class="deactive"><img src="assets/img/icon/cross-icon.svg" alt=""> Weekly Reports &amp; SEO Manager</li>
+                                                    </ul>
+                                                    <div class="pg-det-btn">
+                                                        <a href="contact.html" class="cp-btn">Choose your plan</a>
+                                                    </div>
+                                                    <div class="xb-shape"><img src="assets/img/shape/pg-shape.png" alt=""></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 mt-30">
+                                            <div class="pg-pricing-item active pos-rel">
+                                                <span class="xb-item--top-text">Most popular ✨</span>
+                                                <div class="xb-item--inner o-hidden pos-rel">
+                                                    <div class="xb-item--holder ul_li">
+                                                        <div class="xb-item--icon"><img src="assets/img/icon/pricing-icon02.svg" alt=""></div>
+                                                        <div class="xb-item--right">
+                                                            <h3 class="xb-item--title">Standard</h3>
+                                                            <span class="xb-item--text">For businesses more traffic.</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="xb-item--price">
+                                                        <h2 class="xb-item--number">$499</h2>
+                                                        <span class="xb-item--time">Per Month</span>
+                                                    </div>
+                                                    <div class="xb-item--line"></div>
+                                                    <h4 class="xb-item--feature">Features</h4>
+                                                    <ul class="xb-item--list list-unstyled">
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">All features of Basic SEO Package</li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Local SEO Strategy &amp; Optimization</li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Content Creation &amp; Optimization</li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">High-Quality Link Building</li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Weekly Reports &amp; SEO Manager</li>
+                                                    </ul>
+                                                    <div class="pg-det-btn">
+                                                        <a href="contact.html" class="cp-btn">Choose your plan</a>
+                                                    </div>
+                                                    <div class="xb-shape"><img src="assets/img/shape/pg-shape.png" alt=""></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 mt-30">
+                                            <div class="pg-pricing-item pos-rel">
+                                                <div class="xb-item--inner o-hidden pos-rel">
+                                                    <div class="xb-item--holder ul_li">
+                                                        <div class="xb-item--icon"><img src="assets/img/icon/pricing-icon03.svg" alt=""></div>
+                                                        <div class="xb-item--right">
+                                                            <h3 class="xb-item--title">Basic</h3>
+                                                            <span class="xb-item--text">For businesses starting.</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="xb-item--price">
+                                                        <h2 class="xb-item--number">$999</h2>
+                                                        <span class="xb-item--time">Per Month</span>
+                                                    </div>
+                                                    <div class="xb-item--line"></div>
+                                                    <h4 class="xb-item--feature">Premium</h4>
+                                                    <ul class="xb-item--list list-unstyled">
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">All features of Advanced SEO Package</li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Full Website &amp; Technical SEO Audit</li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Competitor Analysis &amp; Monitoring</li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Advanced Backlink Building Campaigns</li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Weekly Reports &amp; SEO Manager</li>
+                                                    </ul>
+                                                    <div class="pg-det-btn">
+                                                        <a href="contact.html" class="cp-btn">Choose your plan</a>
+                                                    </div>
+                                                    <div class="xb-shape"><img src="assets/img/shape/pg-shape.png" alt=""></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                    <div class="row mt-none-30">
+                                        <div class="col-lg-4 mt-30">
+                                            <div class="pg-pricing-item pos-rel">
+                                                <div class="xb-item--inner o-hidden pos-rel">
+                                                    <div class="xb-item--holder ul_li">
+                                                        <div class="xb-item--icon"><img src="assets/img/icon/pricing-icon01.svg" alt=""></div>
+                                                        <div class="xb-item--right">
+                                                            <h3 class="xb-item--title">Basic</h3>
+                                                            <span class="xb-item--text">For businesses starting.</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="xb-item--price">
+                                                        <h2 class="xb-item--number">$29</h2>
+                                                        <span class="xb-item--time">Per Month</span>
+                                                    </div>
+                                                    <div class="xb-item--line"></div>
+                                                    <h4 class="xb-item--feature">Features</h4>
+                                                    <ul class="xb-item--list list-unstyled">
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt=""> In-depth Keyword Research</li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt=""> On-Page SEO Optimization</li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt=""> Technical SEO Audits</li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt=""> Monthly Performance Reporting</li>
+                                                        <li class="deactive"><img src="assets/img/icon/cross-icon.svg" alt=""> Weekly Reports &amp; SEO Manager</li>
+                                                    </ul>
+                                                    <div class="pg-det-btn">
+                                                        <a href="contact.html" class="cp-btn">Choose your plan</a>
+                                                    </div>
+                                                    <div class="xb-shape"><img src="assets/img/shape/pg-shape.png" alt=""></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 mt-30">
+                                            <div class="pg-pricing-item active pos-rel">
+                                                <span class="xb-item--top-text">Most popular ✨</span>
+                                                <div class="xb-item--inner o-hidden pos-rel">
+                                                    <div class="xb-item--holder ul_li">
+                                                        <div class="xb-item--icon"><img src="assets/img/icon/pricing-icon02.svg" alt=""></div>
+                                                        <div class="xb-item--right">
+                                                            <h3 class="xb-item--title">Standard</h3>
+                                                            <span class="xb-item--text">For businesses more traffic.</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="xb-item--price">
+                                                        <h2 class="xb-item--number">$69</h2>
+                                                        <span class="xb-item--time">Per Month</span>
+                                                    </div>
+                                                    <div class="xb-item--line"></div>
+                                                    <h4 class="xb-item--feature">Features</h4>
+                                                    <ul class="xb-item--list list-unstyled">
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">All features of Basic SEO Package</li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Local SEO Strategy &amp; Optimization</li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Content Creation &amp; Optimization</li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">High-Quality Link Building</li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Weekly Reports &amp; SEO Manager</li>
+                                                    </ul>
+                                                    <div class="pg-det-btn">
+                                                        <a href="contact.html" class="cp-btn">Choose your plan</a>
+                                                    </div>
+                                                    <div class="xb-shape"><img src="assets/img/shape/pg-shape.png" alt=""></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 mt-30">
+                                            <div class="pg-pricing-item pos-rel">
+                                                <div class="xb-item--inner o-hidden pos-rel">
+                                                    <div class="xb-item--holder ul_li">
+                                                        <div class="xb-item--icon"><img src="assets/img/icon/pricing-icon03.svg" alt=""></div>
+                                                        <div class="xb-item--right">
+                                                            <h3 class="xb-item--title">Basic</h3>
+                                                            <span class="xb-item--text">For businesses starting.</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="xb-item--price">
+                                                        <h2 class="xb-item--number">$99</h2>
+                                                        <span class="xb-item--time">Per Month</span>
+                                                    </div>
+                                                    <div class="xb-item--line"></div>
+                                                    <h4 class="xb-item--feature">Premium</h4>
+                                                    <ul class="xb-item--list list-unstyled">
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">All features of Advanced SEO Package</li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Full Website &amp; Technical SEO Audit</li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Competitor Analysis &amp; Monitoring</li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Advanced Backlink Building Campaigns</li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Weekly Reports &amp; SEO Manager</li>
+                                                    </ul>
+                                                    <div class="pg-det-btn">
+                                                        <a href="contact.html" class="cp-btn">Choose your plan</a>
+                                                    </div>
+                                                    <div class="xb-shape"><img src="assets/img/shape/pg-shape.png" alt=""></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 </section>
+
+
+                 <style>
+                    .sec-title--two .title {
+                        color: white;
+                    }
+                    .pg-pricing-item.pos-rel .xb-item--inner {
+                        
+    background: #010315;
+    border: rgb(136 168 245);
+    box-shadow: 0 8px 18px 0 rgb(79 16 163 / 43%);
+
+                    }
+                    .pg-det-btn a, .pg-pricing-item::before {
+                        background: linear-gradient(86deg, #431dab 0%, #ae6dfe 100%);
+                    }
+                    .xb-pricing-nav {
+                        border: 1px solid #a868f9;
+    background: linear-gradient(86deg, #431dab 0%, #ae6dfe 100%);
+    color: white ! IMPORTANT;
+                    }
+                    .xb-pricing-nav .nav-item .nav-link {
+                        color: white;
+                    }
+                    .xb-pricing-nav .nav-item .nav-link.active {
+                        color: black;
+                    }
+                 </style>
                 <!-- awrad section start  -->
                  <section class="award pt-160">
                     <div class="container">
@@ -1619,82 +1868,71 @@
                         </div>
                         
                         <div class="row justify-content-center mt-none-30">
-                            <div class="col-lg-4 col-md-6 mt-30">
-                                <div class="xb-blog-item wow fadeInUp" data-wow-delay="0ms" data-wow-duration="600ms">
-                                    <div class="xb-item--holder">
-                                        <a href="blog-details.html" class="xb-item--img">
-                                            <img  loading="lazy" src="{{ asset('assets/img/blog/img01.jpg') }}" alt="">
-                                            <div class="xb-item--circle-arrow"><img  loading="lazy" src="{{ asset('assets/img/icon/arrow-white.png') }}" alt=""></div>
-                                            <div class="xb-item--line"><img  loading="lazy" src="{{ asset('assets/img/shape/blg-line.png') }}" alt=""></div>
-                                        </a>
+                            @foreach($blogs as $blog)
+                                <div class="col-lg-4 col-md-6 mt-30">
+                                    <div class="xb-blog-item wow fadeInUp" data-wow-delay="0ms" data-wow-duration="600ms">
+                                        <div class="xb-item--holder" style="
+                                        width: 100%;
+                                    ">
+                                            <a  href="{{ route('blog.detail', $blog->slug) }}" style="
+                                                width: 100%;
+                                            " class="xb-item--img">
+                                                <img style="
+                                                width: 100%;
+                                            " loading="lazy" src="{{ asset('storage/' . $blog->thumbnail) }}" alt="">
+                                                <div class="xb-item--circle-arrow">
+                                                    <img loading="lazy" src="{{ asset('assets/img/icon/arrow-white.png') }}" alt="">
+                                                </div>
+                                                <div class="xb-item--line">
+                                                    <img loading="lazy" src="{{ asset('assets/img/shape/blg-line.png') }}" alt="">
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <h2 class="xb-item--title border-effect-2">
+                                            <a href="{{ route('blog.detail', $blog->slug) }}">{{ $blog->title }}</a>
+                                        </h2>
+                                        <ul class="xb-item--meta list-unstyled ul_li">
+                                            <li>
+                                                <span><img loading="lazy" src="{{ asset('assets/img/icon/profile-circle.png') }}" alt=""></span>
+                                                Viết bới {{ $blog->user->name ?? 'Giang Trần' }} <!-- Giả sử bạn có quan hệ với User -->
+                                            </li>
+                                            <li>
+                                                <span><img loading="lazy" src="{{ asset('assets/img/icon/menu-board.png') }}" alt=""></span>
+                                                {{ $blog->created_at->format('d/m/Y') }} <!-- Định dạng ngày -->
+                                            </li>
+                                        </ul>
                                     </div>
-                                    <h2 class="xb-item--title border-effect-2"> <a href="blog-details.html">How to Prevent Ransomware Attacks, Tips for Businesses..</a></h2>
-                                    <ul class="xb-item--meta list-unstyled ul_li">
-                                        <li><span><img  loading="lazy" src="{{ asset('assets/img/icon/profile-circle.png') }}" alt=""></span>Posted By Johnson</li>
-                                        <li><span><img  loading="lazy" src="{{ asset('assets/img/icon/menu-board.png') }}" alt=""></span>11/12/2024</li>
-                                    </ul>
                                 </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 mt-30">
-                                <div class="xb-blog-item wow fadeInUp" data-wow-delay="150ms" data-wow-duration="600ms">
-                                    <div class="xb-item--holder">
-                                        <a href="blog-details.html" class="xb-item--img">
-                                            <img  loading="lazy" src="{{ asset('assets/img/blog/img02.jpg') }}" alt="">
-                                            <div class="xb-item--circle-arrow"><img  loading="lazy" src="{{ asset('assets/img/icon/arrow-white.png') }}" alt=""></div>
-                                            <div class="xb-item--line"><img  loading="lazy" src="{{ asset('assets/img/shape/blg-line.png') }}" alt=""></div>
-                                        </a>
-                                    </div>
-                                    <h2 class="xb-item--title border-effect-2"> <a href="blog-details.html">Top Cybersecurity Threats Facing Businesses in the year..</a></h2>
-                                    <ul class="xb-item--meta list-unstyled ul_li">
-                                        <li><span><img  loading="lazy" src="{{ asset('assets/img/icon/profile-circle.png') }}" alt=""></span>Posted By Anderson</li>
-                                        <li><span><img  loading="lazy" src="{{ asset('assets/img/icon/menu-board.png') }}" alt=""></span>18/12/2024</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 mt-30">
-                                <div class="xb-blog-item wow fadeInUp" data-wow-delay="300ms" data-wow-duration="600ms">
-                                    <div class="xb-item--holder">
-                                        <a href="blog-details.html" class="xb-item--img">
-                                            <img  loading="lazy" src="{{ asset('assets/img/blog/img03.jpg') }}" alt="">
-                                            <div class="xb-item--circle-arrow"><img  loading="lazy" src="{{ asset('assets/img/icon/arrow-white.png') }}" alt=""></div>
-                                            <div class="xb-item--line"><img  loading="lazy" src="{{ asset('assets/img/shape/blg-line.png') }}" alt=""></div>
-                                        </a>
-                                    </div>
-                                    <h2 class="xb-item--title border-effect-2"> <a href="blog-details.html">Common cyber threats and how to prevent them..</a></h2>
-                                    <ul class="xb-item--meta list-unstyled ul_li">
-                                        <li><span><img  loading="lazy" src="{{ asset('assets/img/icon/profile-circle.png') }}" alt=""></span>Posted By Martinez</li>
-                                        <li><span><img  loading="lazy" src="{{ asset('assets/img/icon/menu-board.png') }}" alt=""></span>27/12/2024</li>
-                                    </ul>
-                                </div>
-                            </div>
+                            @endforeach
                         </div>
                         <div class="xb-btn mt-60 text-center wow fadeInUp" data-wow-delay="300ms" data-wow-duration="600ms">
-                            <a href="blog.html" class="blc-btn blc-btn--gardiant">
+                            <a href="{{ route('blog.index') }}" class="blc-btn blc-btn--gardiant">
                                 <span>Xem thêm bài viết <i class="far fa-angle-right"></i></span>
                                 <span class="btn-shape">
                                     <svg width="271" height="60" viewBox="0 0 271 60" fill="none" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0.5 17.2308L20.1225 0.5H252.042L270.5 17.2217V43.7692L252.05 59.5H20.1225L0.5 42.7692V17.2308Z" fill="#010315" stroke="url(#paint0_linear_1742_66145)"></path>
                                         <defs>
-                                          <linearGradient id="paint0_linear_1742_66145" x1="271" y1="61.5556" x2="232.791" y2="-3.08978" gradientUnits="userSpaceOnUse">
-                                            <stop offset="0" stop-color="#6780D2"></stop>
-                                            <stop offset="1" stop-color="#2F3B8D"></stop>
-                                          </linearGradient>
+                                            <linearGradient id="paint0_linear_1742_66145" x1="271" y1="61.5556" x2="232.791" y2="-3.08978" gradientUnits="userSpaceOnUse">
+                                                <stop offset="0" stop-color="#6780D2"></stop>
+                                                <stop offset="1" stop-color="#2F3B8D"></stop>
+                                            </linearGradient>
                                         </defs>
-                                      </svg>
+                                    </svg>
                                 </span>
                                 <span class="btn-shape2">
                                     <svg width="362" height="78" viewBox="0 0 362 78" fill="none" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0.5 22.7183L25.5093 1.39453H337.972L361.5 22.7092V56.5515L337.98 76.6051H25.5093L0.5 55.2813V22.7183Z" fill="url(#paint0_linear_1600_9966933)" stroke="#23263C"></path>
                                         <defs>
-                                          <linearGradient id="paint0_linear_1600_9966933" x1="1.29285" y1="38.9973" x2="362" y2="33.9973" gradientUnits="userSpaceOnUse">
-                                            <stop offset="0" stop-color="#431DAB"></stop>
-                                            <stop offset="1" stop-color="#AE6DFE"></stop>
-                                          </linearGradient>
+                                            <linearGradient id="paint0_linear_1600_9966933" x1="1.29285" y1="38.9973" x2="362" y2="33.9973" gradientUnits="userSpaceOnUse">
+                                                <stop offset="0" stop-color="#431DAB"></stop>
+                                                <stop offset="1" stop-color="#AE6DFE"></stop>
+                                            </linearGradient>
                                         </defs>
-                                      </svg>
+                                    </svg>
                                 </span>
                             </a>
                         </div>
+                        
                     </div>
                  </section>
                 <!-- blog section end  -->
@@ -1727,15 +1965,16 @@
                                     <div class="cs-contact-wrap cs-contact-form">
                                         <div class="sec-title--two sec-title--three">
                                             <span class="sub-title"><img loading="lazy" src="{{ asset('assets/img/icon/bill.svg') }}" alt=""><span>Hãy kết nối!</span></span>
-                                            <h2 class="title">Gửi cho chúng tôi một tin nhắn, và chúng tôi sẽ nhanh chóng <br> thảo luận về dự án của bạn với bạn.</h2>
+                                            <h2 class="title">Gửi tin nhắn tới HG DIGITAL, để được giải đáp mọi thắc mắc.  </h2>
                                         </div>
-                                        <form action="#!" class="contact-form">
+                                        <form   class="contact-form">
                                             <div class="row">
                                                 <div class="col-lg-6">
                                                     <div class="input-field">
                                                         <label for="text1">Tên của bạn</label>
                                                         <div class="input-box">
-                                                            <input type="text" name="text" id="text1">
+                                                            <input type="text" wire:model="name" id="text1">
+                                                            @error('name') <span class="text-danger">{{ $message }}</span> @enderror
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1743,7 +1982,8 @@
                                                     <div class="input-field">
                                                         <label for="text2">Email</label>
                                                         <div class="input-box">
-                                                            <input type="email" name="gmail" id="text2">
+                                                            <input type="email" wire:model="email" id="text2">
+                                                            @error('email') <span class="text-danger">{{ $message }}</span> @enderror
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1751,7 +1991,8 @@
                                                     <div class="input-field">
                                                         <label for="text3">Điện thoại</label>
                                                         <div class="input-box">
-                                                            <input type="tel" name="number" id="text3">
+                                                            <input type="tel" wire:model="phone" id="text3">
+                                                            @error('phone') <span class="text-danger">{{ $message }}</span> @enderror
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1759,7 +2000,7 @@
                                                     <div class="input-field">
                                                         <label for="text4">Tên công ty</label>
                                                         <div class="input-box">
-                                                            <input type="text" name="text" id="text4">
+                                                            <input type="text" wire:model="company" id="text4">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1767,39 +2008,55 @@
                                                     <div class="input-field text-field">
                                                         <label for="text5">Chúng tôi có thể giúp gì cho bạn hôm nay?</label>
                                                         <div class="input-box">
-                                                            <textarea name="massage" id="text5"></textarea>
+                                                            <textarea wire:model="message" id="text5"></textarea>
+                                                            @error('message') <span class="text-danger">{{ $message }}</span> @enderror
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="contact-btn">
-                                                <button type="submit" class="blc-btn">
-                                                    <span>Gửi ngay <i class="far fa-angle-right"></i></span>
+                                        </form>
+                                            <div class="contact-btn1">
+                                                <button type="button" style="background: none;" wire:click="submit" class="blc-btn" onclick="handleSubmit(event)">
+                                                    <span class="">Gửi ngay <i class="far fa-angle-right"></i></span>
                                                     <span class="btn-shape">
                                                         <svg width="362" height="78" viewBox="0 0 362 78" fill="none" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
                                                             <path d="M0.5 22.7183L25.5093 1.39453H337.972L361.5 22.7092V56.5515L337.98 76.6051H25.5093L0.5 55.2813V22.7183Z" fill="url(#paint0_linear_1600_9966932)" stroke="#23263C" />
                                                             <defs>
-                                                              <linearGradient id="paint0_linear_1600_9966932" x1="1.29285" y1="38.9973" x2="362" y2="33.9973" gradientUnits="userSpaceOnUse">
-                                                                <stop offset="0" stop-color="#431DAB" />
-                                                                <stop offset="1" stop-color="#AE6DFE" />
-                                                              </linearGradient>
+                                                                <linearGradient id="paint0_linear_1600_9966932" x1="1.29285" y1="38.9973" x2="362" y2="33.9973" gradientUnits="userSpaceOnUse">
+                                                                    <stop offset="0" stop-color="#431DAB" />
+                                                                    <stop offset="1" stop-color="#AE6DFE" />
+                                                                </linearGradient>
                                                             </defs>
-                                                          </svg>
+                                                        </svg>
                                                     </span>
                                                     <span class="btn-shape2">
                                                         <svg width="271" height="60" viewBox="0 0 271 60" fill="none" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
                                                             <path d="M0.5 17.2308L20.1225 0.5H252.042L270.5 17.2217V43.7692L252.05 59.5H20.1225L0.5 42.7692V17.2308Z" fill="#010315" stroke="url(#paint0_linear_1742_661333)" />
                                                             <defs>
-                                                              <linearGradient id="paint0_linear_1742_661333" x1="271" y1="61.5556" x2="232.791" y2="-3.08978" gradientUnits="userSpaceOnUse">
-                                                                <stop offset="0" stop-color="#6780D2" />
-                                                                <stop offset="1" stop-color="#2F3B8D" />
-                                                              </linearGradient>
+                                                                <linearGradient id="paint0_linear_1742_661333" x1="271" y1="61.5556" x2="232.791" y2="-3.08978" gradientUnits="userSpaceOnUse">
+                                                                    <stop offset="0" stop-color="#6780D2" />
+                                                                    <stop offset="1" stop-color="#2F3B8D" />
+                                                                </linearGradient>
                                                             </defs>
-                                                          </svg>
+                                                        </svg>
                                                     </span>
                                                 </button>
+                                                <script>
+                                                    function handleSubmit(event) {
+                                                        event.preventDefault(); // Ngăn chặn hành động mặc định của nút
+                                                        // Gọi hàm Livewire submit
+                                                        Livewire.emit('submit'); // Phát sự kiện để gọi hàm submit trong Livewire
+                                                    }
+                                                </script>
+                                                
                                             </div>
-                                        </form>
+                                        
+                                        @if (session()->has('success'))
+                                            <div class="alert alert-success">
+                                                {{ session('success') }}
+                                            </div>
+                                        @endif
+                                        
                                     </div>
                                 </div>
                             </div>

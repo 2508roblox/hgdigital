@@ -6,6 +6,10 @@
 		wowAnimation();
 	});
 
+	document.addEventListener('livewire:update', function () {
+        preloader(); // Hoặc các hàm khác mà bạn muốn chạy
+        // Nếu cần gọi lại wowAnimation thì thêm vào đây
+    });
 	/*------------------------------------------
 	= preloader
 	-------------------------------------------*/
