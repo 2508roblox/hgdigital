@@ -42,7 +42,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <style>
-        .cybersecurity h1, .cybersecurity h2, .cybersecurity h3, .cybersecurity h4, .cybersecurity h5, .cybersecurity h6, .main-menu ul li a, .footer-style-three .footer-widget .xb-item--list {
+        .cybersecurity h1,.xb-pricing-nav .nav-item .nav-link, .xb-pricing-nav .nav-item .nav-link.active, .cybersecurity h2, .cybersecurity h3, .cybersecurity h4, .cybersecurity h5, .cybersecurity h6, .main-menu ul li a, .footer-style-three .footer-widget .xb-item--list {
             font-family: "Montserrat", serif ;
   font-optical-sizing: auto;
   font-weight: <weight>;

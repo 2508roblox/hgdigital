@@ -18,7 +18,7 @@
         <!-- backtotop - end -->
         
          <!-- Preloader - Start -->
-         {{-- <div id="xb-loadding" class="xb-loader style-3"><div class="xb-dual-ring"></div></div> --}}
+         <div id="xb-loadding" class="xb-loader style-3"><div class="xb-dual-ring"></div></div>
         <!-- Preloader - End -->
         
         <div class="body_wrap">
@@ -35,9 +35,14 @@
                     <div class="container">
                         <div class="hero_wrap pt-90">
                             <div class="xb-hero text-center">
-                                <h1 class="xb-item--title wow skewIn" data-wow-delay="000ms" data-wow-duration="900ms">HGDIGITAL</h1>
+                                <h1 class="xb-item--title wow skewIn" style="font-weight: 600;" data-wow-delay="000ms" data-wow-duration="900ms">HGDIGITAL</h1>
                                 <div class="xb-item--holder wow fadeInUp" data-wow-delay="150ms" data-wow-duration="600ms">
-                                    <p class="xb-item--list">Dịch vụ thiết kế website chuyên nghiệp cho doanh nghiệp của bạn</p>
+                                    <p class="xb-item--list" style="  font-size: 32px;
+                                            max-width: 42rem;
+                                            text-align: start;
+                                            text-transform: capitalize;
+                                            line-height: 3rem;
+                                            font-weight: 600;">Dịch vụ thiết kế website chuyên nghiệp cho doanh nghiệp của bạn</p>
                                     <div class="hero-btn">
                                         <a href="#!" class="blc-btn">
                                             <span>YÊU CẦU BÁO GIÁ <i class="far fa-angle-right"></i></span>
@@ -1579,10 +1584,10 @@
                         <div class="xb-pricing-nav-wrap text-center mb-110">
                             <ul class="xb-pricing-nav ul_li_center nav nav-tabs" id="myTab" role="tablist">
                                 <li class="nav-item" role="presentation">
-                                  <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">billed yearly <span>30%</span></button>
+                                  <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Cơ bản <span> - 20% </span></button>
                                 </li>
                                 <li class="nav-item" role="presentation">
-                                  <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false" tabindex="-1">Billed monthly</button>
+                                  <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false" tabindex="-1">Nâng cao</button>
                                 </li>
                               </ul>
                         </div>
@@ -1596,25 +1601,37 @@
                                                     <div class="xb-item--holder ul_li">
                                                         <div class="xb-item--icon"><img src="assets/img/icon/pricing-icon01.svg" alt=""></div>
                                                         <div class="xb-item--right">
-                                                            <h3 class="xb-item--title">Basic</h3>
-                                                            <span class="xb-item--text">For businesses starting.</span>
+                                                            <h3 class="xb-item--title">Gói cơ bản 1</h3>
+                                                            <span class="xb-item--text">Dành cho doanh nghiệp mới.</span>
                                                         </div>
                                                     </div>
                                                     <div class="xb-item--price">
-                                                        <h2 class="xb-item--number">$299</h2>
-                                                        <span class="xb-item--time">Per Month</span>
+                                                        <h2 class="xb-item--number">2,500,000</h2>
+                                                        <span class="xb-item--time">VND</span>
                                                     </div>
                                                     <div class="xb-item--line"></div>
-                                                    <h4 class="xb-item--feature">Features</h4>
+                                                    <h4 class="xb-item--feature">Tính năng</h4>
                                                     <ul class="xb-item--list list-unstyled">
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt=""> In-depth Keyword Research</li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt=""> On-Page SEO Optimization</li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt=""> Technical SEO Audits</li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt=""> Monthly Performance Reporting</li>
-                                                        <li class="deactive"><img src="assets/img/icon/cross-icon.svg" alt=""> Weekly Reports &amp; SEO Manager</li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Website theo mẫu có sẵn</li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">SEO cơ bản</li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Mobie, Tablet Responsive</li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Liên hệ để mua hàng </li>                                                        </li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Bài viết + Sản phẩm </li>                                                        </li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Lượt xem, theo dõi tương tác web</li>                                                        </li>                                                        </li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Domain + VPS miễn phí 1 năm</li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Tích hợp đa ngôn ngữ tự động</li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Có website trên google sau 3 - 5 ngày</li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Code tay bằng ngôn ngữ lập trình 100%</li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Trang quản trị riêng cho doanh nghiệp</li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Bảo hành miễn phí 3 năm</li>
+                                                        <li class="deactive"><img src="assets/img/icon/cross-icon.svg" alt="">Đặt hàng online</li>
+                                                        <li class="deactive"><img src="assets/img/icon/cross-icon.svg" alt="">Thanh toán ngân hàng tự động</li>
+                                                        <li class="deactive"><img src="assets/img/icon/cross-icon.svg" alt="">Quản lý doanh thu tự động</li>
+                                                        <li class="deactive"><img src="assets/img/icon/cross-icon.svg" alt="">Kết nối Zalo OA, ZNS tự động gửi tin</li>
+                                                        <li class="deactive"><img src="assets/img/icon/cross-icon.svg" alt="">Bảo hành trọn đời</li>
                                                     </ul>
                                                     <div class="pg-det-btn">
-                                                        <a href="contact.html" class="cp-btn">Choose your plan</a>
+                                                        <a href="contact.html" class="cp-btn">Liên hệ ngay</a>
                                                     </div>
                                                     <div class="xb-shape"><img src="assets/img/shape/pg-shape.png" alt=""></div>
                                                 </div>
@@ -1622,30 +1639,43 @@
                                         </div>
                                         <div class="col-lg-4 mt-30">
                                             <div class="pg-pricing-item active pos-rel">
-                                                <span class="xb-item--top-text">Most popular ✨</span>
+                                                <span class="xb-item--top-text">Phổ biến nhất ✨</span>
                                                 <div class="xb-item--inner o-hidden pos-rel">
                                                     <div class="xb-item--holder ul_li">
                                                         <div class="xb-item--icon"><img src="assets/img/icon/pricing-icon02.svg" alt=""></div>
                                                         <div class="xb-item--right">
-                                                            <h3 class="xb-item--title">Standard</h3>
-                                                            <span class="xb-item--text">For businesses more traffic.</span>
+                                                            <h3 class="xb-item--title">Gói cơ bản 2</h3>
+                                                            <span class="xb-item--text">Doanh nghiệp vừa và nhỏ.</span>
                                                         </div>
                                                     </div>
                                                     <div class="xb-item--price">
-                                                        <h2 class="xb-item--number">$499</h2>
-                                                        <span class="xb-item--time">Per Month</span>
+                                                        <h2 class="xb-item--number">5,000,000</h2>
+                                                        <span class="xb-item--time">VND</span>
                                                     </div>
+                                                    
                                                     <div class="xb-item--line"></div>
-                                                    <h4 class="xb-item--feature">Features</h4>
+                                                    <h4 class="xb-item--feature">Tính năng</h4>
                                                     <ul class="xb-item--list list-unstyled">
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">All features of Basic SEO Package</li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Local SEO Strategy &amp; Optimization</li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Content Creation &amp; Optimization</li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">High-Quality Link Building</li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Weekly Reports &amp; SEO Manager</li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Website theo yêu cầu</li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">SEO cơ bản</li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Mobie, Tablet Responsive</li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Đặt hàng online</li>                  </li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Bài viết + Sản phẩm </li>                                                        </li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Lượt xem, theo dõi tương tác web</li>                                                        </li>                                                        </li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Domain + VPS miễn phí 1 năm</li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Tích hợp đa ngôn ngữ tự động</li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Có website trên google sau 1 - 2 tuần</li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Code tay bằng ngôn ngữ lập trình 100%</li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Trang quản trị riêng cho doanh nghiệp</li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Bảo hành miễn phí 3 năm</li>
+                                                      
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Thanh toán ngân hàng tự động</li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Quản lý doanh thu tự động</li>
+                                                        <li class="deactive"><img src="assets/img/icon/cross-icon.svg" alt="">Kết nối Zalo OA, ZNS tự động gửi tin</li>
+                                                        <li class="deactive"><img src="assets/img/icon/cross-icon.svg" alt="">Bảo hành trọn đời</li>
                                                     </ul>
                                                     <div class="pg-det-btn">
-                                                        <a href="contact.html" class="cp-btn">Choose your plan</a>
+                                                        <a href="contact.html" class="cp-btn">Liên Hệ ngay</a>
                                                     </div>
                                                     <div class="xb-shape"><img src="assets/img/shape/pg-shape.png" alt=""></div>
                                                 </div>
@@ -1657,25 +1687,37 @@
                                                     <div class="xb-item--holder ul_li">
                                                         <div class="xb-item--icon"><img src="assets/img/icon/pricing-icon03.svg" alt=""></div>
                                                         <div class="xb-item--right">
-                                                            <h3 class="xb-item--title">Basic</h3>
-                                                            <span class="xb-item--text">For businesses starting.</span>
+                                                            <h3 class="xb-item--title">Gói cơ bản 3</h3>
+                                                            <span class="xb-item--text">Doanh nghiệp vừa và lớn.</span>
                                                         </div>
                                                     </div>
                                                     <div class="xb-item--price">
-                                                        <h2 class="xb-item--number">$999</h2>
-                                                        <span class="xb-item--time">Per Month</span>
+                                                        <h2 class="xb-item--number">8,000,000</h2>
+                                                        <span class="xb-item--time">VND</span>
                                                     </div>
+                                                    
                                                     <div class="xb-item--line"></div>
-                                                    <h4 class="xb-item--feature">Premium</h4>
+                                                    <h4 class="xb-item--feature">Tính năng</h4>
                                                     <ul class="xb-item--list list-unstyled">
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">All features of Advanced SEO Package</li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Full Website &amp; Technical SEO Audit</li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Competitor Analysis &amp; Monitoring</li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Advanced Backlink Building Campaigns</li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Weekly Reports &amp; SEO Manager</li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Website theo yêu cầu riêng</li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">SEO toàn diện</li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Mobie, Tablet Responsive</li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Đặt hàng online</li>                                   </li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Bài viết + Sản phẩm </li>                                                        </li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Lượt xem, theo dõi tương tác web</li>                                                        </li>                                                        </li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Domain + VPS miễn phí 1 năm</li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Tích hợp đa ngôn ngữ tự động</li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Có website trên google sau 2 - 3 tuần</li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Code tay bằng ngôn ngữ lập trình 100%</li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Trang quản trị riêng cho doanh nghiệp</li>
+                                                      
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Thanh toán ngân hàng tự động</li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Quản lý doanh thu tự động</li>
+                                                        <li ><img src="assets/img/icon/check-icon.svg" alt="">Kết nối Zalo OA, ZNS tự động gửi tin</li>
+                                                        <li ><img src="assets/img/icon/check-icon.svg" alt="">Bảo hành trọn đời</li>
                                                     </ul>
                                                     <div class="pg-det-btn">
-                                                        <a href="contact.html" class="cp-btn">Choose your plan</a>
+                                                        <a href="contact.html" class="cp-btn">Liên Hệ ngay</a>
                                                     </div>
                                                     <div class="xb-shape"><img src="assets/img/shape/pg-shape.png" alt=""></div>
                                                 </div>
@@ -1689,27 +1731,23 @@
                                             <div class="pg-pricing-item pos-rel">
                                                 <div class="xb-item--inner o-hidden pos-rel">
                                                     <div class="xb-item--holder ul_li">
-                                                        <div class="xb-item--icon"><img src="assets/img/icon/pricing-icon01.svg" alt=""></div>
+                                                        <div class="xb-item--icon"><img src="assets/img/icon/pricing-icon02.svg" alt=""></div>
                                                         <div class="xb-item--right">
-                                                            <h3 class="xb-item--title">Basic</h3>
-                                                            <span class="xb-item--text">For businesses starting.</span>
+                                                            <h3 class="xb-item--title">Sắp ra mắt</h3>
                                                         </div>
                                                     </div>
                                                     <div class="xb-item--price">
-                                                        <h2 class="xb-item--number">$29</h2>
-                                                        <span class="xb-item--time">Per Month</span>
+                                                        <h2 class="xb-item--number">???</h2>
+                                                        <span class="xb-item--time">VND</span>
                                                     </div>
                                                     <div class="xb-item--line"></div>
-                                                    <h4 class="xb-item--feature">Features</h4>
+                                                    <h4 class="xb-item--feature">Tính năng</h4>
                                                     <ul class="xb-item--list list-unstyled">
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt=""> In-depth Keyword Research</li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt=""> On-Page SEO Optimization</li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt=""> Technical SEO Audits</li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt=""> Monthly Performance Reporting</li>
-                                                        <li class="deactive"><img src="assets/img/icon/cross-icon.svg" alt=""> Weekly Reports &amp; SEO Manager</li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Sắp ra mắt</li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Sắp ra mắt</li>
                                                     </ul>
                                                     <div class="pg-det-btn">
-                                                        <a href="contact.html" class="cp-btn">Choose your plan</a>
+                                                        <a href="contact.html" class="cp-btn">Liên hệ ngay</a>
                                                     </div>
                                                     <div class="xb-shape"><img src="assets/img/shape/pg-shape.png" alt=""></div>
                                                 </div>
@@ -1717,30 +1755,26 @@
                                         </div>
                                         <div class="col-lg-4 mt-30">
                                             <div class="pg-pricing-item active pos-rel">
-                                                <span class="xb-item--top-text">Most popular ✨</span>
+                                                <span class="xb-item--top-text">Phổ biến nhất ✨</span>
                                                 <div class="xb-item--inner o-hidden pos-rel">
                                                     <div class="xb-item--holder ul_li">
                                                         <div class="xb-item--icon"><img src="assets/img/icon/pricing-icon02.svg" alt=""></div>
                                                         <div class="xb-item--right">
-                                                            <h3 class="xb-item--title">Standard</h3>
-                                                            <span class="xb-item--text">For businesses more traffic.</span>
+                                                            <h3 class="xb-item--title">Sắp ra mắt</h3>
                                                         </div>
                                                     </div>
                                                     <div class="xb-item--price">
-                                                        <h2 class="xb-item--number">$69</h2>
-                                                        <span class="xb-item--time">Per Month</span>
+                                                        <h2 class="xb-item--number">???</h2>
+                                                        <span class="xb-item--time">VND</span>
                                                     </div>
                                                     <div class="xb-item--line"></div>
-                                                    <h4 class="xb-item--feature">Features</h4>
+                                                    <h4 class="xb-item--feature">Tính năng</h4>
                                                     <ul class="xb-item--list list-unstyled">
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">All features of Basic SEO Package</li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Local SEO Strategy &amp; Optimization</li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Content Creation &amp; Optimization</li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">High-Quality Link Building</li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Weekly Reports &amp; SEO Manager</li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Sắp ra mắt</li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Sắp ra mắt</li>
                                                     </ul>
                                                     <div class="pg-det-btn">
-                                                        <a href="contact.html" class="cp-btn">Choose your plan</a>
+                                                        <a href="contact.html" class="cp-btn">Liên hệ ngay</a>
                                                     </div>
                                                     <div class="xb-shape"><img src="assets/img/shape/pg-shape.png" alt=""></div>
                                                 </div>
@@ -1750,27 +1784,23 @@
                                             <div class="pg-pricing-item pos-rel">
                                                 <div class="xb-item--inner o-hidden pos-rel">
                                                     <div class="xb-item--holder ul_li">
-                                                        <div class="xb-item--icon"><img src="assets/img/icon/pricing-icon03.svg" alt=""></div>
+                                                        <div class="xb-item--icon"><img src="assets/img/icon/pricing-icon02.svg" alt=""></div>
                                                         <div class="xb-item--right">
-                                                            <h3 class="xb-item--title">Basic</h3>
-                                                            <span class="xb-item--text">For businesses starting.</span>
+                                                            <h3 class="xb-item--title">Sắp ra mắt</h3>
                                                         </div>
                                                     </div>
                                                     <div class="xb-item--price">
-                                                        <h2 class="xb-item--number">$99</h2>
-                                                        <span class="xb-item--time">Per Month</span>
+                                                        <h2 class="xb-item--number">???</h2>
+                                                        <span class="xb-item--time">VND</span>
                                                     </div>
                                                     <div class="xb-item--line"></div>
-                                                    <h4 class="xb-item--feature">Premium</h4>
+                                                    <h4 class="xb-item--feature">Tính năng</h4>
                                                     <ul class="xb-item--list list-unstyled">
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">All features of Advanced SEO Package</li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Full Website &amp; Technical SEO Audit</li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Competitor Analysis &amp; Monitoring</li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Advanced Backlink Building Campaigns</li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Weekly Reports &amp; SEO Manager</li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Sắp ra mắt</li>
+                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Sắp ra mắt</li>
                                                     </ul>
                                                     <div class="pg-det-btn">
-                                                        <a href="contact.html" class="cp-btn">Choose your plan</a>
+                                                        <a href="contact.html" class="cp-btn">Liên hệ ngay</a>
                                                     </div>
                                                     <div class="xb-shape"><img src="assets/img/shape/pg-shape.png" alt=""></div>
                                                 </div>
@@ -1809,6 +1839,46 @@
                     .xb-pricing-nav .nav-item .nav-link.active {
                         color: black;
                     }
+                    .xb-faq .accordion_box .block .acc-btn {
+    padding: 28px 40px;
+    font-size: 24px;
+    line-height: 1.3;
+    font-weight: 500;
+    position: relative;
+    cursor: pointer;
+    background: #010315;
+    color: #ffffff;
+}
+.sec-title--two .sub-title {
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.1) 100%);
+    box-shadow: 0 2px 4px 0 rgba(44, 64, 94, 0.08), 0 1px 1px 0 rgba(44, 64, 94, 0.04), 0 0 0 1px rgba(44, 64, 94, 0.06);
+}
+
+.sec-title--two .sub-title {
+    color: #ffffff99;
+
+}
+.xb-faq .accordion_box {
+    background: linear-gradient(86deg, #431dab 0%, #ae6dfe 100%);;
+}
+.xb-faq .accordion_box .block .content {
+    background: #010315;
+    color: white;
+}
+.xb-faq .accordion_box .block .acc-btn .number {
+    color: rgb(171 107 252);
+}
+.xb-faq .accordion_box .block .content ul li i {
+    margin-right: 10px;
+    font-size: 16px;
+    color: #ad6cfd;
+}
+.xb-faq .accordion_box .block {
+    position: relative;
+    overflow: hidden;
+    border-bottom: 1px solid #2f2f2f;
+}
                  </style>
                 <!-- awrad section start  -->
                  <section class="award pt-160">
@@ -1936,7 +2006,116 @@
                     </div>
                  </section>
                 <!-- blog section end  -->
-        
+
+
+
+
+                
+                <section class="faq pb-130 mt-5">
+                    <div class="container">
+                        <div class="sec-title--two text-center mb-60">
+                            <div class="sub-title wow fadeInDown" data-wow-duration="600ms" style="visibility: visible; animation-duration: 600ms; animation-name: fadeInDown;"><img src="assets/img/icon/magic.svg" alt="">FAQ’s</div>
+                            <h2 class="title wow fadeInDown" data-wow-delay="150ms" data-wow-duration="600ms" style="visibility: visible; animation-duration: 600ms; animation-delay: 150ms; animation-name: fadeInDown;">Thắc mắc về dịch vụ website tại Công Ty <br> HG DIGITAL</h2>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="xb-faq wow fadeInUp" data-wow-delay="200ms" data-wow-duration="600ms" style="visibility: visible; animation-duration: 600ms; animation-delay: 200ms; animation-name: fadeInUp;">
+                                    <ul class="accordion_box clearfix list-unstyled">
+                                        <li class="accordion block">
+                                            <div class="acc-btn">
+                                                <span class="number">01</span> Dịch vụ thiết kế website của HG DIGITAL là WordPress hay code tay?
+                                                <span class="arrow"></span>
+                                            </div>
+                                            <div class="acc_body" style="display: none;">
+                                                <div class="content">
+                                                    
+                                                    <p>HG DIGITAL là dịch vụ thiết kế website theo yêu cầu với tùy từng nhu cầu dự án sẽ sử dụng và được viết bằng code tay.</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="accordion block">
+                                            <div class="acc-btn">
+                                                <span class="number">02</span> Chi phí thiết kế web tại HG DIGITAL là bao nhiêu?
+                                                <span class="arrow"></span>
+                                            </div>
+                                            <div class="acc_body" style="display: none;">
+                                                <div class="content">
+                                                    
+                                                    <p>HG DIGITAL hiện đang cung cấp 3 gói thiết kế web là website cơ bản và website customize.</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="accordion block">
+                                            <div class="acc-btn">
+                                                <span class="number">03</span> HG DIGITAL có thiết kế website responsive không?
+                                                <span class="arrow"></span>
+                                            </div>
+                                            <div class="acc_body" style="display: block;">
+                                                <div class="content">
+                                                    
+                                                    <p>Có. Tất cả các website được công ty thiết kế web HG DIGITAL xây dựng đều tương thích và hiển thị trên mọi thiết bị phổ biến hiện nay: tablet, smartphone, laptop, PC… với mọi khung hình, độ phân giải.</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="accordion block">
+                                            <div class="acc-btn">
+                                                <span class="number">04</span> Khi website bị lỗi thì HG DIGITAL có hỗ trợ gì không?
+                                                <span class="arrow"></span>
+                                            </div>
+                                            <div class="acc_body" style="display: none;">
+                                                <div class="content">
+                                                    
+                                                    <p>Công ty thiết kế website uy tín HG DIGITAL có đội ngũ chuyên viên tư vấn sẵn sàng hỗ trợ khách hàng 24/7.</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="accordion block">
+                                            <div class="acc-btn">
+                                                <span class="number">05</span> Tôi có được chọn mẫu có sẵn không hay phải thiết kế website riêng?
+                                                <span class="arrow"></span>
+                                            </div>
+                                            <div class="acc_body" style="display: none;">
+                                                <div class="content">
+                                                    
+                                                    <p>
+                                                        Tùy thuộc vào nhu cầu, ngân sách mà khách hàng nên lựa chọn phương án thiết kế website cho phù hợp:
+                                                        <br>* Làm website theo mẫu có sẵn: Chi phí rẻ, thời gian nhanh chóng tuy nhiên không thể thay đổi giao diện, bố cục theo ý mình.
+                                                        <br>* Thiết kế website giao diện riêng: Chi phí cao, thời gian triển khai lâu hơn nhưng đổi lại website được thiết kế theo ý muốn, giao diện độc quyền, tính năng riêng.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="accordion block">
+                                            <div class="acc-btn">
+                                                <span class="number">06</span> Tôi không biết quản trị website thì phải làm sao?
+                                                <span class="arrow"></span>
+                                            </div>
+                                            <div class="acc_body" style="display: none;">
+                                                <div class="content">
+                                                    
+                                                    <p>HG DIGITAL có đội ngũ hỗ trợ quản trị website trong giờ hành chính, ngoài ra cung cấp tài liệu văn bản và video hướng dẫn.</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="accordion block">
+                                            <div class="acc-btn">
+                                                <span class="number">07</span> Website của tôi có được chuẩn SEO không?
+                                                <span class="arrow"></span>
+                                            </div>
+                                            <div class="acc_body" style="display: none;">
+                                                <div class="content">
+                                                    
+                                                    <p>HG DIGITAL sẽ luôn đảm bảo đầy đủ các yếu tố, thuộc tính chuẩn SEO trên website.</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                 </section>
                 <!-- contact section start  -->
                 <section class="contact contact-bg pt-140 pb-100 pos-rel bg_img" data-background="assets/img/bg/cont_bg-shape.png">
                     <div class="container">
@@ -1949,7 +2128,7 @@
                                                 <span class="sub-title"><img loading="lazy" src="{{ asset('assets/img/icon/edit.svg') }}" alt=""><span>Liên hệ báo giá ngay</span></span>
                                                 <h2 class="title">Hãy bắt đầu</h2>
                                             </div>
-                                            <p class="xb-item--list">Khởi đầu hành trình đến thành công và phát triển của bạn.</p>
+                                            <p class="xb-item--list" >Khởi đầu hành trình đến thành công và phát triển của bạn.</p>
                                             <ul class="xb-item--cont_info list-unstyled">
                                                 <li><span><img loading="lazy" src="{{ asset('assets/img/icon/call-balck.png') }}" alt=""></span>+(84) 0966 579 217</li>
                                                 <li><span class="clr-sky"><img loading="lazy" src="{{ asset('assets/img/icon/sms-black.png') }}" alt=""></span>trangiangzxc@gmail.com</li>
