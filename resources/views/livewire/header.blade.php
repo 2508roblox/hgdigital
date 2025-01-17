@@ -244,10 +244,9 @@
                                                                             </div>
                                                                             <div class="author_box_content">
                                                                                 <h3 class="author_name text-white">
-                                                                                    Maverick Phoenix</h3>
+                                                                                    Trần Lê Hoàng Giang</h3>
                                                                                 <span
-                                                                                    class="author_designation text-white">CEO
-                                                                                    At Innomax</span>
+                                                                                    class="author_designation text-white">CEO HG DIGITAL</span>
                                                                             </div>
                                                                         </div>
                                                                         <p class="mb-0 text-white">
@@ -495,10 +494,9 @@
                                                                             </div>
                                                                             <div class="author_box_content">
                                                                                 <h3 class="author_name text-white">
-                                                                                    Maverick Phoenix</h3>
+                                                                                    Trần Lê Hoàng Giang</h3>
                                                                                 <span
-                                                                                    class="author_designation text-white">CEO
-                                                                                    At Innomax</span>
+                                                                                    class="author_designation text-white">CEO HG DIGITAL</span>
                                                                             </div>
                                                                         </div>
                                                                         <p class="mb-0 text-white">
@@ -519,7 +517,7 @@
                    
                                 <li class="menu-item-has-children megamenu">
                                     <a href="service.html"><span>Mẫu Website</span></a>
-                                    <ul class="submenu">
+                                    {{-- <ul class="submenu">
                                         <li>
                                             <div class="mega_menu_wrapper">
                                                 <div class="container">
@@ -633,7 +631,128 @@
                                                 </div>
                                             </div>
                                         </li>
+                                    </ul> --}}
+                                    <ul class="submenu">
+                                        <li>
+                                            <div class="mega_menu_wrapper">
+                                                <div class="container">
+                                                    <div class="mega_menu_wrapper_inner">
+                                                        <div class="row">
+                                                            <div class="col-xl-9">
+                                                                <div class="megamenu_pages_wrapper mb-5">
+                                                                    <div class="row g-10">
+                                                                        @foreach($categories as $category)
+                                        <div class="col-xl-4 col-md-4">
+                                            <a class="iconbox_block_2" href="{{ route('template.list', ['category_id' => $category->id]) }}">
+                                                <span class="icon_title_wrap">
+                                                    <small class="iconbox_icon">
+                                                        <img loading="lazy" src="{{ asset('storage/' . $category->image) }}" alt="{{ $category->name }}">
+                                                    </small>
+                                                    <small class="iconbox_title">{{ $category->name }}</small>
+                                                </span>
+                                                <span class="description mb-0">
+                                                    Khám phá mẫu {{ $category->name }}
+                                                </span>
+                                            </a>
+                                        </div>
+                                    @endforeach
+                                                                     
+                                                                    </div>
+                                                                </div>
+                                                                <ul
+                                                                    class="btns_group p-0 unordered_list justify-content-start">
+                                                                    <li>
+                                                                        <a href="contact.html" class="thm-btn thm-btn--aso megamenu-btn thm-btn--header-black">Get free consultation</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <div class="review_short_info_2">
+                                                                            <div class="review_admin_logo">
+                                                                                <img  loading="lazy" src="{{ asset('assets/img/logo/client-logo.svg') }}" alt="">
+                                                                            </div>
+                                                                            <div class="review_info_content">
+                                                                                <ul
+                                                                                    class="rating_block unordered_list">
+                                                                                    <li><i
+                                                                                            class="fas fa-star"></i>
+                                                                                    </li>
+                                                                                    <li><i
+                                                                                            class="fas fa-star"></i>
+                                                                                    </li>
+                                                                                    <li><i
+                                                                                            class="fas fa-star"></i>
+                                                                                    </li>
+                                                                                    <li><i
+                                                                                            class="fas fa-star"></i>
+                                                                                    </li>
+                                                                                    <li><i
+                                                                                            class="fas fa-star"></i>
+                                                                                    </li>
+                                                                                </ul>
+                                                                                <div class="review_counter">From
+                                                                                    <b>200+</b> reviews</div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li>
+                                                                        <div class="review_short_info_2">
+                                                                            <div class="review_admin_logo">
+                                                                                <img  loading="lazy" src="{{ asset('assets/img/logo/client-logo2.svg') }}" alt="">
+                                                                            </div>
+                                                                            <div class="review_info_content">
+                                                                                <ul
+                                                                                    class="rating_block unordered_list">
+                                                                                    <li><i
+                                                                                            class="fas fa-star"></i>
+                                                                                    </li>
+                                                                                    <li><i
+                                                                                            class="fas fa-star"></i>
+                                                                                    </li>
+                                                                                    <li><i
+                                                                                            class="fas fa-star"></i>
+                                                                                    </li>
+                                                                                    <li><i
+                                                                                            class="fas fa-star"></i>
+                                                                                    </li>
+                                                                                    <li><i
+                                                                                            class="fas fa-star"></i>
+                                                                                    </li>
+                                                                                </ul>
+                                                                                <div class="review_counter">From
+                                                                                    <b>200+</b> reviews</div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="col-xl-3">
+                                                                <div class="autpr_box">
+                                                                    <div class="site_author">
+                                                                        <div class="author_box">
+                                                                            <div class="author_image bg-light">
+                                                                                <img  loading="lazy" src="{{ asset('assets/img/bg/avatar.png') }}" alt="">
+                                                                            </div>
+                                                                            <div class="author_box_content">
+                                                                                <h3 class="author_name text-white">
+                                                                                    Trần Lê Hoàng Giang</h3>
+                                                                                <span
+                                                                                    class="author_designation text-white">CEO HG DIGITAL</span>
+                                                                            </div>
+                                                                        </div>
+                                                                        <p class="mb-0 text-white">
+                                                                            “As a CEO at innomax  I have been voice crying in the wilderness,  trying to make requirements clear, use every minute to deliver the  result, and not reinvent the wheel. Here at innomax, I made that possible for the clients”. </p>
+                                                                            <div class="author_box_quote">
+                                                                                <img  loading="lazy" src="{{ asset('assets/img/icon/quote.png') }}" alt="">
+                                                                            </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
                                     </ul>
+                                    
                                 </li>
                       
                                 <li class="menu-item-has-children">

@@ -2,14 +2,15 @@
 
 namespace App\Livewire;
 
-use Livewire\Component;
 use App\Models\TemplateCategory;
+use Livewire\Component;
 
-class Header extends Component
+class HeaderSecondary extends Component
 {
+   
     public function render()
     {
         $categories = TemplateCategory::all(); // Lấy toàn bộ danh mục
-        return view('livewire.header', compact('categories'));
+        return view('livewire.header-secondary', compact('categories'));
     }
 }
