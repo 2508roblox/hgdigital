@@ -33,6 +33,7 @@ class WebsiteResource extends Resource
     protected static ?string $navigationLabel = 'Websites';
     protected static ?string $pluralLabel = 'Websites';
     protected static ?string $modelLabel = 'Website';
+    protected static ?string $navigationGroup = 'Quản lý Websites đã làm'; // Nhóm chung
     public static function form(Form $form): Form
     {
         return $form

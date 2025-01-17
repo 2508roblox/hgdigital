@@ -27,6 +27,7 @@ class CategoryResource extends Resource
     protected static ?string $navigationLabel = 'Danh mục Website';
     protected static ?string $pluralLabel = 'Danh mục Website đã làm';
     protected static ?string $modelLabel = 'Danh mục Website đã làm';
+    protected static ?string $navigationGroup = 'Quản lý Websites đã làm'; // Nhóm chung
 
     public static function form(Form $form): Form
     {

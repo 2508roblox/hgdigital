@@ -27,6 +27,7 @@ class WebsiteTagResource extends Resource
     protected static ?string $navigationLabel = 'Thẻ Website';
     protected static ?string $pluralLabel = 'Thẻ Website đã làm';
     protected static ?string $modelLabel = 'Thẻ Website đã làm';
+    protected static ?string $navigationGroup = 'Quản lý Websites đã làm'; // Nhóm chung
 
     public static function form(Form $form): Form
     {

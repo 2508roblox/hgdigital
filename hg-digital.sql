@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th1 16, 2025 lúc 02:50 PM
+-- Thời gian đã tạo: Th1 17, 2025 lúc 11:40 AM
 -- Phiên bản máy phục vụ: 10.4.32-MariaDB
 -- Phiên bản PHP: 8.2.12
 
@@ -158,7 +158,9 @@ CREATE TABLE `cache` (
 
 INSERT INTO `cache` (`key`, `value`, `expiration`) VALUES
 ('356a192b7913b04c54574d18c28d46e6395428ab', 'i:2;', 1736668520),
-('356a192b7913b04c54574d18c28d46e6395428ab:timer', 'i:1736668520;', 1736668520);
+('356a192b7913b04c54574d18c28d46e6395428ab:timer', 'i:1736668520;', 1736668520),
+('livewire-rate-limiter:a17961fa74e9275d529f489537f179c05d50c2f3', 'i:1;', 1737085968),
+('livewire-rate-limiter:a17961fa74e9275d529f489537f179c05d50c2f3:timer', 'i:1737085968;', 1737085968);
 
 -- --------------------------------------------------------
 
@@ -171,6 +173,35 @@ CREATE TABLE `cache_locks` (
   `owner` varchar(255) NOT NULL,
   `expiration` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Cấu trúc bảng cho bảng `categories`
+--
+
+CREATE TABLE `categories` (
+  `id` bigint(20) UNSIGNED NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Đang đổ dữ liệu cho bảng `categories`
+--
+
+INSERT INTO `categories` (`id`, `name`, `created_at`, `updated_at`) VALUES
+(1, 'Cửa Hàng Bàn Phím', '2025-01-16 21:15:32', '2025-01-16 21:27:44'),
+(2, 'Cửa Hàng Chiếu Sáng', '2025-01-16 21:23:29', '2025-01-16 21:28:37'),
+(3, 'Dịch Vụ Xe 4, 6, 12 Chỗ', '2025-01-16 21:23:32', '2025-01-16 21:29:28'),
+(4, 'Ghế Massage Cao Cấp', '2025-01-16 21:23:42', '2025-01-16 21:29:43'),
+(5, 'Cửa Hàng Mắt Kính', '2025-01-16 21:23:46', '2025-01-16 21:30:09'),
+(6, 'Cửa Hàng Mỹ Phẩm', '2025-01-16 21:23:49', '2025-01-16 21:23:49'),
+(7, 'Cửa Hàng Thiết Bị Di Động', '2025-01-16 21:23:52', '2025-01-16 21:23:52'),
+(8, 'Sản Phẩm Chăm Sóc Sức Khỏe', '2025-01-16 21:23:54', '2025-01-16 21:23:54'),
+(9, 'Cửa Hàng Sách Online', '2025-01-16 21:23:59', '2025-01-16 21:23:59'),
+(10, 'Cửa Hàng Đồ Gia Dụng', '2025-01-16 21:24:02', '2025-01-16 21:24:02');
 
 -- --------------------------------------------------------
 
@@ -274,7 +305,10 @@ INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
 (7, '2025_01_12_072340_create_blog_tag_table', 2),
 (8, '2025_01_12_074207_add_image_to_blogs_table', 3),
 (9, '2025_01_12_074617_add_columns_to_blogs_table', 4),
-(10, '2025_01_12_081153_create_contacts_table', 5);
+(10, '2025_01_12_081153_create_contacts_table', 5),
+(13, '2025_01_17_034300_create_categories_table', 6),
+(14, '2025_01_17_034301_create_tags_table', 6),
+(15, '2025_01_17_034541_create_websites_table', 7);
 
 -- --------------------------------------------------------
 
@@ -309,7 +343,31 @@ CREATE TABLE `sessions` (
 
 INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, `last_activity`) VALUES
 ('6x3V4MlsfdslDmLJYgpqi2Mt0djrw48jVoNqjYu5', NULL, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'YTozOntzOjY6Il90b2tlbiI7czo0MDoiSjZUU1B4Znc0d0cyb0JHUjNId1AwZzFBSVJXNlJ5QXFmTk1xUU9sNiI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MjE6Imh0dHA6Ly9sb2NhbGhvc3Q6ODAwMCI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fX0=', 1736736428),
-('kTGg2iRtR77MGVGd3XiBBHBzVwUFsAM6VrkWXKYl', NULL, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'YTozOntzOjY6Il90b2tlbiI7czo0MDoiZGpGcDNvNzNtQzVEN0JEelJkS1dmOWVSMzBHUUI2YzlHSzZZVDVDZCI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MjE6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMCI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fX0=', 1736741337);
+('d1hkLWxo2F3skk4nHgVKCvIOBSEMOyf6vQInCAp8', NULL, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'YTozOntzOjY6Il90b2tlbiI7czo0MDoiZkVoOTlaOUNJUllKZVdvUzdjbTBpWURsUFhpQ0NMOXZSZ0xWZjJlTiI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MjE6Imh0dHA6Ly9sb2NhbGhvc3Q6ODAwMCI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fX0=', 1737085302),
+('jisNuXFjNxKjuVUJoxHziuTugUoXnAUXfH7A9wBC', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'YTo1OntzOjY6Il90b2tlbiI7czo0MDoiNllJTmhFU29ndTZFQ2tWTWhFN0sxaEdQSkZ5cnZQRDBxeDZQNmtNYyI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6Mjc6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9hZG1pbiI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fXM6NTA6ImxvZ2luX3dlYl81OWJhMzZhZGRjMmIyZjk0MDE1ODBmMDE0YzdmNThlYTRlMzA5ODlkIjtpOjE7czoxNzoicGFzc3dvcmRfaGFzaF93ZWIiO3M6NjA6IiQyeSQxMiRRakZ4Uzkwc0Q4OEwya2l2SGFlcnNlMWxNTk9tcDBjem0zemZRdmtUcVNjS0EvWHdkZnJNTyI7fQ==', 1737110334),
+('kTGg2iRtR77MGVGd3XiBBHBzVwUFsAM6VrkWXKYl', NULL, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'YTozOntzOjY6Il90b2tlbiI7czo0MDoiZGpGcDNvNzNtQzVEN0JEelJkS1dmOWVSMzBHUUI2YzlHSzZZVDVDZCI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MjE6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMCI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fX0=', 1736741337),
+('TbNQmwjy8J1cczyGhVIVUBZvaWjZwCyhf1tlm5BE', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'YTo3OntzOjY6Il90b2tlbiI7czo0MDoicUJsZ284Q1B6NGlmMDVhdXl3RFQzNlBBRjZ3WmFTNHdXcWt4Z1diSiI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MzY6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9hZG1pbi93ZWJzaXRlcyI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fXM6MzoidXJsIjthOjA6e31zOjUwOiJsb2dpbl93ZWJfNTliYTM2YWRkYzJiMmY5NDAxNTgwZjAxNGM3ZjU4ZWE0ZTMwOTg5ZCI7aToxO3M6MTc6InBhc3N3b3JkX2hhc2hfd2ViIjtzOjYwOiIkMnkkMTIkUWpGeFM5MHNEODhMMmtpdkhhZXJzZTFsTU5PbXAwY3ptM3pmUXZrVHFTY0tBL1h3ZGZyTU8iO3M6ODoiZmlsYW1lbnQiO2E6MDp7fX0=', 1737088221);
+
+-- --------------------------------------------------------
+
+--
+-- Cấu trúc bảng cho bảng `tags`
+--
+
+CREATE TABLE `tags` (
+  `id` bigint(20) UNSIGNED NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Đang đổ dữ liệu cho bảng `tags`
+--
+
+INSERT INTO `tags` (`id`, `name`, `created_at`, `updated_at`) VALUES
+(1, '12', '2025-01-16 21:02:56', '2025-01-16 21:02:56'),
+(2, '12323', '2025-01-16 21:13:46', '2025-01-16 21:13:46');
 
 -- --------------------------------------------------------
 
@@ -333,7 +391,41 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `email_verified_at`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
-(1, 'giang', 'trangiangzxc@gmail.com', NULL, '$2y$12$QjFxS90sD88L2kivHaerse1lMNOmp0czm3zfQvkTqScKA/XwdfrMO', NULL, '2025-01-10 04:26:12', '2025-01-10 04:26:12');
+(1, 'giang', 'trangiangzxc@gmail.com', NULL, '$2y$12$QjFxS90sD88L2kivHaerse1lMNOmp0czm3zfQvkTqScKA/XwdfrMO', 'DcHfh8qfq8N5TBnbgKnQp6xg2ak0bu1tT5G8Peme84bEvpwCEPUkzYzE8iEe', '2025-01-10 04:26:12', '2025-01-10 04:26:12');
+
+-- --------------------------------------------------------
+
+--
+-- Cấu trúc bảng cho bảng `websites`
+--
+
+CREATE TABLE `websites` (
+  `id` bigint(20) UNSIGNED NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `description` text DEFAULT NULL,
+  `main_image` varchar(255) DEFAULT NULL,
+  `thumbnail` varchar(255) DEFAULT NULL,
+  `field` varchar(255) DEFAULT NULL,
+  `technologies` varchar(255) DEFAULT NULL,
+  `website_url` varchar(255) DEFAULT NULL,
+  `category_id` bigint(20) UNSIGNED DEFAULT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Cấu trúc bảng cho bảng `website_tag`
+--
+
+CREATE TABLE `website_tag` (
+  `id` bigint(20) UNSIGNED NOT NULL,
+  `website_id` bigint(20) UNSIGNED NOT NULL,
+  `tag_id` bigint(20) UNSIGNED NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Chỉ mục cho các bảng đã đổ
@@ -382,6 +474,13 @@ ALTER TABLE `cache_locks`
   ADD PRIMARY KEY (`key`);
 
 --
+-- Chỉ mục cho bảng `categories`
+--
+ALTER TABLE `categories`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `categories_name_unique` (`name`);
+
+--
 -- Chỉ mục cho bảng `contacts`
 --
 ALTER TABLE `contacts`
@@ -428,11 +527,33 @@ ALTER TABLE `sessions`
   ADD KEY `sessions_last_activity_index` (`last_activity`);
 
 --
+-- Chỉ mục cho bảng `tags`
+--
+ALTER TABLE `tags`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `tags_name_unique` (`name`);
+
+--
 -- Chỉ mục cho bảng `users`
 --
 ALTER TABLE `users`
   ADD PRIMARY KEY (`id`),
   ADD UNIQUE KEY `users_email_unique` (`email`);
+
+--
+-- Chỉ mục cho bảng `websites`
+--
+ALTER TABLE `websites`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `websites_category_id_foreign` (`category_id`);
+
+--
+-- Chỉ mục cho bảng `website_tag`
+--
+ALTER TABLE `website_tag`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `website_tag_website_id_foreign` (`website_id`),
+  ADD KEY `website_tag_tag_id_foreign` (`tag_id`);
 
 --
 -- AUTO_INCREMENT cho các bảng đã đổ
@@ -463,6 +584,12 @@ ALTER TABLE `blog_tags`
   MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
+-- AUTO_INCREMENT cho bảng `categories`
+--
+ALTER TABLE `categories`
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+
+--
 -- AUTO_INCREMENT cho bảng `contacts`
 --
 ALTER TABLE `contacts`
@@ -484,13 +611,31 @@ ALTER TABLE `jobs`
 -- AUTO_INCREMENT cho bảng `migrations`
 --
 ALTER TABLE `migrations`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+
+--
+-- AUTO_INCREMENT cho bảng `tags`
+--
+ALTER TABLE `tags`
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT cho bảng `users`
 --
 ALTER TABLE `users`
   MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
+-- AUTO_INCREMENT cho bảng `websites`
+--
+ALTER TABLE `websites`
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT cho bảng `website_tag`
+--
+ALTER TABLE `website_tag`
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
 -- Các ràng buộc cho các bảng đã đổ
@@ -508,6 +653,19 @@ ALTER TABLE `blogs`
 ALTER TABLE `blog_tag`
   ADD CONSTRAINT `blog_tag_blog_id_foreign` FOREIGN KEY (`blog_id`) REFERENCES `blogs` (`id`) ON DELETE CASCADE,
   ADD CONSTRAINT `blog_tag_tag_id_foreign` FOREIGN KEY (`tag_id`) REFERENCES `blog_tags` (`id`) ON DELETE CASCADE;
+
+--
+-- Các ràng buộc cho bảng `websites`
+--
+ALTER TABLE `websites`
+  ADD CONSTRAINT `websites_category_id_foreign` FOREIGN KEY (`category_id`) REFERENCES `categories` (`id`) ON DELETE CASCADE;
+
+--
+-- Các ràng buộc cho bảng `website_tag`
+--
+ALTER TABLE `website_tag`
+  ADD CONSTRAINT `website_tag_tag_id_foreign` FOREIGN KEY (`tag_id`) REFERENCES `tags` (`id`) ON DELETE CASCADE,
+  ADD CONSTRAINT `website_tag_website_id_foreign` FOREIGN KEY (`website_id`) REFERENCES `websites` (`id`) ON DELETE CASCADE;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
