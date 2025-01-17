@@ -9,10 +9,8 @@
 
 
     @section('metatags')
-        <title>{{ config('app.meta.default_title') }} | My Website</title>
         <meta name="description" content="{{ config('app.meta.default_description') }}">
         <meta name="keywords" content="{{ config('app.meta.default_keywords') }}">
-        <meta property="og:title" content="{{ config('app.meta.og_title') }}">
         <meta property="og:description" content="{{ config('app.meta.og_description') }}">
         <meta property="og:image" content="{{ asset('default-image.png') }}">
         <link rel="icon" href="{{ asset('assets/logo/icon.png') }}" type="image/png">
