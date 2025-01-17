@@ -1950,9 +1950,9 @@
                                             " class="xb-item--img">
                                                 <img style="
                                                 width: 100%;
-                                            " loading="lazy" src="{{ asset('storage/' . $blog->thumbnail) }}" alt="">
+                                            " loading="lazy" src="{{ Storage::url($blog->thumbnail) }}" alt="">
                                                 <div class="xb-item--circle-arrow">
-                                                    <img loading="lazy" src="{{ asset('assets/img/icon/arrow-white.png') }}" alt="">
+                                                    <img loading="lazy" src="/assets/img/icon/arrow-white.png" alt="">
                                                 </div>
                                                 <div class="xb-item--line">
                                                     <img loading="lazy" src="{{ asset('assets/img/shape/blg-line.png') }}" alt="">
@@ -1977,7 +1977,7 @@
                             @endforeach
                         </div>
                         <div class="xb-btn mt-60 text-center wow fadeInUp" data-wow-delay="300ms" data-wow-duration="600ms">
-                            <a href="{{ route('blog.index') }}" class="blc-btn blc-btn--gardiant">
+                            <a href="/blogs" class="blc-btn blc-btn--gardiant">
                                 <span>Xem thêm bài viết <i class="far fa-angle-right"></i></span>
                                 <span class="btn-shape">
                                     <svg width="271" height="60" viewBox="0 0 271 60" fill="none" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
@@ -2309,8 +2309,8 @@
                     </div>
 
                     <div class="footer-copyright mt-70 ul_li_between">
-                        <p class="copyright mt-20">Bản quyền © 2025 <a href="/">HG DIGITAL</a>. Tất cả quyền được bảo lưu.</p>
-                        <p class="mt-20">Thiết kế bởi <a href="/">HG DIGITAL</a></p>
+                        <p class="copyright mt-20">Bản quyền © 2025 <a href="https://masothue.com/0318756486-cong-ty-tnhh-hg-digital">HG DIGITAL</a>. Tất cả quyền được bảo lưu.</p>
+                        <p class="mt-20">Thiết kế bởi <a href="https://masothue.com/0318756486-cong-ty-tnhh-hg-digital">HG DIGITAL</a></p>
                     </div>
                 </div>
             </div>

@@ -637,9 +637,9 @@
                             </li>
 
                             <li class="menu-item-has-children">
-                                <a href="/blog"><span>Tin Tức</span></a>
+                                <a href="/blogs"><span>Tin Tức</span></a>
                                 <ul class="submenu">
-                                    <li><a href="/blog"><span>Tin Nổi bật</span></a></li>
+                                    <li><a href="/blogs"><span>Tin Nổi bật</span></a></li>
                                     <li><a href="/blog/detail"><span>Tin Tức Công Nghệ</span></a></li>
                                 </ul>
                             </li>
@@ -712,23 +712,23 @@
                                 <li class="menu-item menu-item-has-children  ">
                                     <a href="#!"><span>Dịch Vụ</span></a>
                                     <ul class="sub-menu">
-                                        <li><a href="/blog"><span>Website bán hàng</span></a></li>
+                                        <li><a href="/blogs"><span>Website bán hàng</span></a></li>
                                         <li><a href="/blog/detail"><span>Landing Page</span></a></li>
                                     </ul>
                         </li>
 
 
                         <li class="menu-item menu-item-has-children">
-                            <a href="/blog"><span>Mẫu Website</span></a>
+                            <a href="/blogs"><span>Mẫu Website</span></a>
                             <ul class="sub-menu">
-                                <li><a href="/blog"><span>Website bán hàng</span></a></li>
+                                <li><a href="/blogs"><span>Website bán hàng</span></a></li>
                                 <li><a href="/blog/detail"><span>Landing Page</span></a></li>
                             </ul>
                         </li>
                         <li class="menu-item menu-item-has-children">
-                            <a href="/blog"><span>Tin Tức</span></a>
+                            <a href="/blogs"><span>Tin Tức</span></a>
                             <ul class="sub-menu">
-                                <li><a href="/blog"><span>Tin Nổi bật</span></a></li>
+                                <li><a href="/blogs"><span>Tin Nổi bật</span></a></li>
                                 <li><a href="/blog/detail"><span>Tin Tức Công Nghệ</span></a></li>
                             </ul>
                         </li>

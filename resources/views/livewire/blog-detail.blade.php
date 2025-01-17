@@ -2,7 +2,7 @@
     <head>
 
 
-        <title>Chi Tiết Tin Tức - HGDIGITAL.SITE</title>
+        <title>{{ $blog->title }} - HGDIGITAL.SITE</title>
 
 
         <!-- css include -->
@@ -50,8 +50,8 @@
                             <div class="row mt-none-30 align-items-end ">
                                 <div class="col-lg-9 mt-30 ">
                                     <div class="page-title-box ">
-                                        <span class="sub-title "><img src="/assets/img/icon/magic-icon.svg " alt=" "> Blog details</span>
-                                        <h2 class="title ">Expert insights from our SEO <br> & IT solutions blog your <br> source for success</h2>
+                                        <span class="sub-title "><img src="/assets/img/icon/magic-icon.svg " alt=" "> Chi tiết bài viết</span>
+                                        <h2 class="title ">Những hiểu biết chuyên sâu từ blog SEO & Giải pháp CNTT của chúng tôi - nguồn tài nguyên cho thành công của bạn</h2>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 mt-30 ">
@@ -72,13 +72,13 @@
                 <section class="blog_details_section pt-70 ">
                     <div class="container ">
                         <div class="item-details_image pos-rel mb-80 ">
-                            <img src="/assets/img/service/cd-image.jpg " alt=" ">
+                            <img src="{{ Storage::url($blog->image) }}" alt=" " style="width: 100%; height: auto;">
                         </div>
                         <div class="item_details_content pb-80 ">
                             <ul class="post_meta ul_li list-unstyled ">
                                 <li>
                                     <a href="#! ">
-                                        <span class="meta_label1 ">technology</span>
+                                        <span class="meta_label1 ">{{ $blog->category->name }}</span>
                                     </a>
                                 </li>
                                 <li>
@@ -86,7 +86,7 @@
                                         <span class="meta_icon ">
                                 <img src="/assets/img/icon/icon_calendar.svg " alt="Icon Calendar ">
                               </span>
-                                        <span class="meta_label ">Last Update: 11/12/2024</span>
+                                        <span class="meta_label ">{{ $blog->created_at->format('d/m/Y') }}</span>
                                     </a>
                                 </li>
                             </ul>
@@ -101,7 +101,7 @@
                                                 <span class="meta_icon ">
                                     <img src="/assets/img/icon/user-black.svg " alt="Icon User ">
                                   </span>
-                                                <span class="meta_label ">by Madura</span>
+                                                <span class="meta_label ">by ADMIN</span>
                                             </a>
                                         </li>
                                         <li>
@@ -109,7 +109,7 @@
                                                 <span class="meta_icon ">
                                     <img src="/assets/img/icon/icon_comment.svg " alt="Icon Comment ">
                                   </span>
-                                                <span class="meta_label ">50 Comments</span>
+                                                <span class="meta_label ">{{ $blog->comments }} Bình luận</span>
                                             </a>
                                         </li>
                                         <li>
@@ -117,7 +117,7 @@
                                                 <span class="meta_icon ">
                                     <img src="/assets/img/icon/icon_eye.svg " alt="Icon Eye ">
                                   </span>
-                                                <span class="meta_label ">20k Views</span>
+                                                <span class="meta_label ">{{ $blog->views }} Lượt xem</span>
                                             </a>
                                         </li>
                                     </ul>
@@ -129,7 +129,7 @@
                                                 <span class="meta_icon ">
                                     <img src="/assets/img/icon/icon_link.svg " alt="Icon Link ">
                                   </span>
-                                                <span class="meta_label ">Copy Link</span>
+                                                <span class="meta_label ">Chia sẻ</span>
                                             </a>
                                         </li>
                                         <li>
@@ -137,7 +137,7 @@
                                                 <span class="meta_icon ">
                                     <img src="/assets/img/icon/icon_bookmark.svg " alt="Icon Bookmark ">
                                   </span>
-                                                <span class="meta_label ">Bookmark</span>
+                                                <span class="meta_label ">Lưu</span>
                                             </a>
                                         </li>
                                     </ul>
@@ -155,171 +155,8 @@
                                       <span>Listen to this article!</span>
                                     </button>
                                     </div>
-                                    <h3 class="item_details_info_heading ">
-                                        Revolutionizing business efficiency navigating growth <br> with optimal IT infrastructure enhancement
-                                    </h3>
-                                    <div class="row mb-4 ">
-                                        <div class="col-md-6 col-sm-6 ">
-                                            <div class="image_block ">
-                                                <img src="/assets/img/blog/blog_details-img01.jpg " alt="Blog Image ">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 col-sm-6 ">
-                                            <div class="image_block ">
-                                                <img src="/assets/img/blog/blog_details-img02.jpg " alt="Blog Image ">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <p>Gain exclusive insights into the world of IT solutions with innomax distinguished thought leaders. With years of experience and a deep understanding of industry trends, our thought leaders offer invaluable perspectives
-                                        that illuminate the path to technological excellence. From emerging technologies to innovative strategies, they provide unique insights that inform and inspire. Join us as we delve into the inner workings of IT solutions,
-                                        exploring the challenges.</p>
-                                    <p>Embark on an illuminating journey into the world of IT solutions with innomax esteemed thought leaders. Delve deep into the inner workings of technology as our seasoned experts share their wealth of knowledge and experience.
-                                        With a finger on the pulse of industry trends and a keen eye for innovation, our thought leaders offer unparalleled insights that illuminate the path</p>
-                                    <div class="blog-details-video mt-70 ">
-                                        <iframe width="880 " height="440 " src="https://www.youtube.com/embed/brvfBk97KyI?si=Q7zy3j4WYFoCYpsQ " title="YouTube video player " allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;
-                                                                                                    web-share " referrerpolicy="strict-origin-when-cross-origin "
-                                            allowfullscreen></iframe>
-                                    </div>
-                                    <h3 class="item_details_info_heading ">Optimizing growth with IT infrastructure</h3>
-                                    <p>They provide a comprehensive and in-depth analysis that goes beyond surface-level . Join us as we uncover the secrets of IT solutions, guided by the wisdom and expertise of innomax thought leaders. Prepare to be inspired,
-                                        informed, and empowered to navigate the ever- landscape of technology with confidence and clarity. you'll gain access to unparalleled expertise and discover new possibilities for success in the ever-evolving world of
-                                        technology success in the ever-evolving world of technology.y.</p>
-                                    <div class="row mb-90 align-items-center mt-none-30 ">
-                                        <div class="col-md-6 mt-30 ">
-                                            <div class="image_block ">
-                                                <img src="/assets/img/blog/blog_details-img03.jpg " alt="Blog Image ">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 mt-30 ">
-                                            <ul class="iconlist_block ">
-                                                <li>
-                                                    <span class="iconlist_text ">
-                                            Unveiling Emerging Technologies.
-                                          </span>
-                                                </li>
-                                                <li>
-                                                    <span class="iconlist_text ">
-                                            Navigating Complex Challenges.
-                                          </span>
-                                                </li>
-                                                <li>
-                                                    <span class="iconlist_text ">
-                                            Forecasting Future Trends.
-                                          </span>
-                                                </li>
-                                                <li>
-                                                    <span class="iconlist_text ">
-                                            Driving Innovation Strategies.
-                                          </span>
-                                                </li>
-                                                <li>
-                                                    <span class="iconlist_text ">
-                                            Exploring Industry Practices.
-                                          </span>
-                                                </li>
-                                                <li>
-                                                    <span class="iconlist_text ">
-                                            Empowering Transformation.
-                                          </span>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <h3 class="item_details_info_heading ">3 Reasons to investing at this moment</h3>
-                                    <p>
-                                        Here are three key reasons emphasizing the importance of optimizing ICO infrastructure <br> for efficiency and growth:
-                                    </p>
-                                    <ul class="iconlist_block numlist_block list-unstyled ">
-                                        <li>
-                                            <span class="iconlist_text ">
-                                        1. Enhanced Operational Agility.
-                                      </span>
-                                        </li>
-                                        <li>
-                                            <span class="iconlist_text ">
-                                        2. Resource Optimization & Cost Efficiency.
-                                      </span>
-                                        </li>
-                                        <li>
-                                            <span class="iconlist_text ">
-                                        3. Scalability and Innovation.
-                                      </span>
-                                        </li>
-                                    </ul>
-                                    <div class="postabmin_block ul_li ">
-                                        <div class="admin_image ">
-                                            <img src="/assets/img/blog/blog_details-img04.jpg " alt="Avatar Image ">
-                                        </div>
-                                        <div class="admin_content ">
-                                            <h4 class="admin_name ">About anderson</h4>
-                                            <span class="admin_designation ">Content Editor</span>
-                                            <p>
-                                                A content editor plays a pivotal role in shaping and refining the narrative and quality of digital content. This role involves.
-                                            </p>
-                                            <ul class="social_icons_blocks list-unstyled ul_li ">
-                                                <li><a aria-label="Facebook " href="#! "><i class="fab fa-facebook-f "></i></a></li>
-                                                <li><a aria-label="Instagram " href="#! "><i class="fab fa-instagram "></i></a></li>
-                                                <li><a aria-label="Linkedin " href="#! "><i class="fab fa-linkedin-in "></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <hr class="mb-50 ">
-                                    <div class="row ">
-                                        <div class="col-md-6 ">
-                                            <ul class="tags_block list-unstyled ">
-                                                <li><a href="#! ">Cybersecurity</a></li>
-                                                <li><a href="#! ">AppDev</a></li>
-                                                <li><a href="#! ">SEO</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-md-6 ">
-                                            <ul class="social_icons_block list-unstyled ul_li justify-content-md-end ">
-                                                <li><a aria-label="Facebook " href="#! "><i class="fab fa-facebook-f "></i></a></li>
-                                                <li><a aria-label="Twitter " href="#! "><i class="fab fa-twitter "></i></a></li>
-                                                <li><a aria-label="Linkedin " href="#! "><i class="fab fa-linkedin-in "></i></a></li>
-                                                <li><a aria-label="Instagram " href="#! "><i class="fab fa-instagram "></i></a></li>
-                                                <li><a aria-label="Social Share " href="#! "><i class="fas fa-share-alt "></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="other_post_nav ul_li_between ">
-                                        <a href="#! " class="post-nav-item ">
-                                            <div class="xb-item--arrow pos-rel ">
-                                                <img src="/assets/img/icon/icon-left.png " alt=" ">
-                                                <span></span>
-                                            </div>
-                                            <div class="xb-item--holder ">
-                                                <h3 class="xb-item--title ">Exploring IT solutions <br> ..with innomax</h3>
-                                                <span class="xb-item--text "><img src="/assets/img/icon/profile-circle.svg " alt=" ">Christopher</span>
-                                            </div>
-                                        </a>
-                                        <a href="#! " class="xb-bar ">
-                                            <i class="fas fa-th-large "></i>
-                                        </a>
-                                        <a href="#! " class="post-nav-item ">
-                                            <div class="xb-item--holder ">
-                                                <h3 class="xb-item--title ">Measuring SEO success <br> key metrics tools..</h3>
-                                                <span class="xb-item--text "><img src="/assets/img/icon/profile-circle.svg " alt=" ">Michael</span>
-                                            </div>
-                                            <div class="xb-item--arrow pos-rel ">
-                                                <img src="/assets/img/icon/icon-right.png " alt=" ">
-                                                <span></span>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="item_details-newslatter ">
-                                        <div class="xb-item--holder ul_li_between align-items-start ">
-                                            <div class="xb-item-heading_info ">
-                                                <h3 class="item_details_info_heading ">Subscribe to our updates</h3>
-                                                <p>Stay up to date! Get all of our resources and news <br> delivered straight to your inbox.</p>
-                                            </div>
-                                            <span class="xb-item--bell-icon "><i class="fas fa-bell "></i></span>
-                                        </div>
-                                        <div class="xb-item--item-input_field pos-rel ">
-                                            <input type="email " placeholder="innomax@example .com ">
-                                            <button type="submit ">Subscribe</button>
-                                        </div>
-                                    </div>
+                               {!! $blog->content !!}
+
                                 </div>
                             </div>
                             <div class="col-lg-4 mt-30 ">
@@ -334,140 +171,64 @@
                                         </div>
                                     </div>
                                     <div class="sidebar_widget ">
-                                        <h3 class="sidebar_widget_title ">related posts</h3>
+                                        <h3 class="sidebar_widget_title ">Bài viết nổi bật</h3>
                                         <ul class="recent_post_block list-unstyled ">
+                                            @foreach ($relatedPosts as $post)
                                             <li class="recent_post_item ">
-                                                <h3 class="post-title border-effect-2 "><a href="/blog/detail ">Measuring SEO success key metrics and tools you need..</a></h3>
-                                                <span><img src="/assets/img/icon/profile-circle.svg " alt=" ">By Michael david</span>
+                                                <h3 class="post-title border-effect-2 "><a href="/blog/{{ $post->slug }} ">{{ $post->title }}</a></h3>
+                                                <span><img src="/assets/img/icon/profile-circle.svg " alt=" ">By ADMIN</span>
                                             </li>
-                                            <li class="recent_post_item ">
-                                                <h3 class="post-title border-effect-2 "><a href="/blog/detail ">Maximizing efficiency the role of automation in IT..</a></h3>
-                                                <span><img src="/assets/img/icon/profile-circle.svg " alt=" ">By William thomas</span>
-                                            </li>
-                                            <li class="recent_post_item ">
-                                                <h3 class="post-title border-effect-2 "><a href="/blog/detail ">Navigating the challenges of remote IT management..</a></h3>
-                                                <span><img src="/assets/img/icon/profile-circle.svg " alt=" ">By Christopher</span>
-                                            </li>
+                                            @endforeach
                                         </ul>
                                     </div>
                                     <div class="sidebar_widget ">
-                                        <h3 class="sidebar_widget_title ">Categories</h3>
+                                        <h3 class="sidebar_widget_title ">Danh mục</h3>
                                         <ul class="category_list_block list-unstyled ">
+                                            @foreach ($categories as $category)
                                             <li>
                                                 <a href="# ">
-                                                    <span><i class="far fa-arrow-right "></i> Cybersecurity</span>
-                                                    <span>(05)</span>
+                                                    <span><i class="far fa-arrow-right "></i> {{ $category->name }}</span>
+                                                    <span>({{ $category->blogs->count() }})</span>
                                                 </a>
                                             </li>
-                                            <li>
-                                                <a href="# ">
-                                                    <span><i class="far fa-arrow-right "></i>Tech Trends</span>
-                                                    <span>(02)</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="# ">
-                                                    <span><i class="far fa-arrow-right "></i>Digital Transformation</span>
-                                                    <span>(02)</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="# ">
-                                                    <span><i class="far fa-arrow-right "></i>Seo Marketing</span>
-                                                    <span>(04)</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="# ">
-                                                    <span><i class="far fa-arrow-right "></i>Mobile App</span>
-                                                    <span>(03)</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="# ">
-                                                    <span><i class="far fa-arrow-right "></i>Cloud Computing</span>
-                                                    <span>(07)</span>
-                                                </a>
-                                            </li>
+                                            @endforeach
                                         </ul>
                                     </div>
                                     <div class="sidebar_widget ">
                                         <h3 class="sidebar_widget_title ">Tags</h3>
                                         <ul class="tags_block list-unstyled ">
-                                            <li><a href="#! ">Cybersecurity</a></li>
-                                            <li><a href="#! ">AppDev</a></li>
-                                            <li><a href="#! ">SEO</a></li>
-                                            <li><a href="#! ">UXDesign</a></li>
-                                            <li><a href="#! ">TechSolutions</a></li>
-                                            <li><a href="#! ">IT</a></li>
-                                            <li><a href="#! ">Solution</a></li>
-                                            <li><a href="#! ">Consultants</a></li>
-                                            <li><a href="#! ">Cloud</a></li>
-                                            <li><a href="#! ">Optimization</a></li>
-                                            <li><a href="#! ">Startup</a></li>
-                                            <li><a href="#! ">Data</a></li>
+                                            @foreach ($tags as $tag)
+                                            <li><a href="#! ">{{ $tag->name }}</a></li>
+                                            @endforeach
+
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="related-blog pt-130 pb-130 ">
-                            <h2 class="related-blog-title ">Browse related blog</h2>
+                            <h2 class="related-blog-title ">Bài viết liên quan</h2>
                             <div class="row mt-none-30 ">
+                                @foreach ($blogSameCategory as $blog)
                                 <div class="col-lg-4 col-md-6 mt-30 ">
                                     <div class="blog-details_wrap ">
                                         <div class="blog-details_item ">
-                                            <div class="xb-item--img ">
-                                                <a href="/blog/detail "><img src="/assets/img/blog/blog_details-img05.jpg " alt=" "></a>
+                                            <div class="xb-item--img " style="width: 100%;">
+                                            <a href="/blog/{{ $blog->slug }} "><img src="{{ Storage::url($blog->thumbnail) }}" alt=" " style="width: 100%; height: auto;"></a>
                                             </div>
                                             <div class="xb-item--holder ">
                                                 <div class="xb-item--meta ul_li ">
-                                                    <span class="xb-item--meta_label1 ">seo audits</span>
-                                                    <span class="xb-item--meta_label ">By Christopher</span>
+                                                    <span class="xb-item--meta_label1 ">{{ $blog->category->name }}</span>
+                                                    <span class="xb-item--meta_label ">By ADMIN</span>
                                                 </div>
                                                 <h3 class="item_details_info_heading border-effect ">
-                                                    <a href="/blog/detail ">The importance of SEO audits how to keep your website..</a></h3>
-                                                <a href="#! " class="xb-item--det-btn ">Read more <i class="far fa-long-arrow-right "></i></a>
+                                                    <a href="/blog/{{ $blog->slug }} ">{{ $blog->title }}</a></h3>
+                                                <a href="/blog/{{ $blog->slug }} " class="xb-item--det-btn ">Xem thêm <i class="far fa-long-arrow-right "></i></a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-4 col-md-6 mt-30 ">
-                                    <div class="blog-details_wrap ">
-                                        <div class="blog-details_item ">
-                                            <div class="xb-item--img ">
-                                                <a href="/blog/detail "><img src="/assets/img/blog/blog_details-img06.jpg " alt=" "></a>
-                                            </div>
-                                            <div class="xb-item--holder ">
-                                                <div class="xb-item--meta ul_li ">
-                                                    <span class="xb-item--meta_label1 ">seo boost</span>
-                                                    <span class="xb-item--meta_label ">By Emily Grace</span>
-                                                </div>
-                                                <h3 class="item_details_info_heading border-effect ">
-                                                    <a href="/blog/detail ">How SEO audits can boost your website’s performance..</a></h3>
-                                                <a href="/blog/detail " class="xb-item--det-btn ">Read more <i class="far fa-long-arrow-right "></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-6 mt-30 ">
-                                    <div class="blog-details_wrap ">
-                                        <div class="blog-details_item ">
-                                            <div class="xb-item--img ">
-                                                <a href="/blog/detail "><img src="/assets/img/blog/blog_details-img07.jpg " alt=" "></a>
-                                            </div>
-                                            <div class="xb-item--holder ">
-                                                <div class="xb-item--meta ul_li ">
-                                                    <span class="xb-item--meta_label1 ">technology</span>
-                                                    <span class="xb-item--meta_label ">By John Michael</span>
-                                                </div>
-                                                <h3 class="item_details_info_heading border-effect ">
-                                                    <a href="/blog/detail ">Top 5 IT solutions to streamline your business operations..</a></h3>
-                                                <a href="/blog/detail " class="xb-item--det-btn ">Read more <i class="far fa-long-arrow-right "></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                @endforeach
                             </div>
                         </div>
                     </div>

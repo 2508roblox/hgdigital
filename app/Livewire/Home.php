@@ -13,7 +13,6 @@ class Home extends Component
     public $phone;
     public $company;
     public $message;
-
     protected $rules = [
         'name' => 'required|string|max:255',
         'email' => 'required|email|max:255',
@@ -21,7 +20,9 @@ class Home extends Component
         'company' => 'nullable|string|max:255',
         'message' => 'required|string|max:1000',
     ];
-
+    public function mount()
+    {
+    }
     public function submit()
     {
         $this->validate();

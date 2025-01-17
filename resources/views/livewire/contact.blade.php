@@ -3,14 +3,9 @@
     <head>
 
         <!--========= Required meta tags =========-->
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <title>Innomax - Technology & IT Startup HTML Template</title>
+        <title>Liên Hệ - HGDIGITAL.SITE</title>
 
-        <link rel="shortcut icon" href="/assets/img/favicon.png" type="images/x-icon" />
 
         <!-- css include -->
         <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
@@ -57,8 +52,8 @@
                             <div class="row mt-none-30 align-items-end ">
                                 <div class="col-lg-9 mt-30 ">
                                     <div class="page-title-box ">
-                                        <span class="sub-title "><img src="/assets/img/icon/music-icon.svg " alt=" "> Contact us</span>
-                                        <h2 class="title ">Connect with our team for <br> innovative solutions and <br> your digital success</h2>
+                                        <span class="sub-title "><img src="/assets/img/icon/music-icon.svg " alt=" "> Liên hệ</span>
+                                        <h2 class="title ">Liên hệ với đội ngũ của chúng tôi để <br> các giải pháp sáng tạo và <br> thành công của bạn</h2>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 mt-30 ">
@@ -81,13 +76,13 @@
                         <div class="row pb-130 mt-none-30 ">
                             <div class="col-lg-8 mt-30 ">
                                 <div class="cs-contact-wrap cs-contact-form cd-contact-form item-contact_form ">
-                                    <h2 class="xb-title ">Send us a message</h2>
-                                    <p class="xb-content ">Give us a chance to serve and bring magic to your brand.</p>
+                                    <h2 class="xb-title ">Gửi cho chúng tôi một tin nhắn</h2>
+                                    <p class="xb-content ">Hãy cho chúng tôi cơ hội phục vụ và mang đến phép màu cho thương hiệu của bạn.</p>
                                     <form action="#! " class="contact-form ">
                                         <div class="row ">
                                             <div class="col-lg-6 ">
                                                 <div class="input-field ">
-                                                    <label for="text1 ">Name*</label>
+                                                    <label for="text1 ">Họ tên*</label>
                                                     <div class="input-box ">
                                                         <input type="text " name="text " id="text1 ">
                                                     </div>
@@ -103,7 +98,7 @@
                                             </div>
                                             <div class="col-lg-12 ">
                                                 <div class="input-field ">
-                                                    <label for="text3 ">Phone*</label>
+                                                    <label for="text3 ">Số điện thoại*</label>
                                                     <div class="input-box ">
                                                         <input type="tel " name="number " id="text3 ">
                                                     </div>
@@ -111,7 +106,7 @@
                                             </div>
                                             <div class="col-lg-12 ">
                                                 <div class="input-field text-field ">
-                                                    <label for="text5 ">Message</label>
+                                                    <label for="text5 ">Tin nhắn</label>
                                                     <div class="input-box ">
                                                         <textarea name="massage " id="text5 "></textarea>
                                                     </div>
@@ -119,7 +114,7 @@
                                             </div>
                                         </div>
                                         <div class="cp-det-btn mt-20 d-grid ">
-                                            <button class="cp-btn ">Send us a message <i class="fal fa-arrow-right "></i></button>
+                                            <button class="cp-btn ">Gửi tin nhắn <i class="fal fa-arrow-right "></i></button>
                                         </div>
                                     </form>
                                 </div>
@@ -128,32 +123,31 @@
                                 <div class="item-contact_info ">
                                     <div class="xb-item--inner ">
                                         <div class="xb-item--top ">
-                                            <h3 class="xb-item--title ">Contact Info</h3>
+                                            <h3 class="xb-item--title ">Thông tin liên hệ</h3>
                                             <span class="xb-item--hotline "><img src="/assets/img/icon/call-calling.svg " alt=" "> +(1) 1230 452 8597</span>
                                             <span class="xb-item--email "><img src="/assets/img/icon/icon-sms.svg " alt=" "> innomax@example.com</span>
                                             <ul class="social_icons_block list-unstyled ul_li ">
                                                 <li><a aria-label="Facebook " href="#! "><i class="fab fa-facebook-f "></i></a></li>
                                                 <li>
                                                     <a aria-label="Twitter " href="#! "><svg width="17 " height="17 " viewBox="0 0 17 17 " fill="none " xmlns="http://www.w3.org/2000/svg ">
-                                                <path d="M13.3872 0H15.9952L10.299 7.20048L17 17H11.7545L7.64298 11.0582L2.94415 17H0.332464L6.42395 9.29688L0 0H5.37853L9.09105 5.43101L13.3872 0ZM12.4711 15.2755H13.9155L4.5917 1.63462H3.0402L12.4711 15.2755Z
-                                                                                                    " fill="#0C111D " />
-                                                </svg></a>
+                                                        <path d="M13.3872 0H15.9952L10.299 7.20048L17 17H11.7545L7.64298 11.0582L2.94415 17H0.332464L6.42395 9.29688L0 0H5.37853L9.09105 5.43101L13.3872 0ZM12.4711 15.2755H13.9155L4.5917 1.63462H3.0402L12.4711 15.2755Z" fill="#0C111D " />
+                                                    </svg></a>
                                                 </li>
                                                 <li><a aria-label="Linkedin " href="#! "><i class="fab fa-linkedin-in "></i></a></li>
                                             </ul>
                                         </div>
                                         <div class="contact-info_widget ">
-                                            <h3 class="xb-title ">United states office</h3>
-                                            <span class="xb-location ">Sunshine example park, Floor <br> No 05A,Sector-94,</span>
+                                            <h3 class="xb-title ">Văn phòng tại Hoa Kỳ</h3>
+                                            <span class="xb-location ">Công viên Sunshine, Tầng <br> Số 05A, Khu 94,</span>
                                         </div>
                                         <div class="contact-info_widget ">
-                                            <h3 class="xb-title ">United kingdom office</h3>
-                                            <span class="xb-location ">12 Buckingham Rd, example <br> Thwaite, HG3 4 TY, UK Contact</span>
+                                            <h3 class="xb-title ">Văn phòng tại Vương quốc Anh</h3>
+                                            <span class="xb-location ">12 Buckingham Rd, ví dụ <br> Thwaite, HG3 4 TY, Vương quốc Anh</span>
                                         </div>
                                         <hr class="breack-line ">
                                         <div class="contact-info_widget ">
-                                            <h3 class="xb-title ">our office open time</h3>
-                                            <span class="xb-location ">Mon - Sat : 8.00-5.00 <br> Sunday : Closed</span>
+                                            <h3 class="xb-title ">Thời gian làm việc của văn phòng</h3>
+                                            <span class="xb-location ">Thứ Hai - Thứ Bảy: 8.00-17.00 <br> Chủ Nhật: Đóng cửa</span>
                                         </div>
                                     </div>
                                 </div>

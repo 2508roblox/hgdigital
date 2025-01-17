@@ -398,7 +398,7 @@
                                 </ul>
                             </li>
                             <li class="menu-item-has-children active">
-                                <a href="/blog"><span>Tin Tức</span></a>
+                                <a href="/blogs"><span>Tin Tức</span></a>
                                 <ul class="submenu">
                                     <li class="active"><a href="blog.html"><span>Blog</span></a></li>
                                     <li><a href="blog-details.html"><span>Blog Details</span></a></li>

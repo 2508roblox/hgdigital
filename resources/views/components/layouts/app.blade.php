@@ -85,7 +85,11 @@
     <script src="{{ asset('assets/js/jquery.marquee.min.js') }}"></script>
     <script src="{{ asset('assets/js/jquery.magnific-popup.min.js') }}"></script>
     <script src="{{ asset('assets/js/main.js') }}"></script>
+    <script src="https://sp.zalo.me/plugins/sdk.js"></script>
 
+    <div class="zalo-chat-widget" data-oaid="1715225565559061022" data-welcome-message="HG DIGITAL" data-autopopup="0" data-width="100" data-height="200"></div>
+
+    </div>
     <!-- Livewire Scripts -->
     @livewireScripts
 </body>

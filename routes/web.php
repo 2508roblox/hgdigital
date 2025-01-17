@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', Home::class)->name('home');
-Route::get('/blog', Blog::class)->name('blog.index');
+Route::get('/blogs', Blog::class)->name('blog.index');
 
 Route::get('/blog/{slug}', BlogDetail::class)->name('blog.detail');
 Route::get('/contact', Contact::class)->name('blog.index');
