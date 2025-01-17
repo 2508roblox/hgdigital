@@ -23,7 +23,7 @@
     <meta name="twitter:title" content="Dịch vụ thiết kế website HG DIGITAL" />
     <meta name="twitter:description" content="HG DIGITAL cung cấp giải pháp thiết kế website tối ưu, chuẩn SEO, giao diện đẹp mắt và thân thiện người dùng." />
     <meta name="twitter:image" content="{{ asset('assets/img/logo/banner.png') }}" />
-
+    <meta name="google-site-verification" content="Gv7agN348ttTOuMfVTN2Kb3ioHwHrrMxctDM1-Hnjwg" />
 
 
 
