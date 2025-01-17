@@ -25,8 +25,8 @@ class WebsiteTagResource extends Resource
 
     protected static ?string $navigationIcon = 'heroicon-o-tag';
     protected static ?string $navigationLabel = 'Thẻ Website';
-    protected static ?string $pluralLabel = 'Thẻ Website';
-    protected static ?string $modelLabel = 'Thẻ Website';
+    protected static ?string $pluralLabel = 'Thẻ Website đã làm';
+    protected static ?string $modelLabel = 'Thẻ Website đã làm';
 
     public static function form(Form $form): Form
     {

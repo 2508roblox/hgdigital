@@ -25,8 +25,8 @@ class CategoryResource extends Resource
 
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
     protected static ?string $navigationLabel = 'Danh mục Website';
-    protected static ?string $pluralLabel = 'Danh mục Website';
-    protected static ?string $modelLabel = 'Danh mục Website';
+    protected static ?string $pluralLabel = 'Danh mục Website đã làm';
+    protected static ?string $modelLabel = 'Danh mục Website đã làm';
 
     public static function form(Form $form): Form
     {
