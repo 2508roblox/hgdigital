@@ -5,6 +5,7 @@
     <meta name="keywords" content="thiết kế website, dịch vụ thiết kế web, website chuyên nghiệp">
     <meta property="og:title" content="HG Digital - Thiết Kế Website Chuyên Nghiệp">
     <meta property="og:description" content="Thiết kế website chuyên nghiệp, tối ưu hóa SEO và giá cả hợp lý.">
+    <link rel="icon" href="{{ asset('assets/logo/icon.png') }}" type="image/png">
 @endsection
 
     <body class="cybersecurity">
@@ -31,7 +32,7 @@
             <!-- main area start  -->
             <main>
                 <!-- hero section start  -->
-                <section class="hero hero-style-three pos-rel pt-120 bg_img" data-background="assets/img/bg/hero-bg03.png">
+                <section class="hero hero-style-three pos-rel pt-120 bg_img" data-background="/assets/img/bg/hero-bg03.png">
                     <div class="container">
                         <div class="hero_wrap pt-90">
                             <div class="xb-hero text-center">
@@ -691,7 +692,7 @@
                 <!-- work section start  -->
                 <section class="work">
                     <div class="container">
-                        <div class="xb-work-wrap pos-rel bg_img pt-100 pb-155" data-background="assets/img/bg/work-bg.png">
+                        <div class="xb-work-wrap pos-rel bg_img pt-100 pb-155" data-background="/assets/img/bg/work-bg.png">
                             <div class="sec-title--two sec-title--three text-center mb-60">
                                 <span class="sub-title wow fadeInDown" data-wow-duration="600ms"><img loading="lazy" src="{{ asset('assets/img/icon/work.svg') }}" alt=""><span>Quy Trình Làm Việc</span></span>
                                 <h2 class="title wow fadeInDown" data-wow-duration="600ms">Quy Trình Làm Việc Tại HG Digital</h2>
@@ -771,8 +772,8 @@
                                 <div class="cs-industries-item">
                                     <div class="xb-item--inner">
                                         <div class="xb-item--icon">
-                                            <img  loading="lazy" class="default" src="assets/img/icon/ftd_01.svg" alt="">
-                                            <img  loading="lazy" class="hover" src="assets/img/icon/ft_01.svg" alt="">
+                                            <img  loading="lazy" class="default" src="/assets/img/icon/ftd_01.svg" alt="">
+                                            <img  loading="lazy" class="hover" src="/assets/img/icon/ft_01.svg" alt="">
                                         </div>
                                         <h3 class="xb-item--title">Finance</h3>
                                     </div>
@@ -818,8 +819,8 @@
                                 <div class="cs-industries-item">
                                     <div class="xb-item--inner">
                                         <div class="xb-item--icon">
-                                            <img  loading="lazy" class="default" src="assets/img/icon/ftd_02.svg" alt="">
-                                            <img  loading="lazy" class="hover" src="assets/img/icon/ft_02.svg" alt="">
+                                            <img  loading="lazy" class="default" src="/assets/img/icon/ftd_02.svg" alt="">
+                                            <img  loading="lazy" class="hover" src="/assets/img/icon/ft_02.svg" alt="">
                                         </div>
                                         <h3 class="xb-item--title">Healthcare</h3>
                                     </div>
@@ -865,8 +866,8 @@
                                 <div class="cs-industries-item">
                                     <div class="xb-item--inner">
                                         <div class="xb-item--icon">
-                                            <img  loading="lazy" class="default" src="assets/img/icon/ftd_03.svg" alt="">
-                                            <img  loading="lazy" class="hover" src="assets/img/icon/ft_03.svg" alt="">
+                                            <img  loading="lazy" class="default" src="/assets/img/icon/ftd_03.svg" alt="">
+                                            <img  loading="lazy" class="hover" src="/assets/img/icon/ft_03.svg" alt="">
                                         </div>
                                         <h3 class="xb-item--title">Government</h3>
                                     </div>
@@ -912,8 +913,8 @@
                                 <div class="cs-industries-item">
                                     <div class="xb-item--inner">
                                         <div class="xb-item--icon">
-                                            <img  loading="lazy" class="default" src="assets/img/icon/ftd_04.svg" alt="">
-                                            <img  loading="lazy" class="hover" src="assets/img/icon/ft_04.svg" alt="">
+                                            <img  loading="lazy" class="default" src="/assets/img/icon/ftd_04.svg" alt="">
+                                            <img  loading="lazy" class="hover" src="/assets/img/icon/ft_04.svg" alt="">
                                         </div>
                                         <h3 class="xb-item--title">E-commerce</h3>
                                     </div>
@@ -959,8 +960,8 @@
                                 <div class="cs-industries-item">
                                     <div class="xb-item--inner">
                                         <div class="xb-item--icon">
-                                            <img  loading="lazy" class="default" src="assets/img/icon/ftd_05.svg" alt="">
-                                            <img  loading="lazy" class="hover" src="assets/img/icon/ft_05.svg" alt="">
+                                            <img  loading="lazy" class="default" src="/assets/img/icon/ftd_05.svg" alt="">
+                                            <img  loading="lazy" class="hover" src="/assets/img/icon/ft_05.svg" alt="">
                                         </div>
                                         <h3 class="xb-item--title">Energy</h3>
                                     </div>
@@ -1006,8 +1007,8 @@
                                 <div class="cs-industries-item">
                                     <div class="xb-item--inner">
                                         <div class="xb-item--icon">
-                                            <img  loading="lazy" class="default" src="assets/img/icon/ftd_06.svg" alt="">
-                                            <img  loading="lazy" class="hover" src="assets/img/icon/ft_06.svg" alt="">
+                                            <img  loading="lazy" class="default" src="/assets/img/icon/ftd_06.svg" alt="">
+                                            <img  loading="lazy" class="hover" src="/assets/img/icon/ft_06.svg" alt="">
                                         </div>
                                         <h3 class="xb-item--title">Education</h3>
                                     </div>
@@ -1053,8 +1054,8 @@
                                 <div class="cs-industries-item">
                                     <div class="xb-item--inner">
                                         <div class="xb-item--icon">
-                                            <img  loading="lazy" class="default" src="assets/img/icon/ftd_07.svg" alt="">
-                                            <img  loading="lazy" class="hover" src="assets/img/icon/ft_07.svg" alt="">
+                                            <img  loading="lazy" class="default" src="/assets/img/icon/ftd_07.svg" alt="">
+                                            <img  loading="lazy" class="hover" src="/assets/img/icon/ft_07.svg" alt="">
                                         </div>
                                         <h3 class="xb-item--title">Manufacturing</h3>
                                     </div>
@@ -1100,8 +1101,8 @@
                                 <div class="cs-industries-item">
                                     <div class="xb-item--inner">
                                         <div class="xb-item--icon">
-                                            <img  loading="lazy" class="default" src="assets/img/icon/ftd_08.svg" alt="">
-                                            <img  loading="lazy" class="hover" src="assets/img/icon/ft_08.svg" alt="">
+                                            <img  loading="lazy" class="default" src="/assets/img/icon/ftd_08.svg" alt="">
+                                            <img  loading="lazy" class="hover" src="/assets/img/icon/ft_08.svg" alt="">
                                         </div>
                                         <h3 class="xb-item--title">Crypto</h3>
                                     </div>
@@ -1147,8 +1148,8 @@
                                 <div class="cs-industries-item">
                                     <div class="xb-item--inner">
                                         <div class="xb-item--icon">
-                                            <img  loading="lazy" class="default" src="assets/img/icon/ftd_09.svg" alt="">
-                                            <img  loading="lazy" class="hover" src="assets/img/icon/ft_09.svg" alt="">
+                                            <img  loading="lazy" class="default" src="/assets/img/icon/ftd_09.svg" alt="">
+                                            <img  loading="lazy" class="hover" src="/assets/img/icon/ft_09.svg" alt="">
                                         </div>
                                         <h3 class="xb-item--title">Logistics</h3>
                                     </div>
@@ -1194,8 +1195,8 @@
                                 <div class="cs-industries-item">
                                     <div class="xb-item--inner">
                                         <div class="xb-item--icon">
-                                            <img  loading="lazy" class="default" src="assets/img/icon/ftd_10.svg" alt="">
-                                            <img  loading="lazy" class="hover" src="assets/img/icon/ft_10.svg" alt="">
+                                            <img  loading="lazy" class="default" src="/assets/img/icon/ftd_10.svg" alt="">
+                                            <img  loading="lazy" class="hover" src="/assets/img/icon/ft_10.svg" alt="">
                                         </div>
                                         <h3 class="xb-item--title">Technology</h3>
                                     </div>
@@ -1560,7 +1561,7 @@
                     </div>
                     <div class="cs-tes-shape">
                         <div class="shape shape--one"><img  loading="lazy" src="{{ asset('assets/img/shape/linea-bg-shape.png') }}" alt=""></div>
-                        <div class="shape shape--two"><img  loading="lazy" class="world" src="assets/img/shape/world.png" alt=""></div>
+                        <div class="shape shape--two"><img  loading="lazy" class="world" src="/assets/img/shape/world.png" alt=""></div>
                         <div class="shape shape--three"><img  loading="lazy" src="{{ asset('assets/img/shape/linear-shape.png') }}" alt=""></div>
                     </div>
                  </section>
@@ -1599,7 +1600,7 @@
                                             <div class="pg-pricing-item pos-rel">
                                                 <div class="xb-item--inner o-hidden pos-rel">
                                                     <div class="xb-item--holder ul_li">
-                                                        <div class="xb-item--icon"><img src="assets/img/icon/pricing-icon01.svg" alt=""></div>
+                                                        <div class="xb-item--icon"><img src="/assets/img/icon/pricing-icon01.svg" alt=""></div>
                                                         <div class="xb-item--right">
                                                             <h3 class="xb-item--title">Gói cơ bản 1</h3>
                                                             <span class="xb-item--text">Dành cho doanh nghiệp mới.</span>
@@ -1612,28 +1613,28 @@
                                                     <div class="xb-item--line"></div>
                                                     <h4 class="xb-item--feature">Tính năng</h4>
                                                     <ul class="xb-item--list list-unstyled">
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Website theo mẫu có sẵn</li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">SEO cơ bản</li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Mobie, Tablet Responsive</li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Liên hệ để mua hàng </li>                                                        </li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Bài viết + Sản phẩm </li>                                                        </li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Lượt xem, theo dõi tương tác web</li>                                                        </li>                                                        </li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Domain + VPS miễn phí 1 năm</li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Tích hợp đa ngôn ngữ tự động</li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Có website trên google sau 3 - 5 ngày</li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Code tay bằng ngôn ngữ lập trình 100%</li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Trang quản trị riêng cho doanh nghiệp</li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Bảo hành miễn phí 3 năm</li>
-                                                        <li class="deactive"><img src="assets/img/icon/cross-icon.svg" alt="">Đặt hàng online</li>
-                                                        <li class="deactive"><img src="assets/img/icon/cross-icon.svg" alt="">Thanh toán ngân hàng tự động</li>
-                                                        <li class="deactive"><img src="assets/img/icon/cross-icon.svg" alt="">Quản lý doanh thu tự động</li>
-                                                        <li class="deactive"><img src="assets/img/icon/cross-icon.svg" alt="">Kết nối Zalo OA, ZNS tự động gửi tin</li>
-                                                        <li class="deactive"><img src="assets/img/icon/cross-icon.svg" alt="">Bảo hành trọn đời</li>
+                                                        <li><img src="/assets/img/icon/check-icon.svg" alt="">Website theo mẫu có sẵn</li>
+                                                        <li><img src="/assets/img/icon/check-icon.svg" alt="">SEO cơ bản</li>
+                                                        <li><img src="/assets/img/icon/check-icon.svg" alt="">Mobie, Tablet Responsive</li>
+                                                        <li><img src="/assets/img/icon/check-icon.svg" alt="">Liên hệ để mua hàng </li>                                                        </li>
+                                                        <li><img src="/assets/img/icon/check-icon.svg" alt="">Bài viết + Sản phẩm </li>                                                        </li>
+                                                        <li><img src="/assets/img/icon/check-icon.svg" alt="">Lượt xem, theo dõi tương tác web</li>                                                        </li>                                                        </li>
+                                                        <li><img src="/assets/img/icon/check-icon.svg" alt="">Domain + VPS miễn phí 1 năm</li>
+                                                        <li><img src="/assets/img/icon/check-icon.svg" alt="">Tích hợp đa ngôn ngữ tự động</li>
+                                                        <li><img src="/assets/img/icon/check-icon.svg" alt="">Có website trên google sau 3 - 5 ngày</li>
+                                                        <li><img src="/assets/img/icon/check-icon.svg" alt="">Code tay bằng ngôn ngữ lập trình 100%</li>
+                                                        <li><img src="/assets/img/icon/check-icon.svg" alt="">Trang quản trị riêng cho doanh nghiệp</li>
+                                                        <li><img src="/assets/img/icon/check-icon.svg" alt="">Bảo hành miễn phí 3 năm</li>
+                                                        <li class="deactive"><img src="/assets/img/icon/cross-icon.svg" alt="">Đặt hàng online</li>
+                                                        <li class="deactive"><img src="/assets/img/icon/cross-icon.svg" alt="">Thanh toán ngân hàng tự động</li>
+                                                        <li class="deactive"><img src="/assets/img/icon/cross-icon.svg" alt="">Quản lý doanh thu tự động</li>
+                                                        <li class="deactive"><img src="/assets/img/icon/cross-icon.svg" alt="">Kết nối Zalo OA, ZNS tự động gửi tin</li>
+                                                        <li class="deactive"><img src="/assets/img/icon/cross-icon.svg" alt="">Bảo hành trọn đời</li>
                                                     </ul>
                                                     <div class="pg-det-btn">
                                                         <a href="/contact" class="cp-btn">Liên hệ ngay</a>
                                                     </div>
-                                                    <div class="xb-shape"><img src="assets/img/shape/pg-shape.png" alt=""></div>
+                                                    <div class="xb-shape"><img src="/assets/img/shape/pg-shape.png" alt=""></div>
                                                 </div>
                                             </div>
                                         </div>
@@ -1642,7 +1643,7 @@
                                                 <span class="xb-item--top-text">Phổ biến nhất ✨</span>
                                                 <div class="xb-item--inner o-hidden pos-rel">
                                                     <div class="xb-item--holder ul_li">
-                                                        <div class="xb-item--icon"><img src="assets/img/icon/pricing-icon02.svg" alt=""></div>
+                                                        <div class="xb-item--icon"><img src="/assets/img/icon/pricing-icon02.svg" alt=""></div>
                                                         <div class="xb-item--right">
                                                             <h3 class="xb-item--title">Gói cơ bản 2</h3>
                                                             <span class="xb-item--text">Doanh nghiệp vừa và nhỏ.</span>
@@ -1656,28 +1657,28 @@
                                                     <div class="xb-item--line"></div>
                                                     <h4 class="xb-item--feature">Tính năng</h4>
                                                     <ul class="xb-item--list list-unstyled">
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Website theo yêu cầu</li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">SEO cơ bản</li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Mobie, Tablet Responsive</li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Đặt hàng online</li>                  </li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Bài viết + Sản phẩm </li>                                                        </li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Lượt xem, theo dõi tương tác web</li>                                                        </li>                                                        </li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Domain + VPS miễn phí 1 năm</li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Tích hợp đa ngôn ngữ tự động</li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Có website trên google sau 1 - 2 tuần</li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Code tay bằng ngôn ngữ lập trình 100%</li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Trang quản trị riêng cho doanh nghiệp</li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Bảo hành miễn phí 3 năm</li>
+                                                        <li><img src="/assets/img/icon/check-icon.svg" alt="">Website theo yêu cầu</li>
+                                                        <li><img src="/assets/img/icon/check-icon.svg" alt="">SEO cơ bản</li>
+                                                        <li><img src="/assets/img/icon/check-icon.svg" alt="">Mobie, Tablet Responsive</li>
+                                                        <li><img src="/assets/img/icon/check-icon.svg" alt="">Đặt hàng online</li>                  </li>
+                                                        <li><img src="/assets/img/icon/check-icon.svg" alt="">Bài viết + Sản phẩm </li>                                                        </li>
+                                                        <li><img src="/assets/img/icon/check-icon.svg" alt="">Lượt xem, theo dõi tương tác web</li>                                                        </li>                                                        </li>
+                                                        <li><img src="/assets/img/icon/check-icon.svg" alt="">Domain + VPS miễn phí 1 năm</li>
+                                                        <li><img src="/assets/img/icon/check-icon.svg" alt="">Tích hợp đa ngôn ngữ tự động</li>
+                                                        <li><img src="/assets/img/icon/check-icon.svg" alt="">Có website trên google sau 1 - 2 tuần</li>
+                                                        <li><img src="/assets/img/icon/check-icon.svg" alt="">Code tay bằng ngôn ngữ lập trình 100%</li>
+                                                        <li><img src="/assets/img/icon/check-icon.svg" alt="">Trang quản trị riêng cho doanh nghiệp</li>
+                                                        <li><img src="/assets/img/icon/check-icon.svg" alt="">Bảo hành miễn phí 3 năm</li>
 
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Thanh toán ngân hàng tự động</li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Quản lý doanh thu tự động</li>
-                                                        <li class="deactive"><img src="assets/img/icon/cross-icon.svg" alt="">Kết nối Zalo OA, ZNS tự động gửi tin</li>
-                                                        <li class="deactive"><img src="assets/img/icon/cross-icon.svg" alt="">Bảo hành trọn đời</li>
+                                                        <li><img src="/assets/img/icon/check-icon.svg" alt="">Thanh toán ngân hàng tự động</li>
+                                                        <li><img src="/assets/img/icon/check-icon.svg" alt="">Quản lý doanh thu tự động</li>
+                                                        <li class="deactive"><img src="/assets/img/icon/cross-icon.svg" alt="">Kết nối Zalo OA, ZNS tự động gửi tin</li>
+                                                        <li class="deactive"><img src="/assets/img/icon/cross-icon.svg" alt="">Bảo hành trọn đời</li>
                                                     </ul>
                                                     <div class="pg-det-btn">
                                                         <a href="/contact" class="cp-btn">Liên Hệ ngay</a>
                                                     </div>
-                                                    <div class="xb-shape"><img src="assets/img/shape/pg-shape.png" alt=""></div>
+                                                    <div class="xb-shape"><img src="/assets/img/shape/pg-shape.png" alt=""></div>
                                                 </div>
                                             </div>
                                         </div>
@@ -1685,7 +1686,7 @@
                                             <div class="pg-pricing-item pos-rel">
                                                 <div class="xb-item--inner o-hidden pos-rel">
                                                     <div class="xb-item--holder ul_li">
-                                                        <div class="xb-item--icon"><img src="assets/img/icon/pricing-icon03.svg" alt=""></div>
+                                                        <div class="xb-item--icon"><img src="/assets/img/icon/pricing-icon03.svg" alt=""></div>
                                                         <div class="xb-item--right">
                                                             <h3 class="xb-item--title">Gói cơ bản 3</h3>
                                                             <span class="xb-item--text">Doanh nghiệp vừa và lớn.</span>
@@ -1699,27 +1700,27 @@
                                                     <div class="xb-item--line"></div>
                                                     <h4 class="xb-item--feature">Tính năng</h4>
                                                     <ul class="xb-item--list list-unstyled">
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Website theo yêu cầu riêng</li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">SEO toàn diện</li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Mobie, Tablet Responsive</li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Đặt hàng online</li>                                   </li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Bài viết + Sản phẩm </li>                                                        </li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Lượt xem, theo dõi tương tác web</li>                                                        </li>                                                        </li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Domain + VPS miễn phí 1 năm</li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Tích hợp đa ngôn ngữ tự động</li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Có website trên google sau 2 - 3 tuần</li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Code tay bằng ngôn ngữ lập trình 100%</li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Trang quản trị riêng cho doanh nghiệp</li>
+                                                        <li><img src="/assets/img/icon/check-icon.svg" alt="">Website theo yêu cầu riêng</li>
+                                                        <li><img src="/assets/img/icon/check-icon.svg" alt="">SEO toàn diện</li>
+                                                        <li><img src="/assets/img/icon/check-icon.svg" alt="">Mobie, Tablet Responsive</li>
+                                                        <li><img src="/assets/img/icon/check-icon.svg" alt="">Đặt hàng online</li>                                   </li>
+                                                        <li><img src="/assets/img/icon/check-icon.svg" alt="">Bài viết + Sản phẩm </li>                                                        </li>
+                                                        <li><img src="/assets/img/icon/check-icon.svg" alt="">Lượt xem, theo dõi tương tác web</li>                                                        </li>                                                        </li>
+                                                        <li><img src="/assets/img/icon/check-icon.svg" alt="">Domain + VPS miễn phí 1 năm</li>
+                                                        <li><img src="/assets/img/icon/check-icon.svg" alt="">Tích hợp đa ngôn ngữ tự động</li>
+                                                        <li><img src="/assets/img/icon/check-icon.svg" alt="">Có website trên google sau 2 - 3 tuần</li>
+                                                        <li><img src="/assets/img/icon/check-icon.svg" alt="">Code tay bằng ngôn ngữ lập trình 100%</li>
+                                                        <li><img src="/assets/img/icon/check-icon.svg" alt="">Trang quản trị riêng cho doanh nghiệp</li>
 
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Thanh toán ngân hàng tự động</li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Quản lý doanh thu tự động</li>
-                                                        <li ><img src="assets/img/icon/check-icon.svg" alt="">Kết nối Zalo OA, ZNS tự động gửi tin</li>
-                                                        <li ><img src="assets/img/icon/check-icon.svg" alt="">Bảo hành trọn đời</li>
+                                                        <li><img src="/assets/img/icon/check-icon.svg" alt="">Thanh toán ngân hàng tự động</li>
+                                                        <li><img src="/assets/img/icon/check-icon.svg" alt="">Quản lý doanh thu tự động</li>
+                                                        <li ><img src="/assets/img/icon/check-icon.svg" alt="">Kết nối Zalo OA, ZNS tự động gửi tin</li>
+                                                        <li ><img src="/assets/img/icon/check-icon.svg" alt="">Bảo hành trọn đời</li>
                                                     </ul>
                                                     <div class="pg-det-btn">
                                                         <a href="/contact" class="cp-btn">Liên Hệ ngay</a>
                                                     </div>
-                                                    <div class="xb-shape"><img src="assets/img/shape/pg-shape.png" alt=""></div>
+                                                    <div class="xb-shape"><img src="/assets/img/shape/pg-shape.png" alt=""></div>
                                                 </div>
                                             </div>
                                         </div>
@@ -1731,7 +1732,7 @@
                                             <div class="pg-pricing-item pos-rel">
                                                 <div class="xb-item--inner o-hidden pos-rel">
                                                     <div class="xb-item--holder ul_li">
-                                                        <div class="xb-item--icon"><img src="assets/img/icon/pricing-icon02.svg" alt=""></div>
+                                                        <div class="xb-item--icon"><img src="/assets/img/icon/pricing-icon02.svg" alt=""></div>
                                                         <div class="xb-item--right">
                                                             <h3 class="xb-item--title">Sắp ra mắt</h3>
                                                         </div>
@@ -1743,13 +1744,13 @@
                                                     <div class="xb-item--line"></div>
                                                     <h4 class="xb-item--feature">Tính năng</h4>
                                                     <ul class="xb-item--list list-unstyled">
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Sắp ra mắt</li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Sắp ra mắt</li>
+                                                        <li><img src="/assets/img/icon/check-icon.svg" alt="">Sắp ra mắt</li>
+                                                        <li><img src="/assets/img/icon/check-icon.svg" alt="">Sắp ra mắt</li>
                                                     </ul>
                                                     <div class="pg-det-btn">
                                                         <a href="/contact" class="cp-btn">Liên hệ ngay</a>
                                                     </div>
-                                                    <div class="xb-shape"><img src="assets/img/shape/pg-shape.png" alt=""></div>
+                                                    <div class="xb-shape"><img src="/assets/img/shape/pg-shape.png" alt=""></div>
                                                 </div>
                                             </div>
                                         </div>
@@ -1758,7 +1759,7 @@
                                                 <span class="xb-item--top-text">Phổ biến nhất ✨</span>
                                                 <div class="xb-item--inner o-hidden pos-rel">
                                                     <div class="xb-item--holder ul_li">
-                                                        <div class="xb-item--icon"><img src="assets/img/icon/pricing-icon02.svg" alt=""></div>
+                                                        <div class="xb-item--icon"><img src="/assets/img/icon/pricing-icon02.svg" alt=""></div>
                                                         <div class="xb-item--right">
                                                             <h3 class="xb-item--title">Sắp ra mắt</h3>
                                                         </div>
@@ -1770,13 +1771,13 @@
                                                     <div class="xb-item--line"></div>
                                                     <h4 class="xb-item--feature">Tính năng</h4>
                                                     <ul class="xb-item--list list-unstyled">
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Sắp ra mắt</li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Sắp ra mắt</li>
+                                                        <li><img src="/assets/img/icon/check-icon.svg" alt="">Sắp ra mắt</li>
+                                                        <li><img src="/assets/img/icon/check-icon.svg" alt="">Sắp ra mắt</li>
                                                     </ul>
                                                     <div class="pg-det-btn">
                                                         <a href="/contact" class="cp-btn">Liên hệ ngay</a>
                                                     </div>
-                                                    <div class="xb-shape"><img src="assets/img/shape/pg-shape.png" alt=""></div>
+                                                    <div class="xb-shape"><img src="/assets/img/shape/pg-shape.png" alt=""></div>
                                                 </div>
                                             </div>
                                         </div>
@@ -1784,7 +1785,7 @@
                                             <div class="pg-pricing-item pos-rel">
                                                 <div class="xb-item--inner o-hidden pos-rel">
                                                     <div class="xb-item--holder ul_li">
-                                                        <div class="xb-item--icon"><img src="assets/img/icon/pricing-icon02.svg" alt=""></div>
+                                                        <div class="xb-item--icon"><img src="/assets/img/icon/pricing-icon02.svg" alt=""></div>
                                                         <div class="xb-item--right">
                                                             <h3 class="xb-item--title">Sắp ra mắt</h3>
                                                         </div>
@@ -1796,13 +1797,13 @@
                                                     <div class="xb-item--line"></div>
                                                     <h4 class="xb-item--feature">Tính năng</h4>
                                                     <ul class="xb-item--list list-unstyled">
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Sắp ra mắt</li>
-                                                        <li><img src="assets/img/icon/check-icon.svg" alt="">Sắp ra mắt</li>
+                                                        <li><img src="/assets/img/icon/check-icon.svg" alt="">Sắp ra mắt</li>
+                                                        <li><img src="/assets/img/icon/check-icon.svg" alt="">Sắp ra mắt</li>
                                                     </ul>
                                                     <div class="pg-det-btn">
                                                         <a href="/contact" class="cp-btn">Liên hệ ngay</a>
                                                     </div>
-                                                    <div class="xb-shape"><img src="assets/img/shape/pg-shape.png" alt=""></div>
+                                                    <div class="xb-shape"><img src="/assets/img/shape/pg-shape.png" alt=""></div>
                                                 </div>
                                             </div>
                                         </div>
@@ -2014,7 +2015,7 @@
                 <section class="faq pb-130 mt-5">
                     <div class="container">
                         <div class="sec-title--two text-center mb-60">
-                            <div class="sub-title wow fadeInDown" data-wow-duration="600ms" style="visibility: visible; animation-duration: 600ms; animation-name: fadeInDown;"><img src="assets/img/icon/magic.svg" alt="">FAQ’s</div>
+                            <div class="sub-title wow fadeInDown" data-wow-duration="600ms" style="visibility: visible; animation-duration: 600ms; animation-name: fadeInDown;"><img src="/assets/img/icon/magic.svg" alt="">FAQ’s</div>
                             <h2 class="title wow fadeInDown" data-wow-delay="150ms" data-wow-duration="600ms" style="visibility: visible; animation-duration: 600ms; animation-delay: 150ms; animation-name: fadeInDown;">Thắc mắc về dịch vụ website tại Công Ty <br> HG DIGITAL</h2>
                         </div>
                         <div class="row">
@@ -2117,9 +2118,9 @@
                     </div>
                  </section>
                 <!-- contact section start  -->
-                <section class="contact contact-bg pt-140 pb-100 pos-rel bg_img" data-background="assets/img/bg/cont_bg-shape.png">
+                <section class="contact contact-bg pt-140 pb-100 pos-rel bg_img" data-background="/assets/img/bg/cont_bg-shape.png">
                     <div class="container">
-                        <div class="contact-two pos-rel bg_img" data-background="assets/img/bg/cont-bg02.png">
+                        <div class="contact-two pos-rel bg_img" data-background="/assets/img/bg/cont-bg02.png">
                             <div class="row mt-none-30">
                                 <div class="col-lg-5 mt-30">
                                     <div class="cs-contact-wrap">
@@ -2250,7 +2251,7 @@
             <!-- main area end  -->
 
            <!-- footer strt -->
-           <footer class="footer bg_img footer-style-two footer-style-three pt-120 pos-rel" data-bg-color="#010315" data-background="assets/img/bg/footer_overly.png">
+           <footer class="footer bg_img footer-style-two footer-style-three pt-120 pos-rel" data-bg-color="#010315" data-background="/assets/img/bg/footer_overly.png">
             <div class="container">
                 <div class="xb-footer">
                     <div class="sec-title--two sec-title--three text-center mb-40">

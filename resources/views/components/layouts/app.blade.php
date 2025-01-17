@@ -14,7 +14,6 @@
         <meta property="og:description" content="{{ config('app.meta.og_description') }}">
         <meta property="og:image" content="{{ asset('default-image.png') }}">
         <link rel="icon" href="{{ asset('assets/logo/icon.png') }}" type="image/png">
-
     @show
 
 

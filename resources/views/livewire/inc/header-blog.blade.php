@@ -3,8 +3,8 @@
         <span>Get 15% off on all annual plans until September 30! Join Texpo as we transform SEO 🚀</span>
         <span><a href="#!">Learn more</a><i class="far fa-angle-right"></i></span>
         <div class="header-shape">
-            <div class="shape shape--one"><img src="assets/img/shape/trangle-shape.png" alt=""></div>
-            <div class="shape shape--two"><img src="assets/img/shape/trangle-shape.png" alt=""></div>
+            <div class="shape shape--one"><img src="/assets/img/shape/trangle-shape.png" alt=""></div>
+            <div class="shape shape--two"><img src="/assets/img/shape/trangle-shape.png" alt=""></div>
         </div>
     </div>
     <div class="xb-header stricky">
@@ -36,7 +36,7 @@
                                                                         <a class="iconbox_block_2" href="about.html">
                                                                             <span class="icon_title_wrap">
                                                                                 <small class="iconbox_icon">
-                                                                                    <img src="assets/img/icon/m_01.svg" alt="">
+                                                                                    <img src="/assets/img/icon/m_01.svg" alt="">
                                                                                 </small>
                                                                                 <small class="iconbox_title">About Us</small>
                                                                             </span>
@@ -49,7 +49,7 @@
                                                                         <a class="iconbox_block_2" href="pricing.html">
                                                                             <span class="icon_title_wrap">
                                                                                 <small class="iconbox_icon">
-                                                                                    <img src="assets/img/icon/m_02.svg" alt="">
+                                                                                    <img src="/assets/img/icon/m_02.svg" alt="">
                                                                                 </small>
                                                                                 <small class="iconbox_title">Our Pricing</small>
                                                                             </span>
@@ -61,7 +61,7 @@
                                                                         <a class="iconbox_block_2" href="team.html">
                                                                             <span class="icon_title_wrap">
                                                                                 <small class="iconbox_icon">
-                                                                                    <img src="assets/img/icon/m_03.svg" alt="">
+                                                                                    <img src="/assets/img/icon/m_03.svg" alt="">
                                                                                 </small>
                                                                                 <small class="iconbox_title">Our team</small>
                                                                             </span>
@@ -75,7 +75,7 @@
                                                                             href="service.html">
                                                                             <span class="icon_title_wrap">
                                                                                 <small class="iconbox_icon">
-                                                                                    <img src="assets/img/icon/m_04.svg" alt="">
+                                                                                    <img src="/assets/img/icon/m_04.svg" alt="">
                                                                                 </small>
                                                                                 <small class="iconbox_title">Services</small>
                                                                             </span>
@@ -89,7 +89,7 @@
                                                                             href="service-details.html">
                                                                             <span class="icon_title_wrap">
                                                                                 <small class="iconbox_icon">
-                                                                                    <img src="assets/img/icon/m_05.svg" alt="">
+                                                                                    <img src="/assets/img/icon/m_05.svg" alt="">
                                                                                 </small>
                                                                                 <small
                                                                                     class="iconbox_title">Services details</small>
@@ -104,7 +104,7 @@
                                                                             href="casestudy.html">
                                                                             <span class="icon_title_wrap">
                                                                                 <small class="iconbox_icon">
-                                                                                    <img src="assets/img/icon/m_06.svg" alt="">
+                                                                                    <img src="/assets/img/icon/m_06.svg" alt="">
                                                                                 </small>
                                                                                 <small
                                                                                     class="iconbox_title">Casestudy</small>
@@ -118,7 +118,7 @@
                                                                         <a class="iconbox_block_2" href="career.html">
                                                                             <span class="icon_title_wrap">
                                                                                 <small class="iconbox_icon">
-                                                                                    <img src="assets/img/icon/m_07.svg" alt="">
+                                                                                    <img src="/assets/img/icon/m_07.svg" alt="">
                                                                                 </small>
                                                                                 <small
                                                                                     class="iconbox_title">Career</small>
@@ -132,7 +132,7 @@
                                                                             href="career-details.html">
                                                                             <span class="icon_title_wrap">
                                                                                 <small class="iconbox_icon">
-                                                                                    <img src="assets/img/icon/m_08.svg" alt="">
+                                                                                    <img src="/assets/img/icon/m_08.svg" alt="">
                                                                                 </small>
                                                                                 <small class="iconbox_title">Career details</small>
                                                                             </span>
@@ -144,7 +144,7 @@
                                                                             href="casestudy-details.html">
                                                                             <span class="icon_title_wrap">
                                                                                 <small class="iconbox_icon">
-                                                                                    <img src="assets/img/icon/m_09.svg" alt="">
+                                                                                    <img src="/assets/img/icon/m_09.svg" alt="">
                                                                                 </small>
                                                                                 <small
                                                                                     class="iconbox_title">Casestudy details</small>
@@ -156,7 +156,7 @@
                                                                         <a class="iconbox_block_2" href="terms-conditions.html">
                                                                             <span class="icon_title_wrap">
                                                                                 <small class="iconbox_icon">
-                                                                                    <img src="assets/img/icon/m_10.svg" alt="">
+                                                                                    <img src="/assets/img/icon/m_10.svg" alt="">
                                                                                 </small>
                                                                                 <small
                                                                                     class="iconbox_title">Terms & Conditions</small>
@@ -168,7 +168,7 @@
                                                                         <a class="iconbox_block_2" href="privacy-policy.html">
                                                                             <span class="icon_title_wrap">
                                                                                 <small class="iconbox_icon">
-                                                                                    <img src="assets/img/icon/m_11.svg" alt="">
+                                                                                    <img src="/assets/img/icon/m_11.svg" alt="">
                                                                                 </small>
                                                                                 <small class="iconbox_title">Privacy Policy</small>
                                                                             </span>
@@ -185,7 +185,7 @@
                                                                 <li>
                                                                     <div class="review_short_info_2">
                                                                         <div class="review_admin_logo">
-                                                                            <img src="assets/img/logo/client-logo.svg" alt="">
+                                                                            <img src="/assets/img/logo/client-logo.svg" alt="">
                                                                         </div>
                                                                         <div class="review_info_content">
                                                                             <ul
@@ -214,7 +214,7 @@
                                                                 <li>
                                                                     <div class="review_short_info_2">
                                                                         <div class="review_admin_logo">
-                                                                            <img src="assets/img/logo/client-logo2.svg" alt="">
+                                                                            <img src="/assets/img/logo/client-logo2.svg" alt="">
                                                                         </div>
                                                                         <div class="review_info_content">
                                                                             <ul
@@ -247,7 +247,7 @@
                                                                 <div class="site_author">
                                                                     <div class="author_box">
                                                                         <div class="author_image bg-light">
-                                                                            <img src="assets/img/bg/avatar.png" alt="">
+                                                                            <img src="/assets/img/bg/avatar.png" alt="">
                                                                         </div>
                                                                         <div class="author_box_content">
                                                                             <h3 class="author_name text-white">
@@ -260,7 +260,7 @@
                                                                     <p class="mb-0 text-white">
                                                                         “As a CEO at innomax  I have been voice crying in the wilderness,  trying to make requirements clear, use every minute to deliver the  result, and not reinvent the wheel. Here at innomax, I made that possible for the clients”. </p>
                                                                         <div class="author_box_quote">
-                                                                            <img src="assets/img/icon/quote.png" alt="">
+                                                                            <img src="/assets/img/icon/quote.png" alt="">
                                                                         </div>
                                                                 </div>
                                                             </div>
@@ -372,7 +372,7 @@
                                                             <div class="megamenu_case">
                                                                 <h3>Software</h3>
                                                                 <h4>Madical SEO success..</h4>
-                                                                <img src="assets/img/casestudy/mm_img.png" alt="">
+                                                                <img src="/assets/img/casestudy/mm_img.png" alt="">
                                                                 <a class="megamenu_btn" href="casestudy.html">
                                                                     <span class="btn_label">Read casestudy</span>
                                                                     <span class="btn_icon">
@@ -472,7 +472,7 @@
                 </div>
                 <div class="header-contact d-none d-md-block">
                     <a href="contact.html" class="thm-btn thm-btn--aso thm-btn--header-black">Liên Hệ Ngay
-                        <img src="assets/img/icon/sms-white-icon01.svg" alt="">
+                        <img src="/assets/img/icon/sms-white-icon01.svg" alt="">
                     </a>
                 </div>
             </div>

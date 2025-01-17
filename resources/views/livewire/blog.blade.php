@@ -4,17 +4,17 @@
 
         <title>Tin Tức - HGDIGITAL.SITE</title>
 
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/css/fontawesome.css">
-        <link rel="stylesheet" href="assets/css/animate.css">
-        <link rel="stylesheet" href="assets/css/swiper.min.css">
-        <link rel="stylesheet" href="assets/css/slick.css">
-        <link rel="stylesheet" href="assets/css/odometer.css">
-        <link rel="stylesheet" href="assets/css/nice-select.css">
-        <link rel="stylesheet" href="assets/css/magnific-popup.css">
-        <link rel="stylesheet" href="assets/css/cursor.css">
-        <link rel="stylesheet" href="assets/css/custom-font.css">
-        <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/assets/css/fontawesome.css">
+        <link rel="stylesheet" href="/assets/css/animate.css">
+        <link rel="stylesheet" href="/assets/css/swiper.min.css">
+        <link rel="stylesheet" href="/assets/css/slick.css">
+        <link rel="stylesheet" href="/assets/css/odometer.css">
+        <link rel="stylesheet" href="/assets/css/nice-select.css">
+        <link rel="stylesheet" href="/assets/css/magnific-popup.css">
+        <link rel="stylesheet" href="/assets/css/cursor.css">
+        <link rel="stylesheet" href="/assets/css/custom-font.css">
+        <link rel="stylesheet" href="/assets/css/main.css">
     </head>
 
     <body class="sco_agency">
@@ -40,21 +40,21 @@
         <!-- main area start  -->
         <main>
             <!-- page title start  -->
-             <section class="page-title  pt-200 pos-rel bg_img" data-background="assets/img/bg/page_bg01.jpg">
+             <section class="page-title  pt-200 pos-rel bg_img" data-background="/assets/img/bg/page_bg01.jpg">
                 <div class="container">
                     <div class="page-title-wrap sd-title-wrap">
                         <div class="row mt-none-30 align-items-end">
                             <div class="col-lg-9 mt-30">
                                 <div class="page-title-box">
-                                    <span class="sub-title"><img src="assets/img/icon/magic-icon.svg" alt=""> Blog</span>
+                                    <span class="sub-title"><img src="/assets/img/icon/magic-icon.svg" alt=""> Blog</span>
                                     <h2 class="title">Expert insights from our SEO <br> & IT solutions blog your <br> source for success</h2>
                                 </div>
                             </div>
                             <div class="col-lg-3 mt-30">
                                 <div class="sd-right-img pos-rel">
-                                    <img src="assets/img/hero/cd-img02.png" alt="">
+                                    <img src="/assets/img/hero/cd-img02.png" alt="">
                                     <div class="sd-arrow-shape style-2">
-                                        <img class="xbzoominzoomup" src="assets/img/shape/brd_shape.png" alt="">
+                                        <img class="xbzoominzoomup" src="/assets/img/shape/brd_shape.png" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -71,7 +71,7 @@
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <div class="blog-slide-item">
-                                    <div class="xb-item--img"><a href="/blog/detail"><img src="assets/img/blog/b-img01.jpg" alt=""></a></div>
+                                    <div class="xb-item--img"><a href="/blog/detail"><img src="/assets/img/blog/b-img01.jpg" alt=""></a></div>
                                     <div class="xb-item--holder">
                                         <a href="#!" class="xb-item--tag">software</a>
                                         <h2 class="xb-item--title border-effect"><a href="/blog/detail">How to optimize your IT network for maximum performance.</a></h2>
@@ -81,7 +81,7 @@
                             </div>
                             <div class="swiper-slide">
                                 <div class="blog-slide-item">
-                                    <div class="xb-item--img"><img src="assets/img/blog/b-img02.jpg" alt=""></div>
+                                    <div class="xb-item--img"><img src="/assets/img/blog/b-img02.jpg" alt=""></div>
                                     <div class="xb-item--holder">
                                         <a href="#!" class="xb-item--tag">technology</a>
                                         <h2 class="xb-item--title border-effect"><a href="/blog/detail">How to perform a comprehensive SEO audit step by step guide.</a></h2>
@@ -91,7 +91,7 @@
                             </div>
                             <div class="swiper-slide">
                                 <div class="blog-slide-item">
-                                    <div class="xb-item--img"><img src="assets/img/blog/b-img01.jpg" alt=""></div>
+                                    <div class="xb-item--img"><img src="/assets/img/blog/b-img01.jpg" alt=""></div>
                                     <div class="xb-item--holder">
                                         <a href="#!" class="xb-item--tag">software</a>
                                         <h2 class="xb-item--title border-effect"><a href="/blog/detail">How to optimize your IT network for maximum performance.</a></h2>
@@ -101,7 +101,7 @@
                             </div>
                             <div class="swiper-slide">
                                 <div class="blog-slide-item">
-                                    <div class="xb-item--img"><img src="assets/img/blog/b-img02.jpg" alt=""></div>
+                                    <div class="xb-item--img"><img src="/assets/img/blog/b-img02.jpg" alt=""></div>
                                     <div class="xb-item--holder">
                                         <a href="#!" class="xb-item--tag">technology</a>
                                         <h2 class="xb-item--title border-effect"><a href="/blog/detail">How to perform a comprehensive SEO audit step by step guide.</a></h2>
@@ -112,8 +112,8 @@
                         </div>
                         <div class="swiper-pagination"></div>
                         <div class="blog-item_button">
-                            <div class="blog-swiper-btn swiper-button-prev"><img src="assets/img/icon/prev-icon.png" alt=""></div>
-                            <div class="blog-swiper-btn swiper-button-next"><img src="assets/img/icon/next-icon.png" alt=""></div>
+                            <div class="blog-swiper-btn swiper-button-prev"><img src="/assets/img/icon/prev-icon.png" alt=""></div>
+                            <div class="blog-swiper-btn swiper-button-next"><img src="/assets/img/icon/next-icon.png" alt=""></div>
                         </div>
                     </div>
                 </div>
@@ -127,7 +127,7 @@
                         <div class="col-lg-8 mt-30">
                             <div class="blog_details_content">
                                 <div class="blog_details_item ul_li">
-                                    <div class="xb-item--img"><a href="#!"><img src="assets/img/blog/b-img03.jpg" alt=""></a></div>
+                                    <div class="xb-item--img"><a href="#!"><img src="/assets/img/blog/b-img03.jpg" alt=""></a></div>
                                     <div class="xb-item--holder">
                                         <span class="xb-item--text">technology</span>
                                         <h3 class="xb-item--title border-effect"><a href="/blog/detail">Exploring IT solutions unraveling the latest digital advancements..</a></h3>
@@ -148,7 +148,7 @@
                                     </div>
                                 </div>
                                 <div class="blog_details_item ul_li">
-                                    <div class="xb-item--img"><a href="#!"><img src="assets/img/blog/b-img04.jpg" alt=""></a></div>
+                                    <div class="xb-item--img"><a href="#!"><img src="/assets/img/blog/b-img04.jpg" alt=""></a></div>
                                     <div class="xb-item--holder">
                                         <span class="xb-item--text">seo audits</span>
                                         <h3 class="xb-item--title border-effect"><a href="/blog/detail">How to perform a comprehensive SEO audit for better results..</a></h3>
@@ -169,7 +169,7 @@
                                     </div>
                                 </div>
                                 <div class="blog_details_item ul_li">
-                                    <div class="xb-item--img"><a href="/blog/detail"><img src="assets/img/blog/b-img05.jpg" alt=""></a></div>
+                                    <div class="xb-item--img"><a href="/blog/detail"><img src="/assets/img/blog/b-img05.jpg" alt=""></a></div>
                                     <div class="xb-item--holder">
                                         <span class="xb-item--text">seo audits</span>
                                         <h3 class="xb-item--title border-effect"><a href="/blog/detail">The importance of SEO audits how to keep your website..</a></h3>
@@ -205,7 +205,7 @@
                                     <div class="form-group">
                                       <input class="form-control" type="search" name="search" placeholder="">
                                       <button type="submit" class="search_icon">
-                                        <img src="assets/img/icon/search-icon.svg" alt="Icon Search">
+                                        <img src="/assets/img/icon/search-icon.svg" alt="Icon Search">
                                       </button>
                                     </div>
                                 </div>
@@ -214,15 +214,15 @@
                                     <ul class="recent_post_block list-unstyled">
                                         <li class="recent_post_item">
                                             <h3 class="post-title border-effect-2"><a href="/blog/detail">Measuring SEO success key metrics and tools you need..</a></h3>
-                                            <span><img src="assets/img/icon/profile-circle.svg" alt="">By Michael david</span>
+                                            <span><img src="/assets/img/icon/profile-circle.svg" alt="">By Michael david</span>
                                         </li>
                                         <li class="recent_post_item">
                                             <h3 class="post-title border-effect-2"><a href="/blog/detail">Maximizing efficiency the role of automation in IT..</a></h3>
-                                            <span><img src="assets/img/icon/profile-circle.svg" alt="">By William thomas</span>
+                                            <span><img src="/assets/img/icon/profile-circle.svg" alt="">By William thomas</span>
                                         </li>
                                         <li class="recent_post_item">
                                             <h3 class="post-title border-effect-2"><a href="/blog/detail">Navigating the challenges of remote IT management..</a></h3>
-                                            <span><img src="assets/img/icon/profile-circle.svg" alt="">By Christopher</span>
+                                            <span><img src="/assets/img/icon/profile-circle.svg" alt="">By Christopher</span>
                                         </li>
                                     </ul>
                                 </div>
@@ -305,7 +305,7 @@
                                 </div>
                             </div>
                             <div class="cta-right_img wow fadeInRight" data-wow-delay="150ms" data-wow-duration="600ms">
-                                <img class="updown" src="assets/img/cta/clip-bord.png" alt="">
+                                <img class="updown" src="/assets/img/cta/clip-bord.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -317,123 +317,32 @@
         <!-- main area end  -->
 
         <!-- footer strt -->
-        <footer class="footer footer-style-two pt-200 bg_img pos-rel" data-bg-color="#0c111d">
-            <div class="container">
-                <div class="xb-footer pt-120">
-                    <div class="footer-info ul_li_between">
-                        <div class="info-item ul_li">
-                            <div class="xb-item--icon">
-                                <span><img src="assets/img/icon/sms-white.svg" alt=""></span>
-                            </div>
-                            <div class="xb-item--holder">
-                                <p class="xb-item--content">Write to us</p>
-                                <h4 class="xb-item--title">innomax@gmail.com</h4>
-                            </div>
-                        </div>
-                        <div class="info-item ul_li">
-                            <div class="xb-item--icon clr-blue">
-                                <span><img src="assets/img/icon/call-white.svg" alt=""></span>
-                            </div>
-                            <div class="xb-item--holder">
-                                <p class="xb-item--content">Call Us (USA)</p>
-                                <h4 class="xb-item--title">+(1) 1230 452 8597</h4>
-                            </div>
-                        </div>
-                        <div class="info-item ul_li">
-                            <div class="xb-item--icon clr-sky">
-                                <span><img src="assets/img/icon/location.svg" alt=""></span>
-                            </div>
-                            <div class="xb-item--holder">
-                                <p class="xb-item--content">Our Office</p>
-                                <h4 class="xb-item--title">Waterloo,Park,Australia</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="footer-inner mt-70 mb-100 ul_li_between align-items-start">
-                        <div class="sa-newslatter footer-widget">
-                            <span class="xb-item--sub-title">Newsletter</span>
-                            <p class="xb-item--content clr-white">Sign up to techco weekly newsletter to get the latest
-                                updates.</p>
-                            <div class="xb-item--input_field pos-rel">
-                                <input type="email" name="gmail" id="text6" placeholder="enter your email">
-                                <div class="img"><img src="assets/img/icon/sms02.svg" alt=""></div>
-                                <button type="submit" class="xb-item--btn"><i class="fas fa-paper-plane"></i></button>
-                            </div>
-                            <span class="xb-item--text">By continuing, you agree to innomax <a href="#!">Terms</a> of
-                                Use and <a href="#!">Privacy Policy</a></span>
-                        </div>
-                        <div class="footer-widget">
-                            <span class="xb-item--sub-title">Company</span>
-                            <ul class="xb-item--holder list-unstyled">
-                                <li class="xb-item--list"><a href="#!">About us</a></li>
-                                <li class="xb-item--list"><a href="#!">Contact us</a></li>
-                                <li class="xb-item--list"><a href="#!">Price table</a></li>
-                                <li class="xb-item--list"><a href="#!">Our blog</a></li>
-                                <li class="xb-item--list"><a href="#!">Team member</a></li>
-                                <li class="xb-item--list"><a href="#!">Our Cases</a></li>
-                            </ul>
-                        </div>
-                        <div class="footer-widget">
-                            <span class="xb-item--sub-title">Our Services</span>
-                            <ul class="xb-item--holder list-unstyled">
-                                <li class="xb-item--list"><a href="#!">SEO copywriting</a></li>
-                                <li class="xb-item--list"><a href="#!">Managed SEO</a></li>
-                                <li class="xb-item--list"><a href="#!">Small business SEO</a></li>
-                                <li class="xb-item--list"><a href="#!">Monthly SEO</a></li>
-                                <li class="xb-item--list"><a href="#!"> National SEO</a></li>
-                                <li class="xb-item--list"><a href="#!">Technical SEO</a></li>
-                            </ul>
-                        </div>
-                        <div class="footer-widget">
-                            <span class="xb-item--sub-title">Our Industries</span>
-                            <ul class="xb-item--holder list-unstyled">
-                                <li class="xb-item--list"><a href="#!">Healthcare</a></li>
-                                <li class="xb-item--list"><a href="#!">Lawyers</a></li>
-                                <li class="xb-item--list"><a href="#!">Real estate</a></li>
-                                <li class="xb-item--list"><a href="#!">Insurance</a></li>
-                                <li class="xb-item--list"><a href="#!">Crypto</a></li>
-                                <li class="xb-item--list"><a href="#!">Automotive</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="footer-copyright mt-70 ul_li_between">
-                        <p class="copyright mt-20">Copyright © 2024 <a href="/">innomax</a>. All rights
-                            reserved.</p>
-                        <ul class="footer-link ul_li mt-20">
-                            <li><span>Follow us :</span></li>
-                            <li><a href="#!"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#!"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#!"><i class="fab fa-linkedin-in"></i></a></li>
-                            <li><a href="#!"><i class="fab fa-youtube"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </footer>
+        @livewire('inc.footer-blog')
+
         <!-- footer end -->
 
     </div>
 
     <!-- jquery include -->
-    <script src="assets/js/jquery-3.7.1.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/swiper.min.js"></script>
-    <script src="assets/js/slick.min.js"></script>
-    <script src="assets/js/gsap.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/appear.js"></script>
-    <script src="assets/js/parallaxie.js"></script>
-    <script src="assets/js/parallax-scroll.js"></script>
-    <script src="assets/js/odometer.min.js"></script>
-    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/js/isotope.pkgd.min.js"></script>
-    <script src="assets/js/cursor-bundle.js"></script>
-    <script src="assets/js/easing.min.js"></script>
-    <script src="assets/js/scrollspy.js"></script>
-    <script src="assets/js/jquery.nice-select.min.js"></script>
-    <script src="assets/js/jquery.marquee.min.js"></script>
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="/assets/js/jquery-3.7.1.min.js"></script>
+    <script src="/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/swiper.min.js"></script>
+    <script src="/assets/js/slick.min.js"></script>
+    <script src="/assets/js/gsap.js"></script>
+    <script src="/assets/js/wow.min.js"></script>
+    <script src="/assets/js/appear.js"></script>
+    <script src="/assets/js/parallaxie.js"></script>
+    <script src="/assets/js/parallax-scroll.js"></script>
+    <script src="/assets/js/odometer.min.js"></script>
+    <script src="/assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="/assets/js/isotope.pkgd.min.js"></script>
+    <script src="/assets/js/cursor-bundle.js"></script>
+    <script src="/assets/js/easing.min.js"></script>
+    <script src="/assets/js/scrollspy.js"></script>
+    <script src="/assets/js/jquery.nice-select.min.js"></script>
+    <script src="/assets/js/jquery.marquee.min.js"></script>
+    <script src="/assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="/assets/js/main.js"></script>
 
     </body>
 

@@ -4,7 +4,7 @@
             <div class="footer-info ul_li_between ">
                 <div class="info-item ul_li ">
                     <div class="xb-item--icon ">
-                        <span><img src="assets/img/icon/sms-white.svg " alt=" "></span>
+                        <span><img src="/assets/img/icon/sms-white.svg " alt=" "></span>
                     </div>
                     <div class="xb-item--holder ">
                         <p class="xb-item--content ">Write to us</p>
@@ -13,7 +13,7 @@
                 </div>
                 <div class="info-item ul_li ">
                     <div class="xb-item--icon clr-blue ">
-                        <span><img src="assets/img/icon/call-white.svg " alt=" "></span>
+                        <span><img src="/assets/img/icon/call-white.svg " alt=" "></span>
                     </div>
                     <div class="xb-item--holder ">
                         <p class="xb-item--content ">Call Us (USA)</p>
@@ -22,7 +22,7 @@
                 </div>
                 <div class="info-item ul_li ">
                     <div class="xb-item--icon clr-sky ">
-                        <span><img src="assets/img/icon/location.svg " alt=" "></span>
+                        <span><img src="/assets/img/icon/location.svg " alt=" "></span>
                     </div>
                     <div class="xb-item--holder ">
                         <p class="xb-item--content ">Our Office</p>
@@ -37,7 +37,7 @@
                     </p>
                     <div class="xb-item--input_field pos-rel ">
                         <input type="email " name="gmail " id="text6 " placeholder="enter your email ">
-                        <div class="img "><img src="assets/img/icon/sms02.svg " alt=" "></div>
+                        <div class="img "><img src="/assets/img/icon/sms02.svg " alt=" "></div>
                         <button type="submit " class="xb-item--btn "><i class="fas fa-paper-plane "></i></button>
                     </div>
                     <span class="xb-item--text ">By continuing, you agree to innomax <a href="#! ">Terms</a> of
