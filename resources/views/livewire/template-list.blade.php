@@ -37,13 +37,26 @@
      
                 <!-- page title end  -->
                 <!-- team title start  -->
-                <section class="team pt-130 pb-130">
+                <section class="team pt-50 pb-130">
+                </section>
+                <section class="page-title cp-page-title   pos-rel bg_img" data-background="assets/img/bg/page_bg01.jpg" style="background-image: url(&quot;assets/img/bg/page_bg01.jpg&quot;);">
+                  <div class="container">
+                    <div class="page-title-wrap">
+                        <div class="page-title-box">
+                            <span class="sub-title"><img src="assets/img/icon/magic.svg" alt="">Careers</span>
+                            <h2 class="title">   Mẫu giao diện mới nhất</h2>
+                        </div>
+                    </div>
+                  </div>
+                   
+                  
+                  
+                </section>  
+            
+                <section class="team   pb-130">
                     <div class="container">
                         <div class="sec-title--two text-center mb-50 ">
-                            
-                            <h2 class="title wow fadeInDown" data-wow-delay="150ms" data-wow-duration="600ms"
-                            style="margin-top: 5rem;visibility: visible;animation-duration: 600ms;animation-delay: 150ms;animation-name: fadeInDown;">
-                                Mẫu giao diện mới nhất</h2>
+                           
                         </div>
                         <div class="row justify-content-center">
                             <div class="row">
