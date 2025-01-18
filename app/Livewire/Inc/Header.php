@@ -3,6 +3,7 @@
 namespace App\Livewire\Inc;
 
 use App\Models\AccessHistory;
+use App\Models\TemplateCategory;
 use Livewire\Component;
 
 class Header extends Component
@@ -31,6 +32,8 @@ class Header extends Component
     }
     public function render()
     {
-        return view('livewire.inc.header');
+        $categories = TemplateCategory::all(); // Lấy toàn bộ danh mục
+        
+        return view('livewire.inc.header' , compact('categories'));
     }
 }

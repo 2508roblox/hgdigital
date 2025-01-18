@@ -97,6 +97,29 @@ class TemplateWebsiteResource extends Resource
             ])
             ->actions([
                 Tables\Actions\EditAction::make(),
+                Tables\Actions\Action::make('clone')
+                ->label('Clone')
+                ->action(function ($record) {
+                    $clonedRecord = $record->replicate();
+                    $clonedRecord->name = $record->name . ' (Clone)';
+            
+                    // Tạo slug gốc
+                    $baseSlug = Str::slug($clonedRecord->name);
+                    $slug = $baseSlug;
+            
+                    // Kiểm tra và thêm số nếu slug bị trùng
+                    $counter = 1;
+                    while (TemplateWebsite::where('slug', $slug)->exists()) {
+                        $slug = $baseSlug . '-' . $counter;
+                        $counter++;
+                    }
+                    $clonedRecord->slug = $slug;
+            
+                    $clonedRecord->save();
+                })
+                ->requiresConfirmation()
+                ->color('secondary'),
+            
             ])
             ->bulkActions([
                 Tables\Actions\BulkActionGroup::make([

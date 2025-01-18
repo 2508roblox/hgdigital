@@ -33,6 +33,16 @@
 
             <!-- main area start  -->
             <main>
+                <style>
+                    .blog-details_item .xb-item--img {
+                        border-radius: 4px;
+                        height: 307px;
+                    }
+                    .blog-details_item .xb-item--img img {
+                        height: 307px;
+                        object-fit: cover;
+                    }
+                </style>
                 <!-- page title start  -->
      
                 <!-- page title end  -->
@@ -43,8 +53,11 @@
                   <div class="container">
                     <div class="page-title-wrap">
                         <div class="page-title-box">
-                            <span class="sub-title"><img src="assets/img/icon/magic.svg" alt="">Careers</span>
+                            <span class="sub-title"><img src="assets/img/icon/m_08.svg" alt="">Mẫu Website</span>
                             <h2 class="title">   Mẫu giao diện mới nhất</h2>
+
+
+                            
                         </div>
                     </div>
                   </div>
@@ -68,6 +81,7 @@
                                                 <h2 class="title-head"> <img loading="lazy"
                                                         src="http://127.0.0.1:8000/storage/template_categories/images/01JHT1V2G6CVNE6GYW9BF944S1.svg"
                                                                     alt=" Thực phẩm "> <span
+                                                                    class="filter_heading"
                                                                     style="
                                 /* font-size: 1rem; */
                                 font-size: 24px;
@@ -195,6 +209,8 @@
                                                         src="http://127.0.0.1:8000/storage/template_categories/images/01JHT1SPZZQ04SCMEBTEV20G35.svg"
                                                         alt="Bán hàng">
                                                     <span
+
+                                                       class="filter_heading"
                                                         style="
                     /* font-size: 1rem; */
                     font-size: 24px;
@@ -387,276 +403,38 @@
 
                                     <div class="body-block themes-list">
                                         <div class="row list-items">
+                                            @foreach ($templates as $template)
                                             <div class="col-lg-4 col-md-6 mt-30">
                                                 <div class="blog-details_wrap">
                                                     <div class="blog-details_item">
                                                         <div class="xb-item--img">
-                                                            <a href="blog-details.html"><img src="assets/img/blog/blog_details-img05.jpg" alt=""></a>
+                                                            <a href="{{ route('template.detail', $template->slug) }}">
+                                                                <img src="{{ asset('storage/' . $template->thumbnail) }}" alt="{{ $template->name }}">
+                                                            </a>
                                                         </div>
                                                         <div class="xb-item--holder">
-                                                            <div class="xb-item--meta ul_li">
-                                                                <span class="xb-item--meta_label1">Bán hàng</span>
-                                                                <span class="xb-item--meta_label">By Christopher</span>
-                                                            </div>
-                                                            <hr>
-
                                                             <h3 class="item_details_info_heading border-effect">
-                                                                <a href="blog-details.html" style="font-size: 1.2rem;
-                                                                                line-height: 1px !important;">  Website bán điện thoại.</a>
+                                                                <a href="{{ route('template.detail', $template->slug) }}" style="font-size: 1rem; line-height: 1px !important;">
+                                                                    {{ $template->name }}
+                                                                </a>
                                                             </h3>
                                                             <!-- Phần giá -->
                                                             <div class="price-wrap">
-                                                                <span class="current-price">2.300.000₫</span> <!-- Giá hiện tại -->
-                    <span class="original-price">3.500.000₫</span> <!-- Giá gốc có gạch ngang -->
+                                                                <span class="current-price">{{ number_format($template->discount_price, 0, ',', '.') }}₫</span> <!-- Giá khuyến mãi -->
+                                                                @if ($template->original_price > $template->discount_price)
+                                                                    <span class="original-price">{{ number_format($template->original_price, 0, ',', '.') }}₫</span> <!-- Giá gốc có gạch ngang -->
+                                                                @endif
                                                             </div>
-                                                          <div class="d-flex justify-content-between">
-                                                            <a href="#!" class=" xb-item--det-btn mt-4" style="padding-bottom: 1rem;">Demo</a> <!-- Nút Demo -->
-                                                            <a href="#!" class="xb-item--det-btn">Xem chi tiết <i class="far fa-long-arrow-right"></i></a>
-                                                          </div>
+                                                            <div class="d-flex justify-content-between">
+                                                                <a href="{{ $template->demo_link }}" target="_blank" class="xb-item--det-btn mt-4" style="padding-bottom: 1rem;">Demo</a> <!-- Nút Demo -->
+                                                                <a href="{{ route('template.detail', $template->slug) }}" class="xb-item--det-btn">Xem chi tiết <i class="far fa-long-arrow-right"></i></a>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-4 col-md-6 mt-30">
-                                                <div class="blog-details_wrap">
-                                                    <div class="blog-details_item">
-                                                        <div class="xb-item--img">
-                                                            <a href="blog-details.html"><img src="assets/img/blog/blog_details-img05.jpg" alt=""></a>
-                                                        </div>
-                                                        <div class="xb-item--holder">
-                                                            <div class="xb-item--meta ul_li">
-                                                                <span class="xb-item--meta_label1">Bán hàng</span>
-                                                                <span class="xb-item--meta_label">By Christopher</span>
-                                                            </div>
-                                                            <hr>
-
-                                                            <h3 class="item_details_info_heading border-effect">
-                                                                <a href="blog-details.html" style="font-size: 1.2rem;
-                                                                                line-height: 1px !important;">  Website bán điện thoại.</a>
-                                                            </h3>
-                                                            <!-- Phần giá -->
-                                                            <div class="price-wrap">
-                                                                <span class="current-price">2.300.000₫</span> <!-- Giá hiện tại -->
-                    <span class="original-price">3.500.000₫</span> <!-- Giá gốc có gạch ngang -->
-                                                            </div>
-                                                          <div class="d-flex justify-content-between">
-                                                            <a href="#!" class=" xb-item--det-btn mt-4" style="padding-bottom: 1rem;">Demo</a> <!-- Nút Demo -->
-                                                            <a href="#!" class="xb-item--det-btn">Xem chi tiết <i class="far fa-long-arrow-right"></i></a>
-                                                          </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-6 mt-30">
-                                                <div class="blog-details_wrap">
-                                                    <div class="blog-details_item">
-                                                        <div class="xb-item--img">
-                                                            <a href="blog-details.html"><img src="assets/img/blog/blog_details-img05.jpg" alt=""></a>
-                                                        </div>
-                                                        <div class="xb-item--holder">
-                                                            <div class="xb-item--meta ul_li">
-                                                                <span class="xb-item--meta_label1">Bán hàng</span>
-                                                                <span class="xb-item--meta_label">By Christopher</span>
-                                                            </div>
-                                                            <hr>
-
-                                                            <h3 class="item_details_info_heading border-effect">
-                                                                <a href="blog-details.html" style="font-size: 1.2rem;
-                                                                                line-height: 1px !important;">  Website bán điện thoại.</a>
-                                                            </h3>
-                                                            <!-- Phần giá -->
-                                                            <div class="price-wrap">
-                                                                <span class="current-price">2.300.000₫</span> <!-- Giá hiện tại -->
-                    <span class="original-price">3.500.000₫</span> <!-- Giá gốc có gạch ngang -->
-                                                            </div>
-                                                          <div class="d-flex justify-content-between">
-                                                            <a href="#!" class=" xb-item--det-btn mt-4" style="padding-bottom: 1rem;">Demo</a> <!-- Nút Demo -->
-                                                            <a href="#!" class="xb-item--det-btn">Xem chi tiết <i class="far fa-long-arrow-right"></i></a>
-                                                          </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-6 mt-30">
-                                                <div class="blog-details_wrap">
-                                                    <div class="blog-details_item">
-                                                        <div class="xb-item--img">
-                                                            <a href="blog-details.html"><img src="assets/img/blog/blog_details-img05.jpg" alt=""></a>
-                                                        </div>
-                                                        <div class="xb-item--holder">
-                                                            <div class="xb-item--meta ul_li">
-                                                                <span class="xb-item--meta_label1">Bán hàng</span>
-                                                                <span class="xb-item--meta_label">By Christopher</span>
-                                                            </div>
-                                                            <hr>
-
-                                                            <h3 class="item_details_info_heading border-effect">
-                                                                <a href="blog-details.html" style="font-size: 1.2rem;
-                                                                                line-height: 1px !important;">  Website bán điện thoại.</a>
-                                                            </h3>
-                                                            <!-- Phần giá -->
-                                                            <div class="price-wrap">
-                                                                <span class="current-price">2.300.000₫</span> <!-- Giá hiện tại -->
-                    <span class="original-price">3.500.000₫</span> <!-- Giá gốc có gạch ngang -->
-                                                            </div>
-                                                          <div class="d-flex justify-content-between">
-                                                            <a href="#!" class=" xb-item--det-btn mt-4" style="padding-bottom: 1rem;">Demo</a> <!-- Nút Demo -->
-                                                            <a href="#!" class="xb-item--det-btn">Xem chi tiết <i class="far fa-long-arrow-right"></i></a>
-                                                          </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-6 mt-30">
-                                                <div class="blog-details_wrap">
-                                                    <div class="blog-details_item">
-                                                        <div class="xb-item--img">
-                                                            <a href="blog-details.html"><img src="assets/img/blog/blog_details-img05.jpg" alt=""></a>
-                                                        </div>
-                                                        <div class="xb-item--holder">
-                                                            <div class="xb-item--meta ul_li">
-                                                                <span class="xb-item--meta_label1">Bán hàng</span>
-                                                                <span class="xb-item--meta_label">By Christopher</span>
-                                                            </div>
-                                                            <hr>
-
-                                                            <h3 class="item_details_info_heading border-effect">
-                                                                <a href="blog-details.html" style="font-size: 1.2rem;
-                                                                                line-height: 1px !important;">  Website bán điện thoại.</a>
-                                                            </h3>
-                                                            <!-- Phần giá -->
-                                                            <div class="price-wrap">
-                                                                <span class="current-price">2.300.000₫</span> <!-- Giá hiện tại -->
-                    <span class="original-price">3.500.000₫</span> <!-- Giá gốc có gạch ngang -->
-                                                            </div>
-                                                          <div class="d-flex justify-content-between">
-                                                            <a href="#!" class=" xb-item--det-btn mt-4" style="padding-bottom: 1rem;">Demo</a> <!-- Nút Demo -->
-                                                            <a href="#!" class="xb-item--det-btn">Xem chi tiết <i class="far fa-long-arrow-right"></i></a>
-                                                          </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-6 mt-30">
-                                                <div class="blog-details_wrap">
-                                                    <div class="blog-details_item">
-                                                        <div class="xb-item--img">
-                                                            <a href="blog-details.html"><img src="assets/img/blog/blog_details-img05.jpg" alt=""></a>
-                                                        </div>
-                                                        <div class="xb-item--holder">
-                                                            <div class="xb-item--meta ul_li">
-                                                                <span class="xb-item--meta_label1">Bán hàng</span>
-                                                                <span class="xb-item--meta_label">By Christopher</span>
-                                                            </div>
-                                                            <hr>
-
-                                                            <h3 class="item_details_info_heading border-effect">
-                                                                <a href="blog-details.html" style="font-size: 1.2rem;
-                                                                                line-height: 1px !important;">  Website bán điện thoại.</a>
-                                                            </h3>
-                                                            <!-- Phần giá -->
-                                                            <div class="price-wrap">
-                                                                <span class="current-price">2.300.000₫</span> <!-- Giá hiện tại -->
-                    <span class="original-price">3.500.000₫</span> <!-- Giá gốc có gạch ngang -->
-                                                            </div>
-                                                          <div class="d-flex justify-content-between">
-                                                            <a href="#!" class=" xb-item--det-btn mt-4" style="padding-bottom: 1rem;">Demo</a> <!-- Nút Demo -->
-                                                            <a href="#!" class="xb-item--det-btn">Xem chi tiết <i class="far fa-long-arrow-right"></i></a>
-                                                          </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-6 mt-30">
-                                                <div class="blog-details_wrap">
-                                                    <div class="blog-details_item">
-                                                        <div class="xb-item--img">
-                                                            <a href="blog-details.html"><img src="assets/img/blog/blog_details-img05.jpg" alt=""></a>
-                                                        </div>
-                                                        <div class="xb-item--holder">
-                                                            <div class="xb-item--meta ul_li">
-                                                                <span class="xb-item--meta_label1">Bán hàng</span>
-                                                                <span class="xb-item--meta_label">By Christopher</span>
-                                                            </div>
-                                                            <hr>
-
-                                                            <h3 class="item_details_info_heading border-effect">
-                                                                <a href="blog-details.html" style="font-size: 1.2rem;
-                                                                                line-height: 1px !important;">  Website bán điện thoại.</a>
-                                                            </h3>
-                                                            <!-- Phần giá -->
-                                                            <div class="price-wrap">
-                                                                <span class="current-price">2.300.000₫</span> <!-- Giá hiện tại -->
-                    <span class="original-price">3.500.000₫</span> <!-- Giá gốc có gạch ngang -->
-                                                            </div>
-                                                          <div class="d-flex justify-content-between">
-                                                            <a href="#!" class=" xb-item--det-btn mt-4" style="padding-bottom: 1rem;">Demo</a> <!-- Nút Demo -->
-                                                            <a href="#!" class="xb-item--det-btn">Xem chi tiết <i class="far fa-long-arrow-right"></i></a>
-                                                          </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-6 mt-30">
-                                                <div class="blog-details_wrap">
-                                                    <div class="blog-details_item">
-                                                        <div class="xb-item--img">
-                                                            <a href="blog-details.html"><img src="assets/img/blog/blog_details-img05.jpg" alt=""></a>
-                                                        </div>
-                                                        <div class="xb-item--holder">
-                                                            <div class="xb-item--meta ul_li">
-                                                                <span class="xb-item--meta_label1">Bán hàng</span>
-                                                                <span class="xb-item--meta_label">By Christopher</span>
-                                                            </div>
-                                                            <hr>
-
-                                                            <h3 class="item_details_info_heading border-effect">
-                                                                <a href="blog-details.html" style="font-size: 1.2rem;
-                                                                                line-height: 1px !important;">  Website bán điện thoại.</a>
-                                                            </h3>
-                                                            <!-- Phần giá -->
-                                                            <div class="price-wrap">
-                                                                <span class="current-price">2.300.000₫</span> <!-- Giá hiện tại -->
-                    <span class="original-price">3.500.000₫</span> <!-- Giá gốc có gạch ngang -->
-                                                            </div>
-                                                          <div class="d-flex justify-content-between">
-                                                            <a href="#!" class=" xb-item--det-btn mt-4" style="padding-bottom: 1rem;">Demo</a> <!-- Nút Demo -->
-                                                            <a href="#!" class="xb-item--det-btn">Xem chi tiết <i class="far fa-long-arrow-right"></i></a>
-                                                          </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-6 mt-30">
-                                                <div class="blog-details_wrap">
-                                                    <div class="blog-details_item">
-                                                        <div class="xb-item--img">
-                                                            <a href="blog-details.html"><img src="assets/img/blog/blog_details-img05.jpg" alt=""></a>
-                                                        </div>
-                                                        <div class="xb-item--holder">
-                                                            <div class="xb-item--meta ul_li">
-                                                                <span class="xb-item--meta_label1">Bán hàng</span>
-                                                                <span class="xb-item--meta_label">By Christopher</span>
-                                                            </div>
-                                                            <hr>
-
-                                                            <h3 class="item_details_info_heading border-effect">
-                                                                <a href="blog-details.html" style="font-size: 1.2rem;
-                                                                                line-height: 1px !important;">  Website bán điện thoại.</a>
-                                                            </h3>
-                                                            <!-- Phần giá -->
-                                                            <div class="price-wrap">
-                                                                <span class="current-price">2.300.000₫</span> <!-- Giá hiện tại -->
-                    <span class="original-price">3.500.000₫</span> <!-- Giá gốc có gạch ngang -->
-                                                            </div>
-                                                          <div class="d-flex justify-content-between">
-                                                            <a href="#!" class=" xb-item--det-btn mt-4" style="padding-bottom: 1rem;">Demo</a> <!-- Nút Demo -->
-                                                            <a href="#!" class="xb-item--det-btn">Xem chi tiết <i class="far fa-long-arrow-right"></i></a>
-                                                          </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                        @endforeach
+                                           
                                             
                                            
                                         </div>
@@ -693,8 +471,8 @@
                         <div class="row mt-none-30 align-items-center">
                             <div class="col-lg-8 mt-30">
                                 <div class="page-title-box">
-                                    <span class="sub-title"><img src="assets/img/icon/magic.svg"
-                                            alt="">Careers</span>
+                                    <span class="sub-title"><img src="assets/img/icon/m_08.svg"
+                                            alt="">Mẫu Website</span>
                                     <h2 class="title">Be a part of shaping the <br> future &amp; career
                                         opportunities <br> at Innomax today.</h2>
                                 </div>
@@ -942,7 +720,7 @@
             margin-left: 2rem;
             padding: 0;
             font-size: 15px;
-            color: #727272;
+            color: #000000;
             line-height: normal;
             text-decoration: none;
         }
@@ -971,13 +749,13 @@
 }
 
 .current-price {
-    font-size: 1.5rem; /* Kích thước lớn cho giá hiện tại */
+    font-size: 1.2rem; /* Kích thước lớn cho giá hiện tại */
     color: #28a745; /* Màu xanh cho giá hiện tại */
 }
 
 .original-price {
     font-size: 1rem; /* Kích thước nhỏ cho giá gốc */
-    color: #dc3545; /* Màu đỏ cho giá gốc */
+    color: #a1a1a1; /* Màu đỏ cho giá gốc */
     text-decoration: line-through; /* Gạch ngang cho giá gốc */
     margin-left: 10px; /* Khoảng cách giữa giá hiện tại và giá gốc */
 }
@@ -1006,6 +784,11 @@
     position: relative;
     font-weight: 700;
     font-size: 15px; }
+    .current-price {
+    font-size: 1.2rem;
+    color: #0066ff;
+    font-weight: 600;
+}
     </style>
 </div>
 
