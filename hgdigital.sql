@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th1 17, 2025 lúc 11:40 AM
+-- Thời gian đã tạo: Th1 17, 2025 lúc 01:05 PM
 -- Phiên bản máy phục vụ: 10.4.32-MariaDB
 -- Phiên bản PHP: 8.2.12
 
@@ -20,6 +20,33 @@ SET time_zone = "+00:00";
 --
 -- Cơ sở dữ liệu: `hg-digital`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Cấu trúc bảng cho bảng `access_history`
+--
+
+CREATE TABLE `access_history` (
+  `id` bigint(20) UNSIGNED NOT NULL,
+  `date` date NOT NULL,
+  `visit_count` int(11) DEFAULT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Đang đổ dữ liệu cho bảng `access_history`
+--
+
+INSERT INTO `access_history` (`id`, `date`, `visit_count`, `created_at`, `updated_at`) VALUES
+(1, '2025-01-05', 77, '2025-01-05 01:14:49', '2025-01-05 02:26:33'),
+(2, '2025-01-04', 2, '2025-01-05 01:14:49', '2025-01-05 01:14:56'),
+(3, '2025-01-03', 2, '2025-01-05 01:14:49', '2025-01-05 01:14:56'),
+(4, '2025-01-06', 76, '2025-01-06 04:23:40', '2025-01-06 11:46:31'),
+(5, '2025-01-10', 109, '2025-01-10 02:18:22', '2025-01-10 12:36:04'),
+(6, '2025-01-11', 60, '2025-01-11 02:11:10', '2025-01-11 13:07:35'),
+(7, '2025-01-12', 5, '2025-01-12 01:13:43', '2025-01-12 12:25:22');
 
 -- --------------------------------------------------------
 
@@ -157,10 +184,10 @@ CREATE TABLE `cache` (
 --
 
 INSERT INTO `cache` (`key`, `value`, `expiration`) VALUES
-('356a192b7913b04c54574d18c28d46e6395428ab', 'i:2;', 1736668520),
-('356a192b7913b04c54574d18c28d46e6395428ab:timer', 'i:1736668520;', 1736668520),
-('livewire-rate-limiter:a17961fa74e9275d529f489537f179c05d50c2f3', 'i:1;', 1737085968),
-('livewire-rate-limiter:a17961fa74e9275d529f489537f179c05d50c2f3:timer', 'i:1737085968;', 1737085968);
+('356a192b7913b04c54574d18c28d46e6395428ab', 'i:2;', 1737115097),
+('356a192b7913b04c54574d18c28d46e6395428ab:timer', 'i:1737115097;', 1737115097),
+('livewire-rate-limiter:a17961fa74e9275d529f489537f179c05d50c2f3', 'i:1;', 1737113179),
+('livewire-rate-limiter:a17961fa74e9275d529f489537f179c05d50c2f3:timer', 'i:1737113179;', 1737113179);
 
 -- --------------------------------------------------------
 
@@ -184,24 +211,25 @@ CREATE TABLE `categories` (
   `id` bigint(20) UNSIGNED NOT NULL,
   `name` varchar(255) NOT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
-  `updated_at` timestamp NULL DEFAULT NULL
+  `updated_at` timestamp NULL DEFAULT NULL,
+  `short_desc` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Đang đổ dữ liệu cho bảng `categories`
 --
 
-INSERT INTO `categories` (`id`, `name`, `created_at`, `updated_at`) VALUES
-(1, 'Cửa Hàng Bàn Phím', '2025-01-16 21:15:32', '2025-01-16 21:27:44'),
-(2, 'Cửa Hàng Chiếu Sáng', '2025-01-16 21:23:29', '2025-01-16 21:28:37'),
-(3, 'Dịch Vụ Xe 4, 6, 12 Chỗ', '2025-01-16 21:23:32', '2025-01-16 21:29:28'),
-(4, 'Ghế Massage Cao Cấp', '2025-01-16 21:23:42', '2025-01-16 21:29:43'),
-(5, 'Cửa Hàng Mắt Kính', '2025-01-16 21:23:46', '2025-01-16 21:30:09'),
-(6, 'Cửa Hàng Mỹ Phẩm', '2025-01-16 21:23:49', '2025-01-16 21:23:49'),
-(7, 'Cửa Hàng Thiết Bị Di Động', '2025-01-16 21:23:52', '2025-01-16 21:23:52'),
-(8, 'Sản Phẩm Chăm Sóc Sức Khỏe', '2025-01-16 21:23:54', '2025-01-16 21:23:54'),
-(9, 'Cửa Hàng Sách Online', '2025-01-16 21:23:59', '2025-01-16 21:23:59'),
-(10, 'Cửa Hàng Đồ Gia Dụng', '2025-01-16 21:24:02', '2025-01-16 21:24:02');
+INSERT INTO `categories` (`id`, `name`, `created_at`, `updated_at`, `short_desc`) VALUES
+(1, 'Cửa Hàng Bàn Phím', '2025-01-16 21:15:32', '2025-01-16 21:27:44', NULL),
+(2, 'Cửa Hàng Chiếu Sáng', '2025-01-16 21:23:29', '2025-01-16 21:28:37', NULL),
+(3, 'Dịch Vụ Xe 4, 6, 12 Chỗ', '2025-01-16 21:23:32', '2025-01-16 21:29:28', NULL),
+(4, 'Ghế Massage Cao Cấp', '2025-01-16 21:23:42', '2025-01-16 21:29:43', NULL),
+(5, 'Cửa Hàng Mắt Kính', '2025-01-16 21:23:46', '2025-01-16 21:30:09', NULL),
+(6, 'Cửa Hàng Mỹ Phẩm', '2025-01-16 21:23:49', '2025-01-16 21:23:49', NULL),
+(7, 'Cửa Hàng Thiết Bị Di Động', '2025-01-16 21:23:52', '2025-01-16 21:23:52', NULL),
+(8, 'Sản Phẩm Chăm Sóc Sức Khỏe', '2025-01-16 21:23:54', '2025-01-16 21:23:54', NULL),
+(9, 'Cửa Hàng Sách Online', '2025-01-16 21:23:59', '2025-01-16 21:23:59', NULL),
+(10, 'Cửa Hàng Đồ Gia Dụng', '2025-01-16 21:24:02', '2025-01-16 21:24:02', NULL);
 
 -- --------------------------------------------------------
 
@@ -308,7 +336,13 @@ INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
 (10, '2025_01_12_081153_create_contacts_table', 5),
 (13, '2025_01_17_034300_create_categories_table', 6),
 (14, '2025_01_17_034301_create_tags_table', 6),
-(15, '2025_01_17_034541_create_websites_table', 7);
+(15, '2025_01_17_034241_create_websites_table', 7),
+(16, '2025_01_17_042551_add_short_desc_to_categories_table', 8),
+(17, '2025_01_17_111037_create_template_categories_table', 8),
+(18, '2025_01_17_111038_create_template_tags_table', 8),
+(19, '2025_01_17_111038_create_template_websites_table', 8),
+(20, '2025_01_17_111039_create_template_website_tag_table', 8),
+(21, '2025_01_17_112829_add_slug_to_template_tags_table', 9);
 
 -- --------------------------------------------------------
 
@@ -342,11 +376,8 @@ CREATE TABLE `sessions` (
 --
 
 INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, `last_activity`) VALUES
-('6x3V4MlsfdslDmLJYgpqi2Mt0djrw48jVoNqjYu5', NULL, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'YTozOntzOjY6Il90b2tlbiI7czo0MDoiSjZUU1B4Znc0d0cyb0JHUjNId1AwZzFBSVJXNlJ5QXFmTk1xUU9sNiI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MjE6Imh0dHA6Ly9sb2NhbGhvc3Q6ODAwMCI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fX0=', 1736736428),
-('d1hkLWxo2F3skk4nHgVKCvIOBSEMOyf6vQInCAp8', NULL, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'YTozOntzOjY6Il90b2tlbiI7czo0MDoiZkVoOTlaOUNJUllKZVdvUzdjbTBpWURsUFhpQ0NMOXZSZ0xWZjJlTiI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MjE6Imh0dHA6Ly9sb2NhbGhvc3Q6ODAwMCI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fX0=', 1737085302),
-('jisNuXFjNxKjuVUJoxHziuTugUoXnAUXfH7A9wBC', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'YTo1OntzOjY6Il90b2tlbiI7czo0MDoiNllJTmhFU29ndTZFQ2tWTWhFN0sxaEdQSkZ5cnZQRDBxeDZQNmtNYyI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6Mjc6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9hZG1pbiI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fXM6NTA6ImxvZ2luX3dlYl81OWJhMzZhZGRjMmIyZjk0MDE1ODBmMDE0YzdmNThlYTRlMzA5ODlkIjtpOjE7czoxNzoicGFzc3dvcmRfaGFzaF93ZWIiO3M6NjA6IiQyeSQxMiRRakZ4Uzkwc0Q4OEwya2l2SGFlcnNlMWxNTk9tcDBjem0zemZRdmtUcVNjS0EvWHdkZnJNTyI7fQ==', 1737110334),
-('kTGg2iRtR77MGVGd3XiBBHBzVwUFsAM6VrkWXKYl', NULL, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'YTozOntzOjY6Il90b2tlbiI7czo0MDoiZGpGcDNvNzNtQzVEN0JEelJkS1dmOWVSMzBHUUI2YzlHSzZZVDVDZCI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MjE6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMCI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fX0=', 1736741337),
-('TbNQmwjy8J1cczyGhVIVUBZvaWjZwCyhf1tlm5BE', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'YTo3OntzOjY6Il90b2tlbiI7czo0MDoicUJsZ284Q1B6NGlmMDVhdXl3RFQzNlBBRjZ3WmFTNHdXcWt4Z1diSiI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MzY6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9hZG1pbi93ZWJzaXRlcyI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fXM6MzoidXJsIjthOjA6e31zOjUwOiJsb2dpbl93ZWJfNTliYTM2YWRkYzJiMmY5NDAxNTgwZjAxNGM3ZjU4ZWE0ZTMwOTg5ZCI7aToxO3M6MTc6InBhc3N3b3JkX2hhc2hfd2ViIjtzOjYwOiIkMnkkMTIkUWpGeFM5MHNEODhMMmtpdkhhZXJzZTFsTU5PbXAwY3ptM3pmUXZrVHFTY0tBL1h3ZGZyTU8iO3M6ODoiZmlsYW1lbnQiO2E6MDp7fX0=', 1737088221);
+('jisNuXFjNxKjuVUJoxHziuTugUoXnAUXfH7A9wBC', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'YTo2OntzOjY6Il90b2tlbiI7czo0MDoiNllJTmhFU29ndTZFQ2tWTWhFN0sxaEdQSkZ5cnZQRDBxeDZQNmtNYyI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6MjE6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMCI7fXM6NjoiX2ZsYXNoIjthOjI6e3M6Mzoib2xkIjthOjA6e31zOjM6Im5ldyI7YTowOnt9fXM6NTA6ImxvZ2luX3dlYl81OWJhMzZhZGRjMmIyZjk0MDE1ODBmMDE0YzdmNThlYTRlMzA5ODlkIjtpOjE7czoxNzoicGFzc3dvcmRfaGFzaF93ZWIiO3M6NjA6IiQyeSQxMiRRakZ4Uzkwc0Q4OEwya2l2SGFlcnNlMWxNTk9tcDBjem0zemZRdmtUcVNjS0EvWHdkZnJNTyI7czo4OiJmaWxhbWVudCI7YTowOnt9fQ==', 1737115307),
+('uyOKjjGaC7NQqFDwBAdqB0PYEcsSoU1D4CewQh5h', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36', 'YTo3OntzOjY6Il90b2tlbiI7czo0MDoiM3J6UDNaeTRoaFNEeWxRZWFtcTRPUlpNQWl5NVhtOHhodVlwNW5ZdiI7czozOiJ1cmwiO2E6MDp7fXM6OToiX3ByZXZpb3VzIjthOjE6e3M6MzoidXJsIjtzOjIxOiJodHRwOi8vbG9jYWxob3N0OjgwMDAiO31zOjY6Il9mbGFzaCI7YToyOntzOjM6Im9sZCI7YTowOnt9czozOiJuZXciO2E6MDp7fX1zOjUwOiJsb2dpbl93ZWJfNTliYTM2YWRkYzJiMmY5NDAxNTgwZjAxNGM3ZjU4ZWE0ZTMwOTg5ZCI7aToxO3M6MTc6InBhc3N3b3JkX2hhc2hfd2ViIjtzOjYwOiIkMnkkMTIkUWpGeFM5MHNEODhMMmtpdkhhZXJzZTFsTU5PbXAwY3ptM3pmUXZrVHFTY0tBL1h3ZGZyTU8iO3M6ODoiZmlsYW1lbnQiO2E6MDp7fX0=', 1737115078);
 
 -- --------------------------------------------------------
 
@@ -368,6 +399,106 @@ CREATE TABLE `tags` (
 INSERT INTO `tags` (`id`, `name`, `created_at`, `updated_at`) VALUES
 (1, '12', '2025-01-16 21:02:56', '2025-01-16 21:02:56'),
 (2, '12323', '2025-01-16 21:13:46', '2025-01-16 21:13:46');
+
+-- --------------------------------------------------------
+
+--
+-- Cấu trúc bảng cho bảng `template_categories`
+--
+
+CREATE TABLE `template_categories` (
+  `id` bigint(20) UNSIGNED NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `slug` varchar(255) NOT NULL,
+  `image` varchar(255) DEFAULT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Đang đổ dữ liệu cho bảng `template_categories`
+--
+
+INSERT INTO `template_categories` (`id`, `name`, `slug`, `image`, `created_at`, `updated_at`) VALUES
+(1, 'Bán hàng', 'ban-hang', 'template_categories/images/01JHT1SPZZQ04SCMEBTEV20G35.svg', '2025-01-17 04:24:54', '2025-01-17 04:53:55'),
+(2, 'Thời trang ', 'thoi-trang', 'template_categories/images/01JHT20RZ4Z673ZSAPR6JXKFWX.svg', '2025-01-17 04:53:11', '2025-01-17 04:57:47'),
+(3, 'Mỹ phẩm ', 'my-pham', 'template_categories/images/01JHT1TK8CVCSD91M7QQP89A9N.svg', '2025-01-17 04:54:24', '2025-01-17 04:54:24'),
+(4, ' Thực phẩm ', 'thuc-pham', 'template_categories/images/01JHT1V2G6CVNE6GYW9BF944S1.svg', '2025-01-17 04:54:40', '2025-01-17 04:54:40'),
+(5, ' Bất động sản', 'bat-dong-san', 'template_categories/images/01JHT1Y3723NYSYCBYYBRC37CH.svg', '2025-01-17 04:56:19', '2025-01-17 04:56:19'),
+(6, 'Du lịch - Khách sạn', 'du-lich-khach-san', 'template_categories/images/01JHT1YWFP8TTAN517TJHRRJMV.svg', '2025-01-17 04:56:45', '2025-01-17 04:56:45'),
+(7, 'Xây dựng - Nội thất', 'xay-dung-noi-that', 'template_categories/images/01JHT1ZBCATQSAJHEA1CYTMXSV.svg', '2025-01-17 04:57:00', '2025-01-17 04:57:00'),
+(8, 'Doanh nghiệp', 'doanh-nghiep', 'template_categories/images/01JHT1ZXJ73PV8GDXH3M8MQNR4.svg', '2025-01-17 04:57:19', '2025-01-17 04:57:19');
+
+-- --------------------------------------------------------
+
+--
+-- Cấu trúc bảng cho bảng `template_tags`
+--
+
+CREATE TABLE `template_tags` (
+  `id` bigint(20) UNSIGNED NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `slug` varchar(255) DEFAULT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Đang đổ dữ liệu cho bảng `template_tags`
+--
+
+INSERT INTO `template_tags` (`id`, `name`, `slug`, `created_at`, `updated_at`) VALUES
+(1, 'Giang Trần', 'giang-tran', '2025-01-17 04:30:10', '2025-01-17 04:30:10');
+
+-- --------------------------------------------------------
+
+--
+-- Cấu trúc bảng cho bảng `template_websites`
+--
+
+CREATE TABLE `template_websites` (
+  `id` bigint(20) UNSIGNED NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `slug` varchar(255) NOT NULL,
+  `thumbnail` varchar(255) DEFAULT NULL,
+  `image` varchar(255) DEFAULT NULL,
+  `purchases` int(11) NOT NULL DEFAULT 0,
+  `original_price` decimal(10,2) NOT NULL DEFAULT 0.00,
+  `discounted_price` decimal(10,2) NOT NULL DEFAULT 0.00,
+  `demo_link` varchar(255) DEFAULT NULL,
+  `description` text DEFAULT NULL,
+  `category_id` bigint(20) UNSIGNED NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Đang đổ dữ liệu cho bảng `template_websites`
+--
+
+INSERT INTO `template_websites` (`id`, `name`, `slug`, `thumbnail`, `image`, `purchases`, `original_price`, `discounted_price`, `demo_link`, `description`, `category_id`, `created_at`, `updated_at`) VALUES
+(1, 'Theme WordPress bán đèn cao cấp', 'theme-wordpress-ban-den-cao-cap', 'templates/thumbnails/01JHT0N7PS8S3RN0FBSJKPA1SD.jpg', 'templates/images/01JHT0N7PWK7B8N58M86TSTD6T.jpg', 65, 2700000.00, 900000.00, 'http://localhost:8000/k68-admin/other-products/create', '<h2>Giới thiệu Theme WordPress bán đèn cao cấp</h2><p>Giao diện tương thích với hầu hết mọi thiết bị và trình duyệt web như điện thoại, máy tính bảng, Laptop, PC,…<br>Giao diện được thiết kế dựa trên mã nguồn mở WordPress và theme Flatsome tùy biến cao, dễ dàng sử dụng và quản lý.<br>Thiết kế web chuẩn SEO, tốc độ load nhanh và tối ưu hóa với công cụ tìm kiếm Google.<br>Theme sạch hoàn toàn 100% không virus, không mã độc đã được kiểm tra kỹ lưỡng.<br>Sản phẩm được bảo hành giúp bạn yên tâm hơn trong quá trình sử dụng Theme.</p><h2><strong>Theme Theme WordPress bán đèn cao cấp dễ dàng cài đặt và sử dụng</strong></h2><p>Khi mua Theme bạn sẽ được bàn giao mã nguồn Full source code bao gồm: Code + Database được nhân bản bằng plugin duplicator bạn chỉ việc đăt cài đặt lên Hosting là giống demo 100%. Theme được Buid trên Flatsome nên dễ dàng sử dụng với trình dựng trang kéo thả UX builder trực quan theo từng Module và dạng lưới của layout đã áp dụng vào bố cục website.<figure data-trix-attachment=\"{&quot;contentType&quot;:&quot;image&quot;,&quot;height&quot;:303,&quot;url&quot;:&quot;https://muathemewp.vn/wp-content/uploads/2023/04/flatsome-theme-sliders-animation-1.gif&quot;,&quot;width&quot;:572}\" data-trix-content-type=\"image\" class=\"attachment attachment--preview\"><img src=\"https://muathemewp.vn/wp-content/uploads/2023/04/flatsome-theme-sliders-animation-1.gif\" width=\"572\" height=\"303\"><figcaption class=\"attachment__caption\"></figcaption></figure></p><p>Giúp bạn có thể can thiệp vào bất cứ vị trí nào bạn mong muốn chỉnh sửa từ bố cục, hình ảnh, màu sắc,… một cách dễ dàng phù hợp với phong cách cũng như thương hiệu của bạn. Theme được code trên Child theme nên update lâu dài có thể sử dụng được nhiều domain, không giới hạn số lượng website. Giúp bạn tiết kiệm chi phí và thời gian</p><h2><strong>Chính sách ưu đãi khi mua Theme WordPress bán đèn cao cấp</strong></h2><ul><li>Miễn phí cài đặt giao diện Demo lên Hosting</li><li>Đăng ký tài khoản dễ dàng, quản lý Theme đã mua bằng tài khoản linh hoạt</li><li>Nền tảng sử dụng công nghệ mới nhất</li><li>Tương thích với tất cả các thiết bị</li><li>Code tối ưu chuẩn SEO, bảo mật tốt nhất</li><li>Hỗ trợ kỹ thuật ngay khi có sự cố</li></ul><h2>Liên hệ mua Theme WordPress bán đèn cao cấp</h2><p>Bạn vui lòng liên hệ với chúng tôi qua các kênh hỗ trợ trên website ở đầu web và cuối web</p><p><br></p>', 1, '2025-01-17 04:34:00', '2025-01-17 04:39:31');
+
+-- --------------------------------------------------------
+
+--
+-- Cấu trúc bảng cho bảng `template_website_tag`
+--
+
+CREATE TABLE `template_website_tag` (
+  `id` bigint(20) UNSIGNED NOT NULL,
+  `template_website_id` bigint(20) UNSIGNED NOT NULL,
+  `template_tag_id` bigint(20) UNSIGNED NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Đang đổ dữ liệu cho bảng `template_website_tag`
+--
+
+INSERT INTO `template_website_tag` (`id`, `template_website_id`, `template_tag_id`, `created_at`, `updated_at`) VALUES
+(1, 1, 1, NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -430,6 +561,12 @@ CREATE TABLE `website_tag` (
 --
 -- Chỉ mục cho các bảng đã đổ
 --
+
+--
+-- Chỉ mục cho bảng `access_history`
+--
+ALTER TABLE `access_history`
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Chỉ mục cho bảng `blogs`
@@ -534,6 +671,36 @@ ALTER TABLE `tags`
   ADD UNIQUE KEY `tags_name_unique` (`name`);
 
 --
+-- Chỉ mục cho bảng `template_categories`
+--
+ALTER TABLE `template_categories`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `template_categories_slug_unique` (`slug`);
+
+--
+-- Chỉ mục cho bảng `template_tags`
+--
+ALTER TABLE `template_tags`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `template_tags_name_unique` (`name`);
+
+--
+-- Chỉ mục cho bảng `template_websites`
+--
+ALTER TABLE `template_websites`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `template_websites_slug_unique` (`slug`),
+  ADD KEY `template_websites_category_id_foreign` (`category_id`);
+
+--
+-- Chỉ mục cho bảng `template_website_tag`
+--
+ALTER TABLE `template_website_tag`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `template_website_tag_template_website_id_foreign` (`template_website_id`),
+  ADD KEY `template_website_tag_template_tag_id_foreign` (`template_tag_id`);
+
+--
 -- Chỉ mục cho bảng `users`
 --
 ALTER TABLE `users`
@@ -558,6 +725,12 @@ ALTER TABLE `website_tag`
 --
 -- AUTO_INCREMENT cho các bảng đã đổ
 --
+
+--
+-- AUTO_INCREMENT cho bảng `access_history`
+--
+ALTER TABLE `access_history`
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT cho bảng `blogs`
@@ -611,13 +784,37 @@ ALTER TABLE `jobs`
 -- AUTO_INCREMENT cho bảng `migrations`
 --
 ALTER TABLE `migrations`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
 
 --
 -- AUTO_INCREMENT cho bảng `tags`
 --
 ALTER TABLE `tags`
   MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+--
+-- AUTO_INCREMENT cho bảng `template_categories`
+--
+ALTER TABLE `template_categories`
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+
+--
+-- AUTO_INCREMENT cho bảng `template_tags`
+--
+ALTER TABLE `template_tags`
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
+-- AUTO_INCREMENT cho bảng `template_websites`
+--
+ALTER TABLE `template_websites`
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
+-- AUTO_INCREMENT cho bảng `template_website_tag`
+--
+ALTER TABLE `template_website_tag`
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT cho bảng `users`
@@ -653,6 +850,19 @@ ALTER TABLE `blogs`
 ALTER TABLE `blog_tag`
   ADD CONSTRAINT `blog_tag_blog_id_foreign` FOREIGN KEY (`blog_id`) REFERENCES `blogs` (`id`) ON DELETE CASCADE,
   ADD CONSTRAINT `blog_tag_tag_id_foreign` FOREIGN KEY (`tag_id`) REFERENCES `blog_tags` (`id`) ON DELETE CASCADE;
+
+--
+-- Các ràng buộc cho bảng `template_websites`
+--
+ALTER TABLE `template_websites`
+  ADD CONSTRAINT `template_websites_category_id_foreign` FOREIGN KEY (`category_id`) REFERENCES `template_categories` (`id`) ON DELETE CASCADE;
+
+--
+-- Các ràng buộc cho bảng `template_website_tag`
+--
+ALTER TABLE `template_website_tag`
+  ADD CONSTRAINT `template_website_tag_template_tag_id_foreign` FOREIGN KEY (`template_tag_id`) REFERENCES `template_tags` (`id`) ON DELETE CASCADE,
+  ADD CONSTRAINT `template_website_tag_template_website_id_foreign` FOREIGN KEY (`template_website_id`) REFERENCES `template_websites` (`id`) ON DELETE CASCADE;
 
 --
 -- Các ràng buộc cho bảng `websites`

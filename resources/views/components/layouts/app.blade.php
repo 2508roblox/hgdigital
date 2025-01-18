@@ -9,18 +9,21 @@
 
 
     @section('metatags')
-        <title>{{ config('app.meta.default_title') }} | My Website</title>
         <meta name="description" content="{{ config('app.meta.default_description') }}">
         <meta name="keywords" content="{{ config('app.meta.default_keywords') }}">
-        <meta property="og:title" content="{{ config('app.meta.og_title') }}">
         <meta property="og:description" content="{{ config('app.meta.og_description') }}">
         <meta property="og:image" content="{{ asset('default-image.png') }}">
         <link rel="icon" href="{{ asset('assets/logo/icon.png') }}" type="image/png">
-
     @show
-
-
-
+    <link rel="canonical" href="{{ url()->current() }}" />
+    <meta property="og:url" content="{{ url()->current() }}" />
+    <meta property="og:description" content="HG DIGITAL cung cấp giải pháp thiết kế website tối ưu, chuẩn SEO, giao diện đẹp mắt và thân thiện người dùng." />
+    <meta property="og:image" content="{{ asset('assets/img/logo/banner.png') }}" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Dịch vụ thiết kế website HG DIGITAL" />
+    <meta name="twitter:description" content="HG DIGITAL cung cấp giải pháp thiết kế website tối ưu, chuẩn SEO, giao diện đẹp mắt và thân thiện người dùng." />
+    <meta name="twitter:image" content="{{ asset('assets/img/logo/banner.png') }}" />
+    <meta name="google-site-verification" content="Gv7agN348ttTOuMfVTN2Kb3ioHwHrrMxctDM1-Hnjwg" />
 
 
 
@@ -82,7 +85,11 @@
     <script src="{{ asset('assets/js/jquery.marquee.min.js') }}"></script>
     <script src="{{ asset('assets/js/jquery.magnific-popup.min.js') }}"></script>
     <script src="{{ asset('assets/js/main.js') }}"></script>
+    <script src="https://sp.zalo.me/plugins/sdk.js"></script>
 
+    <div class="zalo-chat-widget" data-oaid="1715225565559061022" data-welcome-message="HG DIGITAL" data-autopopup="0" data-width="100" data-height="200"></div>
+
+    </div>
     <!-- Livewire Scripts -->
     @livewireScripts
 </body>
