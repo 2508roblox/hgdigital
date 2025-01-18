@@ -53,7 +53,7 @@
                                 <div class="col-lg-9 mt-30 ">
                                     <div class="page-title-box ">
                                         <span class="sub-title "><img src="/assets/img/icon/music-icon.svg " alt=" "> Liên hệ</span>
-                                        <h2 class="title ">Liên hệ với đội ngũ của chúng tôi để <br> các giải pháp sáng tạo và <br> thành công của bạn</h2>
+                                        <h2 class="title ">Hãy kết nối với đội ngũ chúng tôi để khám phá những giải pháp sáng tạo và đạt được thành công!</h2>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 mt-30 ">
@@ -124,16 +124,11 @@
                                     <div class="xb-item--inner ">
                                         <div class="xb-item--top ">
                                             <h3 class="xb-item--title ">Thông tin liên hệ</h3>
-                                            <span class="xb-item--hotline "><img src="/assets/img/icon/call-calling.svg " alt=" "> +(1) 1230 452 8597</span>
-                                            <span class="xb-item--email "><img src="/assets/img/icon/icon-sms.svg " alt=" "> innomax@example.com</span>
-                                            <ul class="social_icons_block list-unstyled ul_li ">
-                                                <li><a aria-label="Facebook " href="#! "><i class="fab fa-facebook-f "></i></a></li>
-                                                <li>
-                                                    <a aria-label="Twitter " href="#! "><svg width="17 " height="17 " viewBox="0 0 17 17 " fill="none " xmlns="http://www.w3.org/2000/svg ">
-                                                        <path d="M13.3872 0H15.9952L10.299 7.20048L17 17H11.7545L7.64298 11.0582L2.94415 17H0.332464L6.42395 9.29688L0 0H5.37853L9.09105 5.43101L13.3872 0ZM12.4711 15.2755H13.9155L4.5917 1.63462H3.0402L12.4711 15.2755Z" fill="#0C111D " />
-                                                    </svg></a>
-                                                </li>
-                                                <li><a aria-label="Linkedin " href="#! "><i class="fab fa-linkedin-in "></i></a></li>
+                                            <span class="xb-item--hotline "><img src="/assets/img/icon/call-calling.svg " alt=" ">0966.579.217</span>
+                                            <span class="xb-item--email "><img src="/assets/img/icon/icon-sms.svg " alt=" "> trangiangzxc@gmail.com</span>
+                                            <ul class="social_icons_block list-unstyled ul_li">
+                                                <li><a aria-label="Facebook" href="https://www.facebook.com/profile.php?id=61569955093836"><i class="fab fa-facebook-f"></i></a></li>
+                                                <li><a aria-label="SĐT" href="tel:+0966579217"><i class="fas fa-phone"></i></a></li>
                                             </ul>
                                         </div>
                                         <div class="contact-info_widget ">
@@ -155,24 +150,8 @@
                 <!-- google map end  -->
 
                 <!-- cta section start  -->
-                <section class="cta ">
-                    <div class="container ">
-                        <div class="cta-wrap ">
-                            <div class="cta-inner ul_li_between ">
-                                <div class="xb-item--holder wow fadeInLeft " data-wow-delay="100ms " data-wow-duration="600ms ">
-                                    <h2 class="xb-item--title ">Stop wasting money on bad SEO.</h2>
-                                    <span class="xb-item--content ">Book a free consultation for the SEO results you need.</span>
-                                    <div class="xb-btn mt-45 ">
-                                        <a href="/contact " class="thm-btn thm-btn--aso thm-btn--aso_white ">Book a free consultation</a>
-                                    </div>
-                                </div>
-                                <div class="cta-right_img wow fadeInRight " data-wow-delay="150ms " data-wow-duration="600ms ">
-                                    <img class="updown " src="/assets/img/cta/clip-bord.png " alt=" ">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                @livewire('inc.footer-cta')
+
                 <!-- cta section end  -->
 
             </main>

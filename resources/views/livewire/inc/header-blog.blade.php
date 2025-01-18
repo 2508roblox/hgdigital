@@ -22,11 +22,11 @@
                             <li class="menu-item">
                                 <a href="/"><span>Trang Chủ</span></a>
                             </li>
-                            <li class="menu-item">
+                            <li class="menu-item {{ Request::is('projects') ? 'active' : '' }}">
                                 <a href="/projects"><span>Dự Án Đã Làm</span></a>
 
                             </li>
-                            <li class="menu-item-has-children megamenu">
+                            <li class="menu-item-has-children megamenu {{ Request::is('services') ? 'active' : '' }}">
                                 <a href="/services"><span>Dịch Vụ</span></a>
                                 <ul class="submenu">
                                     <li>
@@ -168,7 +168,7 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="menu-item-has-children">
+                            <li class="menu-item-has-children megamenu {{ Request::is('templates') ? 'active' : '' }}">
                                 <a href="/templates"><span>Mẫu Website</span></a>
                                 <ul class="submenu">
                                     <li>
@@ -204,7 +204,7 @@
                                                             <ul
                                                                 class="btns_group p-0 unordered_list justify-content-start">
                                                                 <li>
-                                                                    <a href="contact.html"
+                                                                    <a href="/contact"
                                                                         class="thm-btn thm-btn--aso megamenu-btn thm-btn--header-black">Get
                                                                         free consultation</a>
                                                                 </li>
@@ -275,7 +275,7 @@
                                                                         </div>
                                                                     </div>
                                                                     <p class="mb-0 text-white">
-                                                                        “Chúng tôi cung cấp giải pháp tăng tương tác, mã nguồn chất lượng và dịch vụ thiết kế website chuyên nghiệp, giúp bạn phát triển doanh nghiệp trực tuyến hiệu quả. ”. </p>
+                                                                        “Chúng tôi cung cấp dịch vụ thiết kế website chuyên nghiệp, giúp bạn phát triển doanh nghiệp trực tuyến hiệu quả. ”. </p>
                                                                         <div class="author_box_quote">
                                                                             <img  loading="lazy" src="{{ asset('assets/img/icon/quote.png') }}" alt="">
                                                                         </div>
@@ -289,14 +289,10 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="menu-item-has-children active">
+                            <li class="menu-item {{ Request::is('blogs') ? 'active' : '' }}">
                                 <a href="/blogs"><span>Tin Tức</span></a>
-                                <ul class="submenu">
-                                    <li class="active"><a href="blog.html"><span>Blog</span></a></li>
-                                    <li><a href="blog-details.html"><span>Blog Details</span></a></li>
-                                </ul>
                             </li>
-                            <li><a href="/contact"><span>Liên Hệ</span></a></li>
+                            <li class="{{ Request::is('contact') ? 'active' : '' }}"><a href="/contact"><span>Liên Hệ</span></a></li>
                         </ul>
                     </nav>
                     <div class="xb-header-wrap">
@@ -334,15 +330,15 @@
                                         <li class="menu-item menu-item-has-children  ">
                                             <a href="#!"><span>Dịch Vụ</span></a>
                                             <ul class="sub-menu">
-                                                <li><a href="blog.html"><span>Phần mềm điện thoại di động</span></a></li>
-                                                <li><a href="blog.html"><span>Lập trình Web-app</span></a></li>
-                                                <li><a href="blog.html"><span>Dịch vụ cắt HTML</span></a></li>
-                                                <li><a href="blog.html"><span>Marketing Online SEO</span></a></li>
-                                                <li><a href="blog.html"><span>Website nhập hàng Trung Quốc</span></a></li>
-                                                <li><a href="blog.html"><span>Website nhập hàng Amazon</span></a></li>
-                                                <li><a href="blog.html"><span>Thiết kế website bán hàng</span></a></li>
-                                                <li><a href="blog.html"><span>Thiết kế website giới thiệu</span></a></li>
-                                                <li><a href="blog.html"><span>Thiết kế website giá rẻ</span></a></li>
+                                                <li><a href="/blogs"><span>Phần mềm điện thoại di động</span></a></li>
+                                                <li><a href="/blogs"><span>Lập trình Web-app</span></a></li>
+                                                <li><a href="/blogs"><span>Dịch vụ cắt HTML</span></a></li>
+                                                <li><a href="/blogs"><span>Marketing Online SEO</span></a></li>
+                                                <li><a href="/blogs"><span>Website nhập hàng Trung Quốc</span></a></li>
+                                                <li><a href="/blogs"><span>Website nhập hàng Amazon</span></a></li>
+                                                <li><a href="/blogs"><span>Thiết kế website bán hàng</span></a></li>
+                                                <li><a href="/blogs"><span>Thiết kế website giới thiệu</span></a></li>
+                                                <li><a href="/blogs"><span>Thiết kế website giá rẻ</span></a></li>
                                             </ul>
 
                                         </li>
@@ -351,18 +347,15 @@
                                         <li class="menu-item menu-item-has-children">
                                             <a href="/templates"><span>Mẫu Website</span></a>
                                             <ul class="sub-menu">
-                                                <li><a href="blog.html"><span>Website bán hàng</span></a></li>
-                                                <li><a href="blog-details.html"><span>Landing Page</span></a></li>
+                                                @foreach ($templateCategories as $category)
+                                                <li><a href="{{ route('template.list', ['category_id' => $category->id]) }}"><span>{{ $category->name }}</span></a></li>
+                                                @endforeach
                                             </ul>
                                         </li>
-                                        <li class="menu-item menu-item-has-children">
-                                            <a href="blog.html"><span>Tin Tức</span></a>
-                                            <ul class="sub-menu">
-                                                <li><a href="blog.html"><span>Tin Nổi bật</span></a></li>
-                                                <li><a href="blog-details.html"><span>Tin Tức Công Nghệ</span></a></li>
-                                            </ul>
+                                        <li class="menu-item  ">
+                                            <a href="/blogs"><span>Tin Tức</span></a>
                                         </li>
-                                        <li><a href="contact.html"><span>Liên Hệ</span></a></li>
+                                        <li><a href="/contact"><span>Liên Hệ</span></a></li>
                                     </ul>
 
                                 </nav>
@@ -377,7 +370,7 @@
                     </a>
                 </div>
                 <div class="header-contact d-none d-md-block">
-                    <a href="contact.html" class="thm-btn thm-btn--aso thm-btn--header-black">Liên Hệ Ngay
+                    <a href="/contact" class="thm-btn thm-btn--aso thm-btn--header-black">Liên Hệ Ngay
                         <img src="/assets/img/icon/sms-white-icon01.svg" alt="">
                     </a>
                 </div>

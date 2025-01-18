@@ -1,6 +1,6 @@
 <div>
     @section('metatags')
-        <title>Công ty Thiết Kế Website Chất Lượng - HG Digital</title>
+        <title>Mẫu Giao Diện - HG Digital</title>
         <meta name="description"
             content="Chuyên cung cấp dịch vụ thiết kế website chuyên nghiệp, tối ưu SEO, giá rẻ tại HG Digital.">
         <meta name="keywords" content="thiết kế website, dịch vụ thiết kế web, website chuyên nghiệp">
@@ -37,9 +37,8 @@
 
                 <!-- page title end  -->
                 <!-- team title start  -->
-                <section class="team pt-50 pb-130">
-                </section>
-                <section class="page-title cp-page-title   pos-rel bg_img" data-background="assets/img/bg/page_bg01.jpg" style="background-image: url(&quot;assets/img/bg/page_bg01.jpg&quot;);">
+
+                <section class="page-title cp-page-title  pt-200  pos-rel bg_img" data-background="assets/img/bg/page_bg01.jpg" style="background-image: url(&quot;assets/img/bg/page_bg01.jpg&quot;);">
                   <div class="container">
                     <div class="page-title-wrap">
                         <div class="page-title-box">
@@ -751,30 +750,7 @@
 
 
                 <!-- cta section start  -->
-                <section class="cta">
-                    <div class="container">
-                        <div class="cta-wrap">
-                            <div class="cta-inner ul_li_between">
-                                <div class="xb-item--holder wow fadeInLeft" data-wow-delay="100ms"
-                                    data-wow-duration="600ms"
-                                    style="visibility: hidden; animation-duration: 600ms; animation-delay: 100ms; animation-name: none;">
-                                    <h2 class="xb-item--title">Stop wasting money on bad SEO.</h2>
-                                    <span class="xb-item--content">Book a free consultation for the SEO results you
-                                        need.</span>
-                                    <div class="xb-btn mt-45">
-                                        <a href="contact.html" class="thm-btn thm-btn--aso thm-btn--aso_white">Book a
-                                            free consultation</a>
-                                    </div>
-                                </div>
-                                <div class="cta-right_img wow fadeInRight" data-wow-delay="150ms"
-                                    data-wow-duration="600ms"
-                                    style="visibility: hidden; animation-duration: 600ms; animation-delay: 150ms; animation-name: none;">
-                                    <img class="updown" src="assets/img/cta/clip-bord.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+               @livewire('inc.footer-cta')
                 <!-- cta section end  -->
 
             </main>

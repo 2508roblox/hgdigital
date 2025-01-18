@@ -233,24 +233,8 @@
                         </div>
                     </div>
                     <!-- cta section start  -->
-                    <section class="cta ">
-                        <div class="container ">
-                            <div class="cta-wrap ">
-                                <div class="cta-inner ul_li_between ">
-                                    <div class="xb-item--holder wow fadeInLeft " data-wow-delay="100ms " data-wow-duration="600ms ">
-                                        <h2 class="xb-item--title ">Stop wasting money on bad SEO.</h2>
-                                        <span class="xb-item--content ">Book a free consultation for the SEO results you need.</span>
-                                        <div class="xb-btn mt-45 ">
-                                            <a href="/contact " class="thm-btn thm-btn--aso thm-btn--aso_white ">Book a free consultation</a>
-                                        </div>
-                                    </div>
-                                    <div class="cta-right_img wow fadeInRight " data-wow-delay="150ms " data-wow-duration="600ms ">
-                                        <img class="updown " src="/assets/img/cta/clip-bord.png " alt=" ">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
+                    @livewire('inc.footer-cta')
+
                     <!-- cta section end  -->
                 </section>
                 <!-- blog content end -->

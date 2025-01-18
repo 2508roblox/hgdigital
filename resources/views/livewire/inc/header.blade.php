@@ -199,7 +199,7 @@
                                                             <ul
                                                                 class="btns_group p-0 unordered_list justify-content-start">
                                                                 <li>
-                                                                    <a href="contact.html"
+                                                                    <a href="/contact"
                                                                         class="thm-btn thm-btn--aso megamenu-btn thm-btn--header-black">Get
                                                                         free consultation</a>
                                                                 </li>
@@ -270,7 +270,8 @@
                                                                         </div>
                                                                     </div>
                                                                     <p class="mb-0 text-white">
-                                                                        “Chúng tôi cung cấp giải pháp tăng tương tác, mã nguồn chất lượng và dịch vụ thiết kế website chuyên nghiệp, giúp bạn phát triển doanh nghiệp trực tuyến hiệu quả. ”. </p>
+                                                                        “Chúng tôi cung cấp dịch vụ thiết kế website chuyên nghiệp, giúp bạn phát triển doanh nghiệp trực tuyến hiệu quả. ”. </p>
+
                                                                         <div class="author_box_quote">
                                                                             <img  loading="lazy" src="{{ asset('assets/img/icon/quote.png') }}" alt="">
                                                                         </div>
