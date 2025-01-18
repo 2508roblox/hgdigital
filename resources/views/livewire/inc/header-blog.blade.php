@@ -23,11 +23,11 @@
                                 <a href="/"><span>Trang Chủ</span></a>
                             </li>
                             <li class="menu-item">
-                                <a href="#!"><span>Dự Án Đã Làm</span></a>
+                                <a href="/projects"><span>Dự Án Đã Làm</span></a>
 
                             </li>
                             <li class="menu-item-has-children megamenu">
-                                <a href="service.html"><span>Dịch Vụ</span></a>
+                                <a href="/services"><span>Dịch Vụ</span></a>
                                 <ul class="submenu">
                                     <li>
                                         <div class="mega_menu_wrapper">
@@ -43,29 +43,25 @@
                                                                                 <li>
                                                                                     <a href="service-details.html">
                                                                                         <span
-                                                                                            class="icon_list_text">International
-                                                                                            SEO</span>
+                                                                                            class="icon_list_text">Phần mềm điện thoại di động</span>
                                                                                     </a>
                                                                                 </li>
                                                                                 <li>
                                                                                     <a href="service-details.html">
                                                                                         <span
-                                                                                            class="icon_list_text">Niche
-                                                                                            research</span>
+                                                                                            class="icon_list_text">Lập trình Web-app </span>
                                                                                     </a>
                                                                                 </li>
                                                                                 <li>
                                                                                     <a href="service-details.html">
                                                                                         <span
-                                                                                            class="icon_list_text">Link
-                                                                                            building </span>
+                                                                                            class="icon_list_text">Dịch vụ cắt HTML</span>
                                                                                     </a>
                                                                                 </li>
                                                                                 <li>
                                                                                     <a href="service-details.html">
                                                                                         <span
-                                                                                            class="icon_list_text">Enterprise
-                                                                                            SEO</span>
+                                                                                            class="icon_list_text">Marketing Online SEO</span>
                                                                                     </a>
                                                                                 </li>
                                                                             </ul>
@@ -77,29 +73,31 @@
                                                                                 <li>
                                                                                     <a href="service-details.html">
                                                                                         <span
-                                                                                            class="icon_list_text">Penalty
-                                                                                            recovery</span>
+                                                                                            class="icon_list_text">Website nhập hàng Trung Quốc</span>
                                                                                     </a>
                                                                                 </li>
                                                                                 <li>
                                                                                     <a href="service-details.html">
                                                                                         <span
-                                                                                            class="icon_list_text">Content
-                                                                                            optimization</span>
+                                                                                            class="icon_list_text">Website nhập hàng Amazon</span>
                                                                                     </a>
                                                                                 </li>
                                                                                 <li>
                                                                                     <a href="service-details.html">
                                                                                         <span
-                                                                                            class="icon_list_text">Technical
-                                                                                            SEO</span>
+                                                                                            class="icon_list_text">Thiết kế website bán hàng</span>
                                                                                     </a>
                                                                                 </li>
                                                                                 <li>
                                                                                     <a href="service-details.html">
                                                                                         <span
-                                                                                            class="icon_list_text">Competitor
-                                                                                            analysis</span>
+                                                                                            class="icon_list_text">Thiết kế website giới thiệu</span>
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <a href="service-details.html">
+                                                                                        <span
+                                                                                            class="icon_list_text">Thiết kế website giá rẻ</span>
                                                                                     </a>
                                                                                 </li>
                                                                             </ul>
@@ -171,7 +169,7 @@
                                 </ul>
                             </li>
                             <li class="menu-item-has-children">
-                                <a href="casestudy.html"><span>Mẫu Website</span></a>
+                                <a href="/templates"><span>Mẫu Website</span></a>
                                 <ul class="submenu">
                                     <li>
                                         <div class="mega_menu_wrapper">
@@ -330,20 +328,28 @@
                                             </ul>
                                         </li>
                                         <li class="menu-item ">
-                                            <a href="#!"><span>Dự Án Đã Làm</span></a>
+                                            <a href="/projects"><span>Dự Án Đã Làm</span></a>
 
                                         </li>
                                         <li class="menu-item menu-item-has-children  ">
                                             <a href="#!"><span>Dịch Vụ</span></a>
                                             <ul class="sub-menu">
-                                                <li><a href="blog.html"><span>Website bán hàng</span></a></li>
-                                                <li><a href="blog-details.html"><span>Landing Page</span></a></li>
+                                                <li><a href="blog.html"><span>Phần mềm điện thoại di động</span></a></li>
+                                                <li><a href="blog.html"><span>Lập trình Web-app</span></a></li>
+                                                <li><a href="blog.html"><span>Dịch vụ cắt HTML</span></a></li>
+                                                <li><a href="blog.html"><span>Marketing Online SEO</span></a></li>
+                                                <li><a href="blog.html"><span>Website nhập hàng Trung Quốc</span></a></li>
+                                                <li><a href="blog.html"><span>Website nhập hàng Amazon</span></a></li>
+                                                <li><a href="blog.html"><span>Thiết kế website bán hàng</span></a></li>
+                                                <li><a href="blog.html"><span>Thiết kế website giới thiệu</span></a></li>
+                                                <li><a href="blog.html"><span>Thiết kế website giá rẻ</span></a></li>
                                             </ul>
+
                                         </li>
 
 
                                         <li class="menu-item menu-item-has-children">
-                                            <a href="blog.html"><span>Mẫu Website</span></a>
+                                            <a href="/templates"><span>Mẫu Website</span></a>
                                             <ul class="sub-menu">
                                                 <li><a href="blog.html"><span>Website bán hàng</span></a></li>
                                                 <li><a href="blog-details.html"><span>Landing Page</span></a></li>

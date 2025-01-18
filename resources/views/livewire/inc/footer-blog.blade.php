@@ -8,7 +8,7 @@
                     </div>
                     <div class="xb-item--holder ">
                         <p class="xb-item--content ">Write to us</p>
-                        <h4 class="xb-item--title ">innomax@gmail.com</h4>
+                        <h4 class="xb-item--title ">trangiangzxc@gmail.com</h4>
                     </div>
                 </div>
                 <div class="info-item ul_li ">
@@ -17,7 +17,7 @@
                     </div>
                     <div class="xb-item--holder ">
                         <p class="xb-item--content ">Call Us (USA)</p>
-                        <h4 class="xb-item--title ">+(1) 1230 452 8597</h4>
+                        <h4 class="xb-item--title ">0966.579.217</h4>
                     </div>
                 </div>
                 <div class="info-item ul_li ">
@@ -26,7 +26,7 @@
                     </div>
                     <div class="xb-item--holder ">
                         <p class="xb-item--content ">Our Office</p>
-                        <h4 class="xb-item--title ">Waterloo,Park,Australia</h4>
+                        <h4 class="xb-item--title ">Quận 12, TP.HCM</h4>
                     </div>
                 </div>
             </div>
@@ -57,12 +57,13 @@
                 <div class="footer-widget ">
                     <span class="xb-item--sub-title ">Our Services</span>
                     <ul class="xb-item--holder list-unstyled ">
-                        <li class="xb-item--list "><a href="#! ">SEO copywriting</a></li>
-                        <li class="xb-item--list "><a href="#! ">Managed SEO</a></li>
-                        <li class="xb-item--list "><a href="#! ">Small business SEO</a></li>
-                        <li class="xb-item--list "><a href="#! ">Monthly SEO</a></li>
-                        <li class="xb-item--list "><a href="#! "> National SEO</a></li>
-                        <li class="xb-item--list "><a href="#! ">Technical SEO</a></li>
+                        <li class="xb-item--list "><a href="#! ">Thiết Kế Website</a></li>
+                        <li class="xb-item--list "><a href="#! ">Tương Tác Số</a></li>
+                        <li class="xb-item--list "><a href="#! ">Chăm Sóc Fanpage</a></li>
+                        <li class="xb-item--list "><a href="#! ">Thiết Kế UX/UI</a></li>
+                        <li class="xb-item--list "><a href="#! ">Phát Triển Ứng Dụng</a></li>
+                        <li class="xb-item--list "><a href="#! ">Digital Marketing</a></li>
+                        <li class="xb-item--list "><a href="#! ">Hệ Thống CRM, ERP, HRM</a></li>
                     </ul>
                 </div>
                 <div class="footer-widget ">
@@ -78,15 +79,8 @@
                 </div>
             </div>
             <div class="footer-copyright mt-70 ul_li_between ">
-                <p class="copyright mt-20 ">Copyright © 2024 <a href="/ ">innomax</a>. All rights reserved.
-                </p>
-                <ul class="footer-link ul_li mt-20 ">
-                    <li><span>Follow us :</span></li>
-                    <li><a href="#! "><i class="fab fa-twitter "></i></a></li>
-                    <li><a href="#! "><i class="fab fa-facebook-f "></i></a></li>
-                    <li><a href="#! "><i class="fab fa-linkedin-in "></i></a></li>
-                    <li><a href="#! "><i class="fab fa-youtube "></i></a></li>
-                </ul>
+                <p class="copyright mt-20">Bản quyền © 2025 <a href="https://www.facebook.com/profile.php?id=61569955093836">HG DIGITAL</a>. Tất cả quyền được bảo lưu.</p>
+                <p class="mt-20">Thiết kế bởi <a href="https://www.facebook.com/profile.php?id=61569955093836">HG DIGITAL</a></p>
             </div>
         </div>
     </div>

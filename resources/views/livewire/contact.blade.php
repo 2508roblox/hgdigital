@@ -137,17 +137,8 @@
                                             </ul>
                                         </div>
                                         <div class="contact-info_widget ">
-                                            <h3 class="xb-title ">Văn phòng tại Hoa Kỳ</h3>
-                                            <span class="xb-location ">Công viên Sunshine, Tầng <br> Số 05A, Khu 94,</span>
-                                        </div>
-                                        <div class="contact-info_widget ">
-                                            <h3 class="xb-title ">Văn phòng tại Vương quốc Anh</h3>
-                                            <span class="xb-location ">12 Buckingham Rd, ví dụ <br> Thwaite, HG3 4 TY, Vương quốc Anh</span>
-                                        </div>
-                                        <hr class="breack-line ">
-                                        <div class="contact-info_widget ">
-                                            <h3 class="xb-title ">Thời gian làm việc của văn phòng</h3>
-                                            <span class="xb-location ">Thứ Hai - Thứ Bảy: 8.00-17.00 <br> Chủ Nhật: Đóng cửa</span>
+                                            <h3 class="xb-title ">Văn phòng tại HCM</h3>
+                                            <span class="xb-location ">67 Đường ĐHT 22, Phường Đông Hưng Thuận, Quận 12, Thành phố Hồ Chí Minh, Việt Nam.</span>
                                         </div>
                                     </div>
                                 </div>
@@ -159,7 +150,7 @@
 
                 <!-- google map start  -->
                 <div class="gmap_canvas bg-light ">
-                    <iframe src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed "></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49552.35522552038!2d106.5684718216797!3d10.851591000000017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752b001b76fa17%3A0x2992f7528f02492b!2sC%C3%94NG%20TY%20TNHH%20HG%20DIGITAL!5e1!3m2!1svi!2s!4v1737166868005!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <!-- google map end  -->
 

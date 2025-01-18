@@ -2309,8 +2309,8 @@
                     </div>
 
                     <div class="footer-copyright mt-70 ul_li_between">
-                        <p class="copyright mt-20">Bản quyền © 2025 <a href="https://masothue.com/0318756486-cong-ty-tnhh-hg-digital">HG DIGITAL</a>. Tất cả quyền được bảo lưu.</p>
-                        <p class="mt-20">Thiết kế bởi <a href="https://masothue.com/0318756486-cong-ty-tnhh-hg-digital">HG DIGITAL</a></p>
+                        <p class="copyright mt-20">Bản quyền © 2025 <a href="https://www.facebook.com/profile.php?id=61569955093836">HG DIGITAL</a>. Tất cả quyền được bảo lưu.</p>
+                        <p class="mt-20">Thiết kế bởi <a href="https://www.facebook.com/profile.php?id=61569955093836">HG DIGITAL</a></p>
                     </div>
                 </div>
             </div>
