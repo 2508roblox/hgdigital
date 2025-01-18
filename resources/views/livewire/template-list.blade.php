@@ -27,14 +27,14 @@
         <div class="body_wrap">
 
             <!-- header start -->
-            <livewire:header-secondary />
+            @livewire('inc.header-blog')
 
             <!-- header end -->
 
             <!-- main area start  -->
             <main>
                 <!-- page title start  -->
-     
+
                 <!-- page title end  -->
                 <!-- team title start  -->
                 <section class="team pt-50 pb-130">
@@ -48,15 +48,15 @@
                         </div>
                     </div>
                   </div>
-                   
-                  
-                  
-                </section>  
-            
+
+
+
+                </section>
+
                 <section class="team   pb-130">
                     <div class="container">
                         <div class="sec-title--two text-center mb-50 ">
-                           
+
                         </div>
                         <div class="row justify-content-center">
                             <div class="row">
@@ -227,7 +227,7 @@
                                             </div>
                                         </aside>
                                         <hr>
-                               
+
                                         <script>
                                             $(function() {
                                                 $(document).on('click', '.filter-color .filter-item', function() {
@@ -657,11 +657,11 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            
-                                           
+
+
                                         </div>
                                         <div class="text-center mt-5 more-button view-more-theme">
-                                           
+
                                             <a style="
                                             font-size: 21px;
                                             font-style: italic;
@@ -739,15 +739,15 @@
             </section>
                 <!-- team title end -->
                 <!-- process title start  -->
-           
+
                 <!-- process title end  -->
 
 
 
                 <!-- work section start -->
-           
+
                 <!-- work section end  -->
- 
+
 
 
                 <!-- cta section start  -->
@@ -1014,7 +1014,7 @@
 {{-- <div>
     <div class="filter-bar mb-4">
         <input type="text" wire:model="search" placeholder="Tìm kiếm templates..." class="form-control">
-        
+
         <select wire:model="category" class="form-select">
             <option value="">Tất cả danh mục</option>
             @foreach (\App\Models\TemplateCategory::all() as $cat)

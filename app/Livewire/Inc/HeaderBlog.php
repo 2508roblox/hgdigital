@@ -3,13 +3,17 @@
 namespace App\Livewire\Inc;
 
 use App\Models\AccessHistory;
+use App\Models\Category;
+use App\Models\TemplateCategory;
 use Livewire\Component;
 
 class HeaderBlog extends Component
 {
+    public $templateCategories;
     public function mount()
     {
         $this->recordAccess();
+        $this->templateCategories = TemplateCategory::all();
     }
     private function recordAccess()
     {

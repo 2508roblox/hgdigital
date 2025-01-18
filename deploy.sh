@@ -13,7 +13,7 @@ sudo rm -rf ${PROJECT_DIR}/*
 sudo rm -rf ${PROJECT_DIR}/.[^.]*
 
 # Clone lại repo
-sudo git clone $GIT_REPO $PROJECT_DIR
+sudo git clone -b hoang  $GIT_REPO $PROJECT_DIR
 
 # Xóa và tạo lại database
 sudo mysql -e "DROP DATABASE IF EXISTS $DB_NAME;"
