@@ -310,7 +310,7 @@
                         color: var(--color-heading-two);
                     }
 
-                    .csd-ser_inner .csd-item .xb-text , .khuyen-mai h4 ,  .template_info h2,
+                    .sd-heading .sd-title,.sd-process-item .xb-item--title,.similar-casestudy-title,  .csd-ser_inner .csd-item .xb-text , .khuyen-mai h4 ,  .template_info h2,
                     .sd-ser-content .sd-title {
                         font-family: "Montserrat", serif !important;
                         font-optical-sizing: auto;
@@ -323,10 +323,10 @@
                 <!-- item-details end  -->
 
                 <!-- service-details-content start  -->
-                <div class="sd-ser-content_wrap pb-90 ">
+                <div class="sd-ser-content_wrap pb-90 mt-5 ">
                     <div class="container ">
-                        <div class="csd-ser_warp">
-                            <div class="container">
+                        <div class="csd-ser_warp ">
+                            <div class="container mt-5">
                                 <div class="csd-ser_inner ul_li_between">
                                     <div class="csd-item ul_li">
                                         <div class="xb-icon"><img src="../assets/img/icon/csd-icon01.svg"
@@ -352,7 +352,63 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="sd-ser-content mt-5">
+                        <div class="sd-process_warp mt-5">
+                            <div class="container">
+                                <div class="sd-heading">
+                                    <h2 class="sd-title">Quy trình dịch vụ</h2>
+                                    <p class="sd-content">
+                                        Quy trình dịch vụ của chúng tôi được thiết kế để đảm bảo sự thuận tiện và hài lòng tối đa. Từ việc chọn theme phù hợp, triển khai nhanh chóng, thanh toán dễ dàng đến bàn giao hoàn thiện, chúng tôi luôn đồng hành cùng bạn.
+                                    </p>
+                                </div>
+                                <div class="sd-process_inner ul_li">
+                                    <div class="sd-process-item">
+                                        <div class="xb-item--icon">
+                                            <img src="{{asset('assets/img/icon/sd-icon01.svg')}}" alt="">
+                                        </div>
+                                        <h3 class="xb-item--title">Chọn theme</h3>
+                                        <p class="xb-item--contact">
+                                            Lựa chọn giao diện website phù hợp với nhu cầu và lĩnh vực của bạn.
+                                        </p>
+                                        <span class="xb-item--number">01</span>
+                                    </div>
+                                    <div class="sd-process-item">
+                                        <div class="xb-item--icon">
+                                            <img src="{{asset('assets/img/icon/sd-icon02.svg')}}" alt="">
+                                        </div>
+                                        <h3 class="xb-item--title">Triển khai</h3>
+                                        <p class="xb-item--contact">
+                                            Chúng tôi cài đặt và tùy chỉnh theme theo yêu cầu của bạn.
+                                        </p>
+                                        <span class="xb-item--number">02</span>
+                                    </div>
+                                    <div class="sd-process-item">
+                                        <div class="xb-item--icon">
+                                            <img src="{{asset('assets/img/icon/sd-icon03.svg')}}" alt="">
+                                        </div>
+                                        <h3 class="xb-item--title">Thanh toán</h3>
+                                        <p class="xb-item--contact">
+                                            Hoàn tất thanh toán thông qua các phương thức đơn giản và an toàn.
+                                        </p>
+                                        <span class="xb-item--number">03</span>
+                                    </div>
+                                    <div class="sd-process-item">
+                                        <div class="xb-item--icon">
+                                            <img src="{{asset('assets/img/icon/sd-icon04.svg')}}" alt="">
+                                        </div>
+                                        <h3 class="xb-item--title">Bàn giao</h3>
+                                        <p class="xb-item--contact">
+                                            Gửi bạn sản phẩm hoàn chỉnh, sẵn sàng để sử dụng.
+                                        </p>
+                                        <span class="xb-item--number">04</span>
+                                    </div>
+                                    <div class="sd-shape">
+                                        <img src="{{asset('assets/img/shape/sd-shape.png')}}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        {{-- <div class="sd-ser-content mt-5">
                             <h2 class="sd-title">Mô Tả</h2>
                             <div class="template_info">
 
@@ -362,7 +418,7 @@
                             </div>
 
 
-                        </div>
+                        </div> --}}
                         <div class="similar-casestudy pt-80">
                             <h2 class="similar-casestudy-title">Mẫu Theme tương tự</h2>
                             <div class="row mt-none-30">
