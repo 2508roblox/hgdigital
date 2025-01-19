@@ -38,38 +38,41 @@
                         border-radius: 4px;
                         height: 307px;
                     }
+
                     .blog-details_item .xb-item--img img {
                         height: 307px;
                         object-fit: cover;
                     }
                 </style>
                 <!-- page title start  -->
-     
+
                 <!-- page title end  -->
                 <!-- team title start  -->
                 <section class="team pt-50 pb-130">
                 </section>
-                <section class="page-title cp-page-title   pos-rel bg_img" data-background="assets/img/bg/page_bg01.jpg" style="background-image: url(&quot;assets/img/bg/page_bg01.jpg&quot;);">
-                  <div class="container">
-                    <div class="page-title-wrap">
-                        <div class="page-title-box">
-                            <span class="sub-title"><img src="assets/img/icon/m_08.svg" alt="">Mẫu Website</span>
-                            <h2 class="title">   Mẫu giao diện mới nhất</h2>
+                <section class="page-title cp-page-title   pos-rel bg_img" data-background="assets/img/bg/page_bg01.jpg"
+                    style="background-image: url(&quot;assets/img/bg/page_bg01.jpg&quot;);">
+                    <div class="container">
+                        <div class="page-title-wrap">
+                            <div class="page-title-box">
+                                <span class="sub-title"><img src="assets/img/icon/m_08.svg" alt="">Mẫu
+                                    Website</span>
+                                <h2 class="title"> Mẫu giao diện mới nhất</h2>
 
 
-                            
+
+                            </div>
                         </div>
                     </div>
-                  </div>
-                   
-                  
-                  
-                </section>  
-            
+
+
+
+                </section>
+
                 <section class="team   pb-130">
                     <div class="container">
                         <div class="sec-title--two text-center mb-50 ">
-                           
+
                         </div>
                         <div class="row justify-content-center">
                             <div class="row">
@@ -78,115 +81,45 @@
 
                                         <aside class="aside-item filter-menu">
                                             <div class="aside-title">
-                                                <h2 class="title-head"> <img loading="lazy"
-                                                        src="http://127.0.0.1:8000/storage/template_categories/images/01JHT1V2G6CVNE6GYW9BF944S1.svg"
-                                                                    alt=" Thực phẩm "> <span
-                                                                    class="filter_heading"
-                                                                    style="
-                                /* font-size: 1rem; */
-                                font-size: 24px;
-                            ">Danh
-                                                                    mục</span></h2>
+                                                <h2 class="title-head">
+                                                    <img loading="lazy" src="http://127.0.0.1:8000/storage/template_categories/images/01JHT1V2G6CVNE6GYW9BF944S1.svg" 
+                                                        alt="Danh mục">
+                                                    <span class="filter_heading" style="font-size: 24px;">Danh mục</span>
+                                                </h2>
                                             </div>
-                                            <nav class="nav-category aside-content nav-menu">
-                                                <ul>
-                                                    <li class="all-theme nav-item relative" data-cls="0">
-                                                        <a class="nav-link" href="/collections/tat-ca"
-                                                            title="Tất cả">Tất cả</a>
-                                                    </li>
-                                                    <li class="nav-item relative" data-cls="29">
-                                                        <a class="nav-link" href="/collections/website-thoi-trang"
-                                                            title="Thời trang - Trang sức">
-                                                            <span>Thời trang - Trang sức</span>
-                                                        </a>
-                                                    </li>
-                                                    <li class="nav-item relative" data-cls="41">
-                                                        <a class="nav-link" href="/collections/website-my-pham"
-                                                            title="Mỹ phẩm - Làm đẹp">
-                                                            <span>Mỹ phẩm - Làm đẹp</span>
-                                                        </a>
-                                                    </li>
-                                                    <li class="nav-item relative" data-cls="30">
-                                                        <a class="nav-link" href="/collections/website-thuc-pham"
-                                                            title="Thực phẩm - Nhà hàng">
-                                                            <span>Thực phẩm - Nhà hàng</span>
-                                                        </a>
-                                                    </li>
-                                                    <li class="nav-item relative" data-cls="33">
-                                                        <a class="nav-link" href="/collections/website-do-gia-dung"
-                                                            title="Đồ gia dụng - Sinh hoạt">
-                                                            <span>Đồ gia dụng - Sinh hoạt</span>
-                                                        </a>
-                                                    </li>
-                                                    <li class="nav-item relative active" data-cls="32">
-                                                        <a class="nav-link" href="/collections/website-noi-that"
-                                                            title="Nội thất - Trang trí">
-                                                            <span>Nội thất - Trang trí</span>
-                                                        </a>
-                                                    </li>
-                                                    <li class="nav-item relative" data-cls="39">
-                                                        <a class="nav-link" href="/collections/website-van-phong-pham"
-                                                            title="Sách - Văn phòng phẩm">
-                                                            <span>Sách - Văn phòng phẩm</span>
-                                                        </a>
-                                                    </li>
-                                                    <li class="nav-item relative" data-cls="35">
-                                                        <a class="nav-link" href="/collections/website-qua-tang"
-                                                            title="Thủ công - Mỹ nghệ - Quà tặng">
-                                                            <span>Thủ công - Mỹ nghệ - Quà tặng</span>
-                                                        </a>
-                                                    </li>
-                                                    <li class="nav-item relative" data-cls="24">
-                                                        <a class="nav-link" href="/collections/website-cong-nghe"
-                                                            title="Công nghệ - Kỹ thuật số">
-                                                            <span>Công nghệ - Kỹ thuật số</span>
-                                                        </a>
-                                                    </li>
-                                                    <li class="nav-item relative" data-cls="36">
-                                                        <a class="nav-link" href="/collections/website-oto-xe-may"
-                                                            title="Ô tô - Xe máy">
-                                                            <span>Ô tô - Xe máy</span>
-                                                        </a>
-                                                    </li>
-                                                    <li class="nav-item relative" data-cls="28">
-                                                        <a class="nav-link" href="/collections/website-thiet-bi-dien"
-                                                            title="Thiết bị điện">
-                                                            <span>Thiết bị điện</span>
-                                                        </a>
-                                                    </li>
-                                                    <li class="nav-item relative" data-cls="31">
-                                                        <a class="nav-link" href="/collections/website-dich-vu"
-                                                            title="Thể thao - Dịch vụ">
-                                                            <span>Thể thao - Dịch vụ</span>
-                                                        </a>
-                                                    </li>
-                                                    <li class="nav-item relative" data-cls="23">
-                                                        <a class="nav-link" href="/collections/khac" title="Khác">
-                                                            <span>Khác</span>
-                                                        </a>
-                                                    </li>
-                                                    <li class="nav-item relative" data-cls="37">
-                                                        <a class="nav-link"
-                                                            href="/collections/website-nha-hang-khach-san"
-                                                            title="Khách sạn - Du lịch">
-                                                            <span>Khách sạn - Du lịch</span>
-                                                        </a>
-                                                    </li>
-                                                    <li class="nav-item relative" data-cls="34">
-                                                        <a class="nav-link" href="/collections/website-bat-dong-san"
-                                                            title="Bất động sản - Xây dựng">
-                                                            <span>Bất động sản - Xây dựng</span>
-                                                        </a>
-                                                    </li>
-                                                    <li class="nav-item relative" data-cls="38">
-                                                        <a class="nav-link" href="/collections/website-doanh-nghiep"
-                                                            title="Doanh nghiệp">
-                                                            <span>Doanh nghiệp</span>
-                                                        </a>
-                                                    </li>
-                                                </ul>
-                                            </nav>
+                                            <div>
+                                                <style>
+                                                   .nav-item.active>a:before{
+                                                        background: #0d6efd;
+                                                    }
+                                                   .nav-item.active  a span {
+                                                        color: #0d6efd;
+                                                    }
+                                                    
+                                                </style>
+                                                <!-- Danh sách danh mục -->
+                                                <nav class="nav-category aside-content nav-menu">
+                                                    <ul>
+                                                        <li class="nav-item relative {{ is_null($category) ? 'active' : '' }}">
+                                                            <a href="#" wire:click.prevent="selectCategory(null)" class="nav-link">
+                                                                <span>Tất cả</span>
+                                                            </a>
+                                                        </li>
+                                                        @foreach ($categories as $cat)
+                                                            <li class="nav-item relative {{ $category == $cat->id ? 'active' : '' }}">
+                                                                <a href="#" wire:click.prevent="selectCategory({{ $cat->id }})" class="nav-link">
+                                                                    <span>{{ $cat->name }}</span>
+                                                                </a>
+                                                            </li>
+                                                        @endforeach
+                                                    </ul>
+                                                </nav>
+                                            </div>
+                                        
+                                            <!-- Danh sách template -->
+                                        
                                         </aside>
+                                        
                                         <script>
                                             $(function() {
 
@@ -205,45 +138,59 @@
                                         <hr>
                                         <aside class="aside-item filter-price">
                                             <div class="aside-title">
-                                                <h2 class="title-head"> <img loading="lazy"
-                                                        src="http://127.0.0.1:8000/storage/template_categories/images/01JHT1SPZZQ04SCMEBTEV20G35.svg"
+                                                <h2 class="title-head">
+                                                    <img loading="lazy" src="http://127.0.0.1:8000/storage/template_categories/images/01JHT1SPZZQ04SCMEBTEV20G35.svg" 
                                                         alt="Bán hàng">
-                                                    <span
-
-                                                       class="filter_heading"
-                                                        style="
-                    /* font-size: 1rem; */
-                    font-size: 24px;
-                ">Khoảng
-                                                        giá</span>
+                                                    <span class="filter_heading" style="font-size: 24px;">Khoảng giá</span>
+                                                </h2>
                                             </div>
                                             <div class="aside-content filter-group">
                                                 <ul>
-                                                    <li class="nav-item relative price-free">
-                                                        <a class="a-nav" title="Miễn phí"
-                                                            href="/collections/website-noi-that/q?StartPrice=0&amp;EndPrice=0"><i></i>Miễn
-                                                            phí</a>
+                                                    <li class="nav-item relative price-free {{ $priceRange && $priceRange['start'] == 0 && $priceRange['end'] == 0 ? 'active' : '' }}">
+                                                        <a href="#" wire:click.prevent="selectPriceRange(0, 0)" class="a-nav">
+                                                            <i></i>Miễn phí
+                                                        </a>
                                                     </li>
-                                                    <li class="nav-item relative price-500">
-                                                        <a class="a-nav"
-                                                            href="/collections/website-noi-that/q?StartPrice=500000&amp;EndPrice=1000000"><i></i>500,000
-                                                            - 1,000,000 đ</a>
+                                                    <li class="nav-item relative price-500 {{ $priceRange && $priceRange['start'] == 500000 && $priceRange['end'] == 1000000 ? 'active' : '' }}">
+                                                        <a href="#" wire:click.prevent="selectPriceRange(500000, 1000000)" class="a-nav">
+                                                            <i></i>500,000 - 1,000,000 đ
+                                                        </a>
                                                     </li>
-                                                    <li class="nav-item relative price-1000">
-                                                        <a class="a-nav"
-                                                            href="/collections/website-noi-that/q?StartPrice=1000000&amp;EndPrice=2000000"><i></i>1,000,000
-                                                            - 2,000,000 đ</a>
+                                                    <li class="nav-item relative price-1000 {{ $priceRange && $priceRange['start'] == 1000000 && $priceRange['end'] == 2000000 ? 'active' : '' }}">
+                                                        <a href="#" wire:click.prevent="selectPriceRange(1000000, 2000000)" class="a-nav">
+                                                            <i></i>1,000,000 - 2,000,000 đ
+                                                        </a>
                                                     </li>
-                                                    <li class="nav-item relative price-2000">
-                                                        <a class="a-nav"
-                                                            href="/collections/website-noi-that/q?StartPrice=2000000&amp;EndPrice=3000000"><i></i>2,000,000
-                                                            - 3,000,000 đ</a>
+                                                    <li class="nav-item relative price-2000 {{ $priceRange && $priceRange['start'] == 2000000 && $priceRange['end'] == 3000000 ? 'active' : '' }}">
+                                                        <a href="#" wire:click.prevent="selectPriceRange(2000000, 3000000)" class="a-nav">
+                                                            <i></i>2,000,000 - 3,000,000 đ
+                                                        </a>
                                                     </li>
                                                 </ul>
                                             </div>
                                         </aside>
+                                        
+                                            <style>
+                                                .filter-group .nav-item {
+    padding: 5px 0;
+}
+
+.filter-group .nav-item .a-nav {
+    color: #333;
+    text-decoration: none;
+}
+
+.filter-group .nav-item.active .a-nav {
+    color: #007bff;
+}
+
+.filter-group .nav-item .a-nav:hover {
+    color: #0056b3;
+}
+
+                                            </style>
                                         <hr>
-                               
+
                                         <script>
                                             $(function() {
                                                 $(document).on('click', '.filter-color .filter-item', function() {
@@ -327,11 +274,11 @@
                                                         <g>
                                                             <g>
                                                                 <path d="M119,468.85V50.05l73.6,73.6c2.4,2.4,5.5,3.6,8.7,3.6s6.3-1.2,8.7-3.6c4.8-4.8,4.8-12.5,0-17.3l-94.5-94.5
-   c-4.6-4.6-12.7-4.6-17.3,0l-94.6,94.5c-4.8,4.8-4.8,12.5,0,17.3c4.8,4.8,12.5,4.8,17.3,0l73.6-73.6v418.8
-   c0,6.8,5.5,12.3,12.3,12.3C113.5,481.05,119,475.55,119,468.85z" />
-                                                                <path
-                                                                    d="M373.8,477.45c2.4,2.4,5.5,3.6,8.7,3.6s6.3-1.2,8.7-3.6l94.5-94.5c4.8-4.8,4.8-12.5,0-17.3s-12.5-4.8-17.3,0l-73.6,73.6
-   V20.45c0-6.8-5.5-12.3-12.3-12.3s-12.3,5.5-12.3,12.3v418.8l-73.5-73.6c-4.8-4.8-12.5-4.8-17.3,0s-4.8,12.5,0,17.3L373.8,477.45z" />
+                                                                c-4.6-4.6-12.7-4.6-17.3,0l-94.6,94.5c-4.8,4.8-4.8,12.5,0,17.3c4.8,4.8,12.5,4.8,17.3,0l73.6-73.6v418.8
+                                                                c0,6.8,5.5,12.3,12.3,12.3C113.5,481.05,119,475.55,119,468.85z" />
+                                                                                                                                <path
+                                                                                                                                    d="M373.8,477.45c2.4,2.4,5.5,3.6,8.7,3.6s6.3-1.2,8.7-3.6l94.5-94.5c4.8-4.8,4.8-12.5,0-17.3s-12.5-4.8-17.3,0l-73.6,73.6
+                                                                V20.45c0-6.8-5.5-12.3-12.3-12.3s-12.3,5.5-12.3,12.3v418.8l-73.5-73.6c-4.8-4.8-12.5-4.8-17.3,0s-4.8,12.5,0,17.3L373.8,477.45z" />
                                                             </g>
                                                         </g>
                                                     </svg>
@@ -400,51 +347,77 @@
                                             }
                                         });
                                     </script>
+                                    <style>
+                                        .pagination .small {
+                                            display: none;
+                                        }
 
+                                        .pagination {
+                                            justify-content: center;
+                                        }
+                                    </style>
                                     <div class="body-block themes-list">
                                         <div class="row list-items">
                                             @foreach ($templates as $template)
-                                            <div class="col-lg-4 col-md-6 mt-30">
-                                                <div class="blog-details_wrap">
-                                                    <div class="blog-details_item">
-                                                        <div class="xb-item--img">
-                                                            <a href="{{ route('template.detail', $template->slug) }}">
-                                                                <img src="{{ asset('storage/' . $template->thumbnail) }}" alt="{{ $template->name }}">
-                                                            </a>
-                                                        </div>
-                                                        <div class="xb-item--holder">
-                                                            <h3 class="item_details_info_heading border-effect">
-                                                                <a href="{{ route('template.detail', $template->slug) }}" style="font-size: 1rem; line-height: 1px !important;">
-                                                                    {{ $template->name }}
+                                                <div class="col-lg-4 col-md-6 mt-30">
+                                                    <div class="blog-details_wrap">
+                                                        <div class="blog-details_item">
+                                                            <div class="xb-item--img">
+                                                                <a
+                                                                    href="{{ route('template.detail', $template->slug) }}">
+                                                                    <img src="{{ asset('storage/' . $template->thumbnail) }}"
+                                                                        alt="{{ $template->name }}">
                                                                 </a>
-                                                            </h3>
-                                                            <!-- Phần giá -->
-                                                            <div class="price-wrap">
-                                                                <span class="current-price">{{ number_format($template->discount_price, 0, ',', '.') }}₫</span> <!-- Giá khuyến mãi -->
-                                                                @if ($template->original_price > $template->discount_price)
-                                                                    <span class="original-price">{{ number_format($template->original_price, 0, ',', '.') }}₫</span> <!-- Giá gốc có gạch ngang -->
-                                                                @endif
                                                             </div>
-                                                            <div class="d-flex justify-content-between">
-                                                                <a href="{{ $template->demo_link }}" target="_blank" class="xb-item--det-btn mt-4" style="padding-bottom: 1rem;">Demo</a> <!-- Nút Demo -->
-                                                                <a href="{{ route('template.detail', $template->slug) }}" class="xb-item--det-btn">Xem chi tiết <i class="far fa-long-arrow-right"></i></a>
+                                                            <div class="xb-item--holder">
+                                                                <h3 class="item_details_info_heading border-effect">
+                                                                    <a href="{{ route('template.detail', $template->slug) }}"
+                                                                        style="font-size: 1rem; line-height: 1px !important;">
+                                                                        {{ $template->name }}
+                                                                    </a>
+                                                                </h3>
+                                                                <!-- Phần giá -->
+                                                                <div class="price-wrap">
+                                                                    <span
+                                                                        class="current-price">{{ number_format($template->discount_price, 0, ',', '.') }}₫</span>
+                                                                    <!-- Giá khuyến mãi -->
+                                                                    @if ($template->original_price > $template->discount_price)
+                                                                        <span
+                                                                            class="original-price">{{ number_format($template->original_price, 0, ',', '.') }}₫</span>
+                                                                        <!-- Giá gốc có gạch ngang -->
+                                                                    @endif
+                                                                </div>
+                                                                <div class="d-flex justify-content-between">
+                                                                    <a href="{{ $template->demo_link }}"
+                                                                        target="_blank" class="xb-item--det-btn mt-4"
+                                                                        style="padding-bottom: 1rem;">Demo</a>
+                                                                    <!-- Nút Demo -->
+                                                                    <a href="{{ route('template.detail', $template->slug) }}"
+                                                                        class="xb-item--det-btn">Xem chi tiết <i
+                                                                            class="far fa-long-arrow-right"></i></a>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                        @endforeach
-                                           
-                                            
-                                           
+                                            @endforeach
+
+
+
                                         </div>
                                         <div class="text-center mt-5 more-button view-more-theme">
-                                           
+
                                             <a style="
                                             font-size: 21px;
                                             font-style: italic;
                                             font-weight: 600;
-                                        " href="#!" class="xb-item--det-btn  ">  Xem thêm giao diện <i class="far fa-long-arrow-right"></i></a>
+                                        "
+                                                href="#!" class="xb-item--det-btn  ">
+
+                                                <div class="pagination">
+                                                    {{ $templates->links() }}
+                                                </div>
+                                            </a>
                                         </div>
 
                                         <input type="hidden" id="Page" value="1">
@@ -464,68 +437,68 @@
                     </div>
                 </section>
                 <section class="page-title cp-page-title pt-200 pos-rel bg_img"
-                data-background="assets/img/bg/page_bg01.jpg"
-                style="background-image: url(&quot;assets/img/bg/page_bg01.jpg&quot;);">
-                <div class="container">
-                    <div class="page-title-wrap">
-                        <div class="row mt-none-30 align-items-center">
-                            <div class="col-lg-8 mt-30">
-                                <div class="page-title-box">
-                                    <span class="sub-title"><img src="assets/img/icon/m_08.svg"
-                                            alt="">Mẫu Website</span>
-                                    <h2 class="title">Be a part of shaping the <br> future &amp; career
-                                        opportunities <br> at Innomax today.</h2>
+                    data-background="assets/img/bg/page_bg01.jpg"
+                    style="background-image: url(&quot;assets/img/bg/page_bg01.jpg&quot;);">
+                    <div class="container">
+                        <div class="page-title-wrap">
+                            <div class="row mt-none-30 align-items-center">
+                                <div class="col-lg-8 mt-30">
+                                    <div class="page-title-box">
+                                        <span class="sub-title"><img src="assets/img/icon/m_08.svg"
+                                                alt="">Mẫu Website</span>
+                                        <h2 class="title">Be a part of shaping the <br> future &amp; career
+                                            opportunities <br> at Innomax today.</h2>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-lg-4 mt-30">
-                                <div class="cp-img-slide">
-                                    <div class="cp-img-inner ul_li">
-                                        <div class="cp-item marquee-first">
-                                            <div class="xb-img"><img src="assets/img/gallery/cp-img01.jpg"
-                                                    alt=""></div>
-                                            <div class="xb-img"><img src="assets/img/gallery/cp-img02.jpg"
-                                                    alt=""></div>
-                                            <div class="xb-img"><img src="assets/img/gallery/cp-img03.jpg"
-                                                    alt=""></div>
-                                            <div class="xb-img"><img src="assets/img/gallery/cp-img01.jpg"
-                                                    alt=""></div>
-                                            <div class="xb-img"><img src="assets/img/gallery/cp-img02.jpg"
-                                                    alt=""></div>
-                                            <div class="xb-img"><img src="assets/img/gallery/cp-img03.jpg"
-                                                    alt=""></div>
-                                        </div>
-                                        <div class="cp-item marquee-2">
-                                            <div class="xb-img"><img src="assets/img/gallery/cp-img04.jpg"
-                                                    alt=""></div>
-                                            <div class="xb-img"><img src="assets/img/gallery/cp-img05.jpg"
-                                                    alt=""></div>
-                                            <div class="xb-img"><img src="assets/img/gallery/cp-img06.jpg"
-                                                    alt=""></div>
-                                            <div class="xb-img"><img src="assets/img/gallery/cp-img04.jpg"
-                                                    alt=""></div>
-                                            <div class="xb-img"><img src="assets/img/gallery/cp-img05.jpg"
-                                                    alt=""></div>
-                                            <div class="xb-img"><img src="assets/img/gallery/cp-img06.jpg"
-                                                    alt=""></div>
+                                <div class="col-lg-4 mt-30">
+                                    <div class="cp-img-slide">
+                                        <div class="cp-img-inner ul_li">
+                                            <div class="cp-item marquee-first">
+                                                <div class="xb-img"><img src="assets/img/gallery/cp-img01.jpg"
+                                                        alt=""></div>
+                                                <div class="xb-img"><img src="assets/img/gallery/cp-img02.jpg"
+                                                        alt=""></div>
+                                                <div class="xb-img"><img src="assets/img/gallery/cp-img03.jpg"
+                                                        alt=""></div>
+                                                <div class="xb-img"><img src="assets/img/gallery/cp-img01.jpg"
+                                                        alt=""></div>
+                                                <div class="xb-img"><img src="assets/img/gallery/cp-img02.jpg"
+                                                        alt=""></div>
+                                                <div class="xb-img"><img src="assets/img/gallery/cp-img03.jpg"
+                                                        alt=""></div>
+                                            </div>
+                                            <div class="cp-item marquee-2">
+                                                <div class="xb-img"><img src="assets/img/gallery/cp-img04.jpg"
+                                                        alt=""></div>
+                                                <div class="xb-img"><img src="assets/img/gallery/cp-img05.jpg"
+                                                        alt=""></div>
+                                                <div class="xb-img"><img src="assets/img/gallery/cp-img06.jpg"
+                                                        alt=""></div>
+                                                <div class="xb-img"><img src="assets/img/gallery/cp-img04.jpg"
+                                                        alt=""></div>
+                                                <div class="xb-img"><img src="assets/img/gallery/cp-img05.jpg"
+                                                        alt=""></div>
+                                                <div class="xb-img"><img src="assets/img/gallery/cp-img06.jpg"
+                                                        alt=""></div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
+                </section>
                 <!-- team title end -->
                 <!-- process title start  -->
-           
+
                 <!-- process title end  -->
 
 
 
                 <!-- work section start -->
-           
+
                 <!-- work section end  -->
- 
+
 
 
                 <!-- cta section start  -->
@@ -744,51 +717,63 @@
             flex-direction: column;
             gap: .5rem;
         }
+
         .price-wrap {
-    margin: 10px 0;
-}
+            margin: 10px 0;
+        }
 
-.current-price {
-    font-size: 1.2rem; /* Kích thước lớn cho giá hiện tại */
-    color: #28a745; /* Màu xanh cho giá hiện tại */
-}
+        .current-price {
+            font-size: 1.2rem;
+            /* Kích thước lớn cho giá hiện tại */
+            color: #28a745;
+            /* Màu xanh cho giá hiện tại */
+        }
 
-.original-price {
-    font-size: 1rem; /* Kích thước nhỏ cho giá gốc */
-    color: #a1a1a1; /* Màu đỏ cho giá gốc */
-    text-decoration: line-through; /* Gạch ngang cho giá gốc */
-    margin-left: 10px; /* Khoảng cách giữa giá hiện tại và giá gốc */
-}
-.cp-btn {
-    font-weight: 700;
-    font-size: 1rem;
-    padding: 13px 20px;
-    letter-spacing: 0em;
-    color: var(--color-white);
-    border-radius: 7px;
-    -webkit-border-radius: 7px;
-    -moz-border-radius: 7px;
-    -ms-border-radius: 7px;
-    -o-border-radius: 7px;
-    -webkit-transition: 0.3s;
-    -o-transition: 0.3s;
-    transition: 0.3s;
-    background: var(--color-primary-two);
-    display: inline-block;
-}
-.list-items .col-lg-4  {
-    padding-bottom: calc(var(--bs-gutter-x)* .5);
-    border-radius: 1rem;
-}
-.blog-details_item .xb-item--det-btn {
-    position: relative;
-    font-weight: 700;
-    font-size: 15px; }
-    .current-price {
-    font-size: 1.2rem;
-    color: #0066ff;
-    font-weight: 600;
-}
+        .original-price {
+            font-size: 1rem;
+            /* Kích thước nhỏ cho giá gốc */
+            color: #a1a1a1;
+            /* Màu đỏ cho giá gốc */
+            text-decoration: line-through;
+            /* Gạch ngang cho giá gốc */
+            margin-left: 10px;
+            /* Khoảng cách giữa giá hiện tại và giá gốc */
+        }
+
+        .cp-btn {
+            font-weight: 700;
+            font-size: 1rem;
+            padding: 13px 20px;
+            letter-spacing: 0em;
+            color: var(--color-white);
+            border-radius: 7px;
+            -webkit-border-radius: 7px;
+            -moz-border-radius: 7px;
+            -ms-border-radius: 7px;
+            -o-border-radius: 7px;
+            -webkit-transition: 0.3s;
+            -o-transition: 0.3s;
+            transition: 0.3s;
+            background: var(--color-primary-two);
+            display: inline-block;
+        }
+
+        .list-items .col-lg-4 {
+            padding-bottom: calc(var(--bs-gutter-x)* .5);
+            border-radius: 1rem;
+        }
+
+        .blog-details_item .xb-item--det-btn {
+            position: relative;
+            font-weight: 700;
+            font-size: 15px;
+        }
+
+        .current-price {
+            font-size: 1.2rem;
+            color: #0066ff;
+            font-weight: 600;
+        }
     </style>
 </div>
 
