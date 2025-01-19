@@ -8,9 +8,12 @@ use Livewire\Component;
 
 class Header extends Component
 {
+    public $templateCategories;
+
     public function mount()
     {
         $this->recordAccess();
+        $this->templateCategories = TemplateCategory::all();
     }
     private function recordAccess()
     {

@@ -1,6 +1,6 @@
 <div>
     @section('metatags')
-        <title>Công ty Thiết Kế Website Chất Lượng - HG Digital</title>
+        <title>Mẫu Giao Diện - HG Digital</title>
         <meta name="description"
             content="Chuyên cung cấp dịch vụ thiết kế website chuyên nghiệp, tối ưu SEO, giá rẻ tại HG Digital.">
         <meta name="keywords" content="thiết kế website, dịch vụ thiết kế web, website chuyên nghiệp">
@@ -27,7 +27,7 @@
         <div class="body_wrap">
 
             <!-- header start -->
-            <livewire:header-secondary />
+            @livewire('inc.header-blog')
 
             <!-- header end -->
 
@@ -502,30 +502,7 @@
 
 
                 <!-- cta section start  -->
-                <section class="cta">
-                    <div class="container">
-                        <div class="cta-wrap">
-                            <div class="cta-inner ul_li_between">
-                                <div class="xb-item--holder wow fadeInLeft" data-wow-delay="100ms"
-                                    data-wow-duration="600ms"
-                                    style="visibility: hidden; animation-duration: 600ms; animation-delay: 100ms; animation-name: none;">
-                                    <h2 class="xb-item--title">Stop wasting money on bad SEO.</h2>
-                                    <span class="xb-item--content">Book a free consultation for the SEO results you
-                                        need.</span>
-                                    <div class="xb-btn mt-45">
-                                        <a href="contact.html" class="thm-btn thm-btn--aso thm-btn--aso_white">Book a
-                                            free consultation</a>
-                                    </div>
-                                </div>
-                                <div class="cta-right_img wow fadeInRight" data-wow-delay="150ms"
-                                    data-wow-duration="600ms"
-                                    style="visibility: hidden; animation-duration: 600ms; animation-delay: 150ms; animation-name: none;">
-                                    <img class="updown" src="assets/img/cta/clip-bord.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+               @livewire('inc.footer-cta')
                 <!-- cta section end  -->
 
             </main>
@@ -782,7 +759,7 @@
 {{-- <div>
     <div class="filter-bar mb-4">
         <input type="text" wire:model="search" placeholder="Tìm kiếm templates..." class="form-control">
-        
+
         <select wire:model="category" class="form-select">
             <option value="">Tất cả danh mục</option>
             @foreach (\App\Models\TemplateCategory::all() as $cat)

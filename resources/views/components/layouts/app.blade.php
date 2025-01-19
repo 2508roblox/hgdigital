@@ -13,8 +13,8 @@
         <meta name="keywords" content="{{ config('app.meta.default_keywords') }}">
         <meta property="og:description" content="{{ config('app.meta.og_description') }}">
         <meta property="og:image" content="{{ asset('default-image.png') }}">
+        @show
         <link rel="icon" href="{{ asset('assets/logo/icon.png') }}" type="image/png">
-    @show
     <link rel="canonical" href="{{ url()->current() }}" />
     <meta property="og:url" content="{{ url()->current() }}" />
     <meta property="og:description" content="HG DIGITAL cung cấp giải pháp thiết kế website tối ưu, chuẩn SEO, giao diện đẹp mắt và thân thiện người dùng." />

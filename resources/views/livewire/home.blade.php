@@ -1,11 +1,10 @@
 <div>
     @section('metatags')
-    <title>Công ty Thiết Kế Website Chất Lượng - HG Digital</title>
+    <title>Thiết Kế Website - HG Digital</title>
     <meta name="description" content="Chuyên cung cấp dịch vụ thiết kế website chuyên nghiệp, tối ưu SEO, giá rẻ tại HG Digital.">
     <meta name="keywords" content="thiết kế website, dịch vụ thiết kế web, website chuyên nghiệp">
     <meta property="og:title" content="HG Digital - Thiết Kế Website Chuyên Nghiệp">
     <meta property="og:description" content="Thiết kế website chuyên nghiệp, tối ưu hóa SEO và giá cả hợp lý.">
-    <link rel="icon" href="{{ asset('assets/logo/icon.png') }}" type="image/png">
 @endsection
 
     <body class="cybersecurity">
@@ -2255,7 +2254,7 @@
             <div class="container">
                 <div class="xb-footer">
                     <div class="sec-title--two sec-title--three text-center mb-40">
-                        <span class="sub-title"><img loading="lazy" src="{{ asset('assets/img/icon/airdrop01.svg') }}" alt=""><span>Tham gia cộng đồng innomax</span></span>
+                        <span class="sub-title"><img loading="lazy" src="{{ asset('assets/img/icon/airdrop01.svg') }}" alt=""><span>Tham gia cộng đồng HG DIGITAL</span></span>
                     </div>
                     <div class="social-link ul_li_between">
                         <div class="social-item">
@@ -2297,7 +2296,7 @@
 
                         <div class="sa-newslatter footer-widget">
                             <span class="xb-item--sub-title">Bản tin</span>
-                            <p class="xb-item--list clr-white">Đăng ký innomax để nhận cập nhật hàng tuần.</p>
+                            <p class="xb-item--list clr-white">Đăng ký HG DIGITAL để nhận cập nhật hàng tuần.</p>
                             <div class="xb-item--input-box">
                                 <label for="text6">Email</label>
                                 <div class="xb-item--input_field pos-rel">
@@ -2309,8 +2308,20 @@
                     </div>
 
                     <div class="footer-copyright mt-70 ul_li_between">
-                        <p class="copyright mt-20">Bản quyền © 2025 <a href="https://masothue.com/0318756486-cong-ty-tnhh-hg-digital">HG DIGITAL</a>. Tất cả quyền được bảo lưu.</p>
-                        <p class="mt-20">Thiết kế bởi <a href="https://masothue.com/0318756486-cong-ty-tnhh-hg-digital">HG DIGITAL</a></p>
+                        <p class="copyright mt-20">Bản quyền © 2025 <a href="https://www.facebook.com/profile.php?id=61569955093836">HG DIGITAL</a>. Tất cả quyền được bảo lưu.</p>
+                        <ul class="footer-link ul_li mt-20 ">
+                            <li><span>Follow us :</span></li>
+                            <li><a href="https://www.facebook.com/profile.php?id=61569955093836"><i class="fab fa-facebook-f "></i></a></li>
+                            <li><a href="tel:+0966579217"><i class="fas fa-phone "></i></a></li>
+                            <li><a href="#! "><i class="fab fa-linkedin-in "></i></a></li>
+                            <li><a href="#! "><i class="fab fa-youtube "></i></a></li>
+                            <p class="mb-0 f-light f-w-500">
+                                @php
+                                    $todayVisitCount = \App\Models\AccessHistory::where('date', now()->toDateString())->value('visit_count') ?? 0;
+                                @endphp
+                                | {{ $todayVisitCount }}
+                            </p>
+                        </ul>
                     </div>
                 </div>
             </div>
