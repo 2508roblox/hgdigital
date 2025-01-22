@@ -1,7 +1,7 @@
 <header id="xb-header-area" class="header-area header-style-two header-transparent">
     <div class="header-top">
-        <span>Get 15% off on all annual plans until September 30! Join Texpo as we transform SEO 🚀</span>
-        <span><a href="#!">Learn more</a><i class="far fa-angle-right"></i></span>
+        <span>Nhận ngay ưu đãi 15% cho tất cả các gói dịch vụ hàng năm đến hết ngày 30/12! Cùng HG DIGITAL nâng tầm doanh nghiệp của bạn. 🚀</span>
+        <span><a href="#!">Xem thêm</a><i class="far fa-angle-right"></i></span>
         <div class="header-shape">
             <div class="shape shape--one"><img src="/assets/img/shape/trangle-shape.png" alt=""></div>
             <div class="shape shape--two"><img src="/assets/img/shape/trangle-shape.png" alt=""></div>
@@ -23,12 +23,12 @@
                                 <a href="/"><span>Trang Chủ</span></a>
                             </li>
                             <li class="menu-item {{ Request::is('projects') ? 'active' : '' }}">
-                                <a href="/projects"><span>Dự Án Đã Làm</span></a>
+                                <a href="{{ route('home') }}#project"><span>Dự án đã làm</span></a>
 
                             </li>
-                            <li class="menu-item-has-children megamenu {{ Request::is('services') ? 'active' : '' }}">
-                                <a href="/services"><span>Dịch Vụ</span></a>
-                                <ul class="submenu">
+                            <li class="menu-item   {{ Request::is('services') ? 'active' : '' }}">
+                                <a href="{{ route('home') }}#service_packs"><span>Dịch Vụ</span></a>
+                                {{-- <ul class="submenu">
                                     <li>
                                         <div class="mega_menu_wrapper">
                                             <div class="container">
@@ -166,7 +166,7 @@
                                             </div>
                                         </div>
                                     </li>
-                                </ul>
+                                </ul> --}}
                             </li>
                             <li class="menu-item-has-children megamenu {{ Request::is('templates') ? 'active' : '' }}">
                                 <a href="/templates"><span>Mẫu Website</span></a>
@@ -201,7 +201,7 @@
 
                                                                 </div>
                                                             </div>
-                                                            <ul
+                                                            {{-- <ul
                                                                 class="btns_group p-0 unordered_list justify-content-start">
                                                                 <li>
                                                                     <a href="/contact"
@@ -258,7 +258,7 @@
                                                                         </div>
                                                                     </div>
                                                                 </li>
-                                                            </ul>
+                                                            </ul> --}}
                                                         </div>
                                                         <div class="col-xl-3">
                                                             <div class="autpr_box">
@@ -324,12 +324,12 @@
                                             </ul>
                                         </li>
                                         <li class="menu-item ">
-                                            <a href="/projects"><span>Dự Án Đã Làm</span></a>
+                                            <a href="{{ route('home') }}#project"><span>Dự án đã làm</span></a>
 
                                         </li>
-                                        <li class="menu-item menu-item-has-children  ">
-                                            <a href="#!"><span>Dịch Vụ</span></a>
-                                            <ul class="sub-menu">
+                                        <li class="menu-item menu-item  ">
+                                            <a href="{{ route('home') }}#service_packs"><span>Dịch Vụ</span></a>
+                                            {{-- <ul class="sub-menu">
                                                 <li><a href="/blogs"><span>Phần mềm điện thoại di động</span></a></li>
                                                 <li><a href="/blogs"><span>Lập trình Web-app</span></a></li>
                                                 <li><a href="/blogs"><span>Dịch vụ cắt HTML</span></a></li>
@@ -339,7 +339,7 @@
                                                 <li><a href="/blogs"><span>Thiết kế website bán hàng</span></a></li>
                                                 <li><a href="/blogs"><span>Thiết kế website giới thiệu</span></a></li>
                                                 <li><a href="/blogs"><span>Thiết kế website giá rẻ</span></a></li>
-                                            </ul>
+                                            </ul> --}}
 
                                         </li>
 

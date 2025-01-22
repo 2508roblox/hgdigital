@@ -5,7 +5,8 @@
                 <div class="header-logo">
                     <a href="/"><img style="
                         height: 33px;
-                    "  loading="lazy" src="{{ asset('assets/img/logo/hgdigital.png') }}" alt=""></a>
+                    "
+                            loading="lazy" src="{{ asset('assets/img/logo/hgdigital.png') }}" alt=""></a>
                 </div>
                 <div class="main-menu__wrap ul_li navbar navbar-expand-xl">
                     <nav class="main-menu collapse navbar-collapse">
@@ -15,12 +16,12 @@
 
                             </li>
                             <li class="menu-item  ">
-                                <a href="/projects"><span>Dự Án Đã Làm</span></a>
+                                <a href="{{ route('home') }}#project"><span>Dự án đã làm</span></a>
 
                             </li>
-                            <li class="menu-item-has-children megamenu">
-                                <a href="/services"><span>Dịch Vụ</span></a>
-                                <ul class="submenu">
+                            <li class="menu-item ">
+                                <a href="{{ route('home') }}#service_packs"><span>Dịch Vụ</span></a>
+                                {{-- <ul class="submenu">
                                     <li>
                                         <div class="mega_menu_wrapper">
                                             <div class="container">
@@ -160,7 +161,7 @@
                                             </div>
                                         </div>
                                     </li>
-                                </ul>
+                                </ul> --}}
                             </li>
 
                             <li class="menu-item-has-children">
@@ -196,7 +197,7 @@
 
                                                                 </div>
                                                             </div>
-                                                            <ul
+                                                            {{-- <ul
                                                                 class="btns_group p-0 unordered_list justify-content-start">
                                                                 <li>
                                                                     <a href="/contact"
@@ -253,28 +254,35 @@
                                                                         </div>
                                                                     </div>
                                                                 </li>
-                                                            </ul>
+                                                            </ul> --}}
                                                         </div>
                                                         <div class="col-xl-3">
                                                             <div class="autpr_box">
                                                                 <div class="site_author">
                                                                     <div class="author_box">
                                                                         <div class="author_image bg-light">
-                                                                            <img  loading="lazy" src="{{ asset('assets/img/logo/avatar.jpg') }}" alt="">
+                                                                            <img loading="lazy"
+                                                                                src="{{ asset('assets/img/logo/avatar.jpg') }}"
+                                                                                alt="">
                                                                         </div>
                                                                         <div class="author_box_content">
                                                                             <h3 class="author_name text-white">
                                                                                 Trần Lê Hoàng Giang</h3>
                                                                             <span
-                                                                                class="author_designation text-white">CEO HG DIGITAL</span>
+                                                                                class="author_designation text-white">CEO
+                                                                                HG DIGITAL</span>
                                                                         </div>
                                                                     </div>
                                                                     <p class="mb-0 text-white">
-                                                                        “Chúng tôi cung cấp dịch vụ thiết kế website chuyên nghiệp, giúp bạn phát triển doanh nghiệp trực tuyến hiệu quả. ”. </p>
+                                                                        “Chúng tôi cung cấp dịch vụ thiết kế website
+                                                                        chuyên nghiệp, giúp bạn phát triển doanh nghiệp
+                                                                        trực tuyến hiệu quả. ”. </p>
 
-                                                                        <div class="author_box_quote">
-                                                                            <img  loading="lazy" src="{{ asset('assets/img/icon/quote.png') }}" alt="">
-                                                                        </div>
+                                                                    <div class="author_box_quote">
+                                                                        <img loading="lazy"
+                                                                            src="{{ asset('assets/img/icon/quote.png') }}"
+                                                                            alt="">
+                                                                    </div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -286,12 +294,12 @@
                                 </ul>
                             </li>
 
-                            <li class="menu-item-has-children">
+                            <li class="menu-item ">
                                 <a href="/blogs"><span>Tin Tức</span></a>
-                                <ul class="submenu">
+                                {{-- <ul class="submenu">
                                     <li><a href="/blogs"><span>Tin Nổi bật</span></a></li>
                                     <li><a href="/blog/detail"><span>Tin Tức Công Nghệ</span></a></li>
-                                </ul>
+                                </ul> --}}
                             </li>
                             <li><a href="/contact"><span>Liên Hệ</span></a></li>
                         </ul>
@@ -306,26 +314,33 @@
                     <a href="/contact" class="blc-btn">
                         <span>Liên hệ ngay</span>
                         <span class="btn-shape">
-                            <svg width="216" height="56" viewBox="0 0 216 56" fill="none" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1 17.4615L20.3067 1H196.849L215 17.4434V39.5385L196.866 55H20.3067L1 38.5385V17.4615Z" fill="#010315" stroke="url(#paint0_linear_1668_276)" stroke-width="2" />
+                            <svg width="216" height="56" viewBox="0 0 216 56" fill="none"
+                                preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M1 17.4615L20.3067 1H196.849L215 17.4434V39.5385L196.866 55H20.3067L1 38.5385V17.4615Z"
+                                    fill="#010315" stroke="url(#paint0_linear_1668_276)" stroke-width="2" />
                                 <defs>
-                                  <linearGradient id="paint0_linear_1668_276" x1="216" y1="57.4519" x2="177.902" y2="2.40647" gradientUnits="userSpaceOnUse">
-                                    <stop offset="0" stop-color="#6780D2" />
-                                    <stop offset="1" stop-color="#2F3B8D" />
-                                  </linearGradient>
+                                    <linearGradient id="paint0_linear_1668_276" x1="216" y1="57.4519"
+                                        x2="177.902" y2="2.40647" gradientUnits="userSpaceOnUse">
+                                        <stop offset="0" stop-color="#6780D2" />
+                                        <stop offset="1" stop-color="#2F3B8D" />
+                                    </linearGradient>
                                 </defs>
                             </svg>
                         </span>
                         <span class="btn-shape2">
-                            <svg width="216" height="56" viewBox="0 0 216 56" fill="none" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M19.9383 0H197.235L216 17V40L197.235 56H19.9383L0 39V17L19.9383 0Z" fill="url(#paint0_linear_3008_331)" />
+                            <svg width="216" height="56" viewBox="0 0 216 56" fill="none"
+                                preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19.9383 0H197.235L216 17V40L197.235 56H19.9383L0 39V17L19.9383 0Z"
+                                    fill="url(#paint0_linear_3008_331)" />
                                 <defs>
-                                  <linearGradient id="paint0_linear_3008_331" x1="0.771422" y1="27.9982" x2="216.014" y2="25.5754" gradientUnits="userSpaceOnUse">
-                                    <stop offset="0" stop-color="#431DAB" />
-                                    <stop offset="1" stop-color="#AE6DFE" />
-                                  </linearGradient>
+                                    <linearGradient id="paint0_linear_3008_331" x1="0.771422" y1="27.9982"
+                                        x2="216.014" y2="25.5754" gradientUnits="userSpaceOnUse">
+                                        <stop offset="0" stop-color="#431DAB" />
+                                        <stop offset="1" stop-color="#AE6DFE" />
+                                    </linearGradient>
                                 </defs>
-                              </svg>
+                            </svg>
                         </span>
                     </a>
                 </div>
@@ -337,34 +352,36 @@
             <div class="xb-header-menu-scroll lenis lenis-smooth">
                 <div class="xb-menu-close xb-hide-xl xb-close"></div>
                 <div class="xb-logo-mobile xb-hide-xl">
-                    <a href="/" rel="home"><img style="
+                    <a href="/" rel="home"><img
+                            style="
                         height: 33px;
-                    "  loading="lazy" src="{{ asset('assets/img/logo/hgdigital.png') }}" alt=""></a>
+                    " loading="lazy"
+                            src="{{ asset('assets/img/logo/hgdigital-dark.png') }}" alt=""></a>
                 </div>
                 <div class="xb-header-mobile-search xb-hide-xl">
                     <form role="search" action="#">
-                        <input type="text" placeholder="Search..." name="s"
-                            class="search-field">
+                        <input type="text" placeholder="Search..." name="s" class="search-field">
                         <button class="search-submit" type="submit"><i class="far fa-search"></i></button>
                     </form>
                 </div>
                 <nav class="xb-header-nav">
                     <ul class="xb-menu-primary clearfix">
                         <li class="menu-item active ">
-                            <a href="/"><span>Trang Chủ</span></a>                                <ul class="sub-menu">
+                            <a href="/"><span>Trang Chủ</span></a>
+                            <ul class="sub-menu">
 
                             </ul>
                         </li>
                         <li class="menu-item ">
-                            <a href="/projects"><span>Dự Án Đã Làm</span></a>
+                            <a href="{{ route('home') }}#project"><span>Dự án đã làm</span></a>
 
                         </li>
-                                <li class="menu-item menu-item-has-children  ">
-                                    <a href="#!"><span>Dịch Vụ</span></a>
-                                    <ul class="sub-menu">
-                                        <li><a href="/blogs"><span>Website bán hàng</span></a></li>
-                                        <li><a href="/blog/detail"><span>Landing Page</span></a></li>
-                                    </ul>
+                        <li class="menu-item menu-item  ">
+                            <a href="{{ route('home') }}#service_packs"><span>Dịch Vụ</span></a>
+                            {{-- <ul class="sub-menu">
+                                <li><a href="/blogs"><span>Website bán hàng</span></a></li>
+                                <li><a href="/blog/detail"><span>Landing Page</span></a></li>
+                            </ul> --}}
                         </li>
 
 
@@ -375,14 +392,15 @@
                                 <li><a href="/blog/detail"><span>Landing Page</span></a></li>
                             </ul>
                         </li>
-                        <li class="menu-item menu-item-has-children">
+                        <li class="menu-item menu-item ">
                             <a href="/blogs"><span>Tin Tức</span></a>
-                            <ul class="sub-menu">
+                            {{-- <ul class="sub-menu">
                                 <li><a href="/blogs"><span>Tin Nổi bật</span></a></li>
                                 <li><a href="/blog/detail"><span>Tin Tức Công Nghệ</span></a></li>
-                            </ul>
+                            </ul> --}}
                         </li>
-                        <li><a href="/contact"><span>Liên Hệ</span></a></li>                        </ul>
+                        <li><a href="/contact"><span>Liên Hệ</span></a></li>
+                    </ul>
 
                 </nav>
             </div>

@@ -6,7 +6,37 @@
     <meta property="og:title" content="HG Digital - Thiết Kế Website Chuyên Nghiệp">
     <meta property="og:description" content="Thiết kế website chuyên nghiệp, tối ưu hóa SEO và giá cả hợp lý.">
 @endsection
+    <style>
+        @media (max-width: 768px) {
+    /* Khi màn hình nhỏ hơn hoặc bằng 768px */
+  
+    #kkkfii {
+        font-size: 16px !important;
+    max-width: 42rem !important;
+    text-align: center !important;
+    text-transform: capitalize !important;
+    line-height: 2rem !important;
+    font-weight: 600;
+    }
 
+    .service .xb-item--item  {
+        font-size: 14px;
+    }
+    .cs-feature-item .xb-item--icons {
+        display: flex;
+        justify-content: center;
+    }
+    .cs-feature-item .xb-item--title {
+        display: flex;
+        justify-content: center;
+    }
+    .cs-feature-item .xb-item--list {
+        display: flex;
+        text-align: center;
+  
+}
+}
+    </style>
     <body class="cybersecurity">
 
         <!-- backtotop - start -->
@@ -37,7 +67,7 @@
                             <div class="xb-hero text-center">
                                 <h1 class="xb-item--title wow skewIn" style="font-weight: 600;" data-wow-delay="000ms" data-wow-duration="900ms">HGDIGITAL</h1>
                                 <div class="xb-item--holder wow fadeInUp" data-wow-delay="150ms" data-wow-duration="600ms">
-                                    <p class="xb-item--list" style="  font-size: 32px;
+                                    <p id="kkkfii" class="xb-item--list" style="  font-size: 32px;
                                             max-width: 42rem;
                                             text-align: start;
                                             text-transform: capitalize;
@@ -550,7 +580,8 @@
                             </div>
                         </div>
                         <div class="xb-btn z-2 pos-rel text-center mt-55 wow fadeInUp" data-wow-duration="600ms">
-                            <a href="/services"" class="blc-btn">
+                            <a href="{{ route('home') }}#service_packs" class="blc-btn">
+                                
                                 <span>Liên Hệ Báo Giá <i class="far fa-angle-right"></i></span>
                                 <span class="btn-shape">
                                     <svg width="362" height="78" viewBox="0 0 362 78" fill="none" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
@@ -1298,7 +1329,7 @@
 
                                                             </style>
                 <!-- testimonial section start -->
-                <section class="testimonial pt-160 pos-rel z-1">
+                <section id="project" class="testimonial pt-160 pos-rel z-1">
                     <div class="container">
                         <div class="cs-tes_wrap">
                             <div class="sec-title--two sec-title--three text-center mb-175">
@@ -1565,7 +1596,7 @@
                     </div>
                  </section>
                 <!-- testimonial section end  -->
-                <section class="pricing pt-130 pb-130">
+                <section id="service_packs" class="pricing pt-130 pb-130">
                     <div class="container">
                         <div class="sec-title--two text-center mb-60">
 

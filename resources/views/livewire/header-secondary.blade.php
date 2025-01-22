@@ -23,7 +23,7 @@
                                
                             </li>
                             <li class="menu-item-has-children megamenu">
-                                <a href="service.html"><span>Dự án đã làm</span></a>
+                                <a href="{{ route('home') }}#project"><span>Dự án đã làm</span></a>
                                 {{-- <ul class="submenu">
                                     <li>
                                         <div class="mega_menu_wrapper">
@@ -407,9 +407,7 @@
                                                             </div>
                                                             <ul
                                                                 class="btns_group p-0 unordered_list justify-content-start">
-                                                                <li>
-                                                                    <a href="contact.html" class="thm-btn thm-btn--aso megamenu-btn thm-btn--header-black">Get free consultation</a>
-                                                                </li>
+                                                            
                                                                 <li>
                                                                     <div class="review_short_info_2">
                                                                         <div class="review_admin_logo">
@@ -645,7 +643,7 @@
                                                                  
                                                                 </div>
                                                             </div>
-                                                            <ul
+                                                            {{-- <ul
                                                                 class="btns_group p-0 unordered_list justify-content-start">
                                                                 <li>
                                                                     <a href="contact.html" class="thm-btn thm-btn--aso megamenu-btn thm-btn--header-black">Get free consultation</a>
@@ -708,7 +706,7 @@
                                                                         </div>
                                                                     </div>
                                                                 </li>
-                                                            </ul>
+                                                            </ul> --}}
                                                         </div>
                                                         <div class="col-xl-3">
                                                             <div class="autpr_box">
@@ -743,10 +741,10 @@
                   
                             <li class="menu-item-has-children">
                                 <a href="blog.html"><span>Tin Tức</span></a>
-                                <ul class="submenu">
+                                {{-- <ul class="submenu">
                                     <li><a href="blog.html"><span>Tin Nổi bật</span></a></li>
                                     <li><a href="blog-details.html"><span>Tin Tức Công Nghệ</span></a></li>
-                                </ul>
+                                </ul> --}}
                             </li>
                             <li><a href="contact.html"><span>Liên Hệ</span></a></li>
                         </ul>
@@ -923,7 +921,7 @@
                                                                                 </div>
                                                                             </div>
                                                                         </div>
-                                                                        <ul class="btns_group p-0 unordered_list justify-content-start">
+                                                                        {{-- <ul class="btns_group p-0 unordered_list justify-content-start">
                                                                             <li>
                                                                                 <a href="contact.html" class="thm-btn thm-btn--aso megamenu-btn thm-btn--header-black">Get free consultation</a>
                                                                             </li>
@@ -973,7 +971,7 @@
                                                                                     </div>
                                                                                 </div>
                                                                             </li>
-                                                                        </ul>
+                                                                        </ul> --}}
                                                                     </div>
                                                                     <div class="col-xl-3">
                                                                         <div class="autpr_box">

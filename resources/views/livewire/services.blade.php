@@ -210,7 +210,7 @@
                             </div>
                         </div>
                         <div class="xb-btn text-center mt-60 wow fadeInUp " data-wow-delay="450ms " data-wow-duration="600ms ">
-                            <a href="/services "" class="thm-btn thm-btn--aso thm-btn--aso_yellow">Book a free
+                            <a href="{{ route('home') }}#service_packs" class="thm-btn thm-btn--aso thm-btn--aso_yellow">Book a free
                                                                                                     consultation</a>
                                                                                             </div>
                                                                                         </div>

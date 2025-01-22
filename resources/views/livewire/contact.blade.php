@@ -19,6 +19,17 @@
         <link rel="stylesheet" href="/assets/css/cursor.css">
         <link rel="stylesheet" href="/assets/css/custom-font.css">
         <link rel="stylesheet" href="/assets/css/main.css">
+        <style>
+            @media (max-width: 768px) {
+    /* Khi màn hình nhỏ hơn hoặc bằng 768px */
+    .item-contact_form {
+    margin: 0;
+    margin-right: 0 !important;
+    min-height: 708px;
+    padding: 40px 50px 50px;
+}
+}
+        </style>
     </head>
 
     <body class="sco_agency">

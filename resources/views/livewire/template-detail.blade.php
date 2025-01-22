@@ -87,13 +87,13 @@
                                 </div>
 
                                 <div class="khuyen-mai">
-                                    <h4>Ưu đãi khi mua Theme tại ThemeWP.vn</h4>
-                                    <li><span><img src="../assets/img/check-icon.svg" alt="">Tặng ngay 50.000 khi đăng ký tài khoản</span></li>
-                                    <li><span><img src="../assets/img/check-icon.svg" alt="">Hỗ trợ cài đặt giao diện demo lên Hosting</span></li>
+                                    <h4>Ưu đãi khi dùng dịch vụ tại HG DIGITAL</h4>
+                                    <li><span><img src="../assets/img/check-icon.svg" alt="">Tặng miễn phí domain, máy chủ 1 năm.</span></li>
+                                    <li><span><img src="../assets/img/check-icon.svg" alt="">Hỗ trợ sửa chữa, bảo hành 1 năm</span></li>
                                     <li><a href="https://themewp.vn/tai-lieu-huong-dan/" target="_blank"
                                             rel="noopener"><span><img src="../assets/img/check-icon.svg" alt="">Cung cấp tài liệu hướng dẫn sử dụng</span></a></li>
                                     <li><a href="https://themewp.vn/kho-plugin/" target="_blank"
-                                            rel="noopener"><span><img src="../assets/img/check-icon.svg" alt="">Được truy cập sử dụng kho plugin trả phí</span></a>
+                                            rel="noopener"><span><img src="../assets/img/check-icon.svg" alt="">Được tối ưu SEO miễn phí</span></a>
                                     </li>
                                     <li><a href="https://themewp.vn/tich-luy-diem-thuong-giam-gia/" target="_blank"
                                             rel="noopener"><span><img src="../assets/img/check-icon.svg" alt="">Tích điểm giảm giá cho những lần mua tiếp
@@ -108,8 +108,15 @@
                                
                                 
 
-
-                              <div class="d-flex gap-1">
+                                <style>
+                                    @media (max-width: 768px) {
+    /* Khi màn hình nhỏ hơn hoặc bằng 768px */
+    #btn_group {
+        width: 22rem;
+    }
+}
+                                </style>
+                              <div id="btn_group" class="d-flex gap-1">
                                 <div class="xb-item--button mt-2"  style="width: 14rem;">
                                     <a href="{{ $template->demo_link }}" style="border-radius: 10px; width: 100%;display: block; display: flex; gap: .4rem; align-items: center; justify-content: center; ">
                                         <small class="iconbox_icon">

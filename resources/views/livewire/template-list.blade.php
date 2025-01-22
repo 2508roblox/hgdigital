@@ -8,8 +8,26 @@
         <meta property="og:description" content="Thiết kế website chuyên nghiệp, tối ưu hóa SEO và giá cả hợp lý.">
     @endsection
 
+    <style>
+        @media (max-width: 768px) {
+    /* Khi màn hình nhỏ hơn hoặc bằng 768px */
+    .themes-list .xb-item--img {
+        width: 100%;
+    }
+    .themes-list .xb-item--img img {
+        width: 100%;
+    }
+    .hero .xb-item--list {
+        font-size: 16px;
+    max-width: 42rem;
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 3rem;
+    font-weight: 600;
+    }
+}
+    </style>
     <body class="sco_agency">
-
         <!-- backtotop - start -->
         <div class="xb-backtotop">
             <a href="#" class="scroll">
@@ -164,6 +182,11 @@
                                                     <li class="nav-item relative price-2000 {{ $priceRange && $priceRange['start'] == 2000000 && $priceRange['end'] == 3000000 ? 'active' : '' }}">
                                                         <a href="#" wire:click.prevent="selectPriceRange(2000000, 3000000)" class="a-nav">
                                                             <i></i>2,000,000 - 3,000,000 đ
+                                                        </a>
+                                                    </li>
+                                                    <li class="nav-item relative price-2000 {{ $priceRange && $priceRange['start'] == 4000000 && $priceRange['end'] == 10000000 ? 'active' : '' }}">
+                                                        <a href="#" wire:click.prevent="selectPriceRange(4000000, 10000000)" class="a-nav">
+                                                            <i></i>4,000,000 - 10,000,000 đ
                                                         </a>
                                                     </li>
                                                 </ul>
