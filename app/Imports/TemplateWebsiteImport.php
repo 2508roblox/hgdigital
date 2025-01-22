@@ -26,7 +26,7 @@ class TemplateWebsiteImport implements ToModel, WithHeadingRow
         $imagePath = $this->downloadAndStoreImage($row['image']);
         
         // Xác định slug
-        $slug = $row['slug'] ?? null;
+        $slug = $row['slug'] ?? Str::slug($row['name']);
         
         // Kiểm tra xem slug đã tồn tại hay chưa, nếu có thì thêm số vào cuối
         if ($slug) {
@@ -35,7 +35,7 @@ class TemplateWebsiteImport implements ToModel, WithHeadingRow
 
         // Lấy tên danh mục và kiểm tra trong cơ sở dữ liệu
         $categoryName = $row['category_name'] ?? null;
-        $categoryId = null;
+        $categoryId = 1;
 
         if ($categoryName) {
             // Kiểm tra xem danh mục đã tồn tại chưa

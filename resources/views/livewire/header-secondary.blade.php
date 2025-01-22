@@ -139,7 +139,7 @@
                                         </div>
                                     </li>
                                 </ul> --}}
-                                <ul class="submenu">
+                                {{-- <ul class="submenu">
                                     <li>
                                         <div class="mega_menu_wrapper">
                                             <div class="container">
@@ -258,7 +258,7 @@
                                             </div>
                                         </div>
                                     </li>
-                                </ul>
+                                </ul> --}}
                                 
                             </li>
                             <li class="menu-item-has-children megamenu">
