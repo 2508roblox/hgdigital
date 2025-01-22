@@ -14,7 +14,7 @@
                 <div class="cta-right_img wow fadeInRight" data-wow-delay="150ms"
                     data-wow-duration="600ms"
                     style="visibility: hidden; animation-duration: 600ms; animation-delay: 150ms; animation-name: none;">
-                    <img class="updown" src="assets/img/cta/clip-bord.png" alt="">
+                    <img class="updown" src="/assets/img/cta/clip-bord.png" alt="">
                 </div>
             </div>
         </div>
