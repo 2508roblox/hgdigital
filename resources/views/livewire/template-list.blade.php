@@ -66,9 +66,9 @@
 
                 <!-- page title end  -->
                 <!-- team title start  -->
-                <section class="team pt-50 pb-130">
-                </section>
-                <section class="page-title cp-page-title   pos-rel bg_img" data-background="assets/img/bg/page_bg01.jpg"
+                {{-- <section class="team pt-50 pb-130"> --}}
+                {{-- </section> --}}
+                <section class="page-title  pt-200 pos-rel bg_img" data-background="assets/img/bg/page_bg01.jpg"
                     style="background-image: url(&quot;assets/img/bg/page_bg01.jpg&quot;);">
                     <div class="container">
                         <div class="page-title-wrap">
@@ -100,7 +100,7 @@
                                         <aside class="aside-item filter-menu">
                                             <div class="aside-title">
                                                 <h2 class="title-head">
-                                                    <img loading="lazy" src="http://127.0.0.1:8000/storage/template_categories/images/01JHT1V2G6CVNE6GYW9BF944S1.svg" 
+                                                    <img loading="lazy" src="http://127.0.0.1:8000/storage/template_categories/images/01JHT1V2G6CVNE6GYW9BF944S1.svg"
                                                         alt="Danh mục">
                                                     <span class="filter_heading" style="font-size: 24px;">Danh mục</span>
                                                 </h2>
@@ -113,7 +113,7 @@
                                                    .nav-item.active  a span {
                                                         color: #0d6efd;
                                                     }
-                                                    
+
                                                 </style>
                                                 <!-- Danh sách danh mục -->
                                                 <nav class="nav-category aside-content nav-menu">
@@ -133,11 +133,11 @@
                                                     </ul>
                                                 </nav>
                                             </div>
-                                        
+
                                             <!-- Danh sách template -->
-                                        
+
                                         </aside>
-                                        
+
                                         <script>
                                             $(function() {
 
@@ -157,7 +157,7 @@
                                         <aside class="aside-item filter-price">
                                             <div class="aside-title">
                                                 <h2 class="title-head">
-                                                    <img loading="lazy" src="http://127.0.0.1:8000/storage/template_categories/images/01JHT1SPZZQ04SCMEBTEV20G35.svg" 
+                                                    <img loading="lazy" src="http://127.0.0.1:8000/storage/template_categories/images/01JHT1SPZZQ04SCMEBTEV20G35.svg"
                                                         alt="Bán hàng">
                                                     <span class="filter_heading" style="font-size: 24px;">Khoảng giá</span>
                                                 </h2>
@@ -192,7 +192,7 @@
                                                 </ul>
                                             </div>
                                         </aside>
-                                        
+
                                             <style>
                                                 .filter-group .nav-item {
     padding: 5px 0;
@@ -469,8 +469,7 @@
                                     <div class="page-title-box">
                                         <span class="sub-title"><img src="assets/img/icon/m_08.svg"
                                                 alt="">Mẫu Website</span>
-                                        <h2 class="title">Be a part of shaping the <br> future &amp; career
-                                            opportunities <br> at Innomax today.</h2>
+                                                <h2 class="title">Tham gia định hình <br> tương lai và cơ hội <br> tại HG DIGITAL hôm nay.</h2>
                                     </div>
                                 </div>
                                 <div class="col-lg-4 mt-30">

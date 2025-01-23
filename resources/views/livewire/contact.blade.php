@@ -156,7 +156,7 @@
 
                 <!-- google map start  -->
                 <div class="gmap_canvas bg-light ">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49552.35522552038!2d106.5684718216797!3d10.851591000000017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752b001b76fa17%3A0x2992f7528f02492b!2sC%C3%94NG%20TY%20TNHH%20HG%20DIGITAL!5e1!3m2!1svi!2s!4v1737166868005!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.472878577921!2d106.6406042!3d10.8515927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529b4bfbc7e43%3A0x29f8e194551d58b2!2zSEcgRElHSVRBTCAtIFRISeG6vlQgS8OKIFdFQlNJVEUgR0nDgSBS4bq6!5e0!3m2!1svi!2s!4v1737634581861!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <!-- google map end  -->
 

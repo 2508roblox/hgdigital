@@ -9,7 +9,7 @@
     <style>
         @media (max-width: 768px) {
     /* Khi màn hình nhỏ hơn hoặc bằng 768px */
-  
+
     #kkkfii {
         font-size: 16px !important;
     max-width: 42rem !important;
@@ -33,7 +33,7 @@
     .cs-feature-item .xb-item--list {
         display: flex;
         text-align: center;
-  
+
 }
 }
     </style>
@@ -347,7 +347,7 @@
                                                 </defs>
                                               </svg>
                                         </div>
-                                        <a href="service-details.html" class="xb-overlay xb-overlay-link"></a>
+                                        <a class="xb-overlay xb-overlay-link"></a>
                                     </div>
                                     <div class="cs-service-item mt-30">
                                         <div class="xb-item--inner">
@@ -402,7 +402,7 @@
                                                 </defs>
                                               </svg>
                                         </div>
-                                        <a href="service-details.html" class="xb-overlay xb-overlay-link"></a>
+                                        <a class="xb-overlay xb-overlay-link"></a>
                                     </div>
                                 </div>
                                 <div class="col-lg-4">
@@ -460,7 +460,7 @@
                                                 </defs>
                                               </svg>
                                         </div>
-                                        <a href="service-details.html" class="xb-overlay xb-overlay-link"></a>
+                                        <a class="xb-overlay xb-overlay-link"></a>
                                     </div>
                                 </div>
                                 <div class="col-lg-4">
@@ -517,7 +517,7 @@
                                                 </defs>
                                               </svg>
                                         </div>
-                                        <a href="service-details.html" class="xb-overlay xb-overlay-link"></a>
+                                        <a class="xb-overlay xb-overlay-link"></a>
                                     </div>
                                     <div class="cs-service-item mt-30">
                                         <div class="xb-item--inner">
@@ -571,7 +571,7 @@
                                                 </defs>
                                               </svg>
                                         </div>
-                                        <a href="service-details.html" class="xb-overlay xb-overlay-link"></a>
+                                        <a class="xb-overlay xb-overlay-link"></a>
                                     </div>
                                 </div>
                             </div>
@@ -581,7 +581,7 @@
                         </div>
                         <div class="xb-btn z-2 pos-rel text-center mt-55 wow fadeInUp" data-wow-duration="600ms">
                             <a href="{{ route('home') }}#service_packs" class="blc-btn">
-                                
+
                                 <span>Liên Hệ Báo Giá <i class="far fa-angle-right"></i></span>
                                 <span class="btn-shape">
                                     <svg width="362" height="78" viewBox="0 0 362 78" fill="none" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
@@ -624,7 +624,7 @@
                                             <p class="content wow fadeInUp" data-wow-delay="300ms" data-wow-duration="600ms">Với đội ngũ trẻ trung, nhiệt huyết và đam mê công nghệ, chúng tôi mang đến giải pháp thiết kế website chuyên nghiệp, tối ưu và phù hợp với mọi nhu cầu kinh doanh.</p>
                                         </div>
                                         <div class="xb-btn mt-85 wow fadeInUp" data-wow-delay="450ms" data-wow-duration="600ms">
-                                            <a href="about.html" class="blc-btn">
+                                            <a href="/contact" class="blc-btn">
                                                 <span>Liên Hệ Báo Giá <i class="far fa-angle-right"></i></span>
                                                 <span class="btn-shape">
                                                     <svg width="271" height="60" viewBox="0 0 271 60" fill="none" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
@@ -2317,10 +2317,14 @@
                         <div class="footer-widget">
                             <span class="xb-item--sub-title">Dịch vụ của chúng tôi</span>
                             <ul class="xb-item--holder list-unstyled">
-                                <li class="xb-item--list"><a href="#!">Xây dựng website trọn gói</a></li>
-                                <li class="xb-item--list"><a href="#!">Xây dựng LandingPage website</a></li>
-                                <li class="xb-item--list"><a href="#!">Clone giao diện website nhanh chóng</a></li>
-                                <li class="xb-item--list"><a href="#!">Code, thêm chức năng, và xây dựng website</a></li>
+                                <li class="xb-item--list"><a href="#!">Thiết Kế Website</a></li>
+                                <li class="xb-item--list"><a href="#!">Tương Tác Số</a></li>
+                                <li class="xb-item--list"><a href="#!">Chăm Sóc Fanpage</a></li>
+                                <li class="xb-item--list"><a href="#!">Thiết Kế UX/UI</a></li>
+                                <li class="xb-item--list"><a href="#!">Phát Triển Ứng Dụng</a></li>
+                                <li class="xb-item--list"><a href="#!">Digital Marketing</a></li>
+                                <li class="xb-item--list"><a href="#!">Hệ Thống CRM, ERP, HRM</a></li>
+
                             </ul>
                         </div>
 

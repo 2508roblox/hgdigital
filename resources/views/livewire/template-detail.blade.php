@@ -22,6 +22,14 @@
 </div> --}}
 
 <div>
+    @section('metatags')
+        <title>{{ $template->name }} - HG Digital</title>
+        <meta name="description"
+            content="Chuyên cung cấp dịch vụ thiết kế website chuyên nghiệp, tối ưu SEO, giá rẻ tại HG Digital.">
+        <meta name="keywords" content="thiết kế website, dịch vụ thiết kế web, website chuyên nghiệp">
+        <meta property="og:title" content="HG Digital - Thiết Kế Website Chuyên Nghiệp">
+        <meta property="og:description" content="Thiết kế website chuyên nghiệp, tối ưu hóa SEO và giá cả hợp lý.">
+    @endsection
 
     <body class="sco_agency">
 
@@ -90,23 +98,23 @@
                                     <h4>Ưu đãi khi dùng dịch vụ tại HG DIGITAL</h4>
                                     <li><span><img src="../assets/img/check-icon.svg" alt="">Tặng miễn phí domain, máy chủ 1 năm.</span></li>
                                     <li><span><img src="../assets/img/check-icon.svg" alt="">Hỗ trợ sửa chữa, bảo hành 1 năm</span></li>
-                                    <li><a href="https://themewp.vn/tai-lieu-huong-dan/" target="_blank"
+                                    <li><a   target="_blank"
                                             rel="noopener"><span><img src="../assets/img/check-icon.svg" alt="">Cung cấp tài liệu hướng dẫn sử dụng</span></a></li>
-                                    <li><a href="https://themewp.vn/kho-plugin/" target="_blank"
+                                    <li><a   target="_blank"
                                             rel="noopener"><span><img src="../assets/img/check-icon.svg" alt="">Được tối ưu SEO miễn phí</span></a>
                                     </li>
-                                    <li><a href="https://themewp.vn/tich-luy-diem-thuong-giam-gia/" target="_blank"
+                                    <li><a   target="_blank"
                                             rel="noopener"><span><img src="../assets/img/check-icon.svg" alt="">Tích điểm giảm giá cho những lần mua tiếp
                                                 theo</span></a></li>
                                 </div>
 
                                 <div class="hosting-uudai">
-                                    <a href="https://themewp.vn/hosting/" target="_blank" rel="noopener">Cloud Hosting
+                                    <a   target="_blank" rel="noopener">Cloud Hosting
                                         SSD giá rẻ, chất lượng, toàn quyền quản lý - giảm giá, hỗ trợ tốt hơn khi mua
                                         cùng.</a>
                                 </div>
-                               
-                                
+
+
 
                                 <style>
                                     @media (max-width: 768px) {
@@ -120,24 +128,24 @@
                                 <div class="xb-item--button mt-2"  style="width: 14rem;">
                                     <a href="{{ $template->demo_link }}" style="border-radius: 10px; width: 100%;display: block; display: flex; gap: .4rem; align-items: center; justify-content: center; ">
                                         <small class="iconbox_icon">
-                                         
+
 <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path fill="#ffffff" fill-rule="evenodd" clip-rule="evenodd" d="M17.0873 8.0606C15.1947 4.7393 12.3606 3.00002 9.45136 3C6.54199 2.99997 3.70792 4.73921 1.81531 8.06052C1.48344 8.64292 1.48344 9.35697 1.81531 9.93936C3.70791 13.2606 6.54199 14.9999 9.45127 15C12.3606 15 15.1947 13.2607 17.0873 9.93945C17.4192 9.35706 17.4192 8.643 17.0873 8.0606ZM9.11476 6.67082L8.50609 7.8882C8.46981 7.96076 8.41096 8.01961 8.33839 8.0559L7.12101 8.66458C6.84462 8.80279 6.84462 9.19722 7.12101 9.33537L8.33839 9.94413C8.41096 9.9804 8.46981 10.0393 8.50609 10.1118L9.11476 11.3291C9.253 11.6055 9.64738 11.6055 9.78562 11.3291L10.3943 10.1118C10.4306 10.0393 10.4894 9.9804 10.562 9.94413L11.7794 9.33537C12.0558 9.19722 12.0558 8.80279 11.7794 8.66459L10.562 8.0559C10.4894 8.01961 10.4306 7.96076 10.3943 7.8882L9.78562 6.67082C9.64738 6.39442 9.253 6.39442 9.11476 6.67082Z"  />
     </svg>
-    
+
                                         </small>
                                         Demo  </a>
                                 </div>
                                 <div class="xb-item--button mt-2"  style="width: 14rem;">
                                     <a href="blog-details.html" style="border-radius: 10px; width: 100%;display: block; display: flex; gap: .4rem; align-items: center; justify-content: center; ">
-                                        
-                                        
+
+
 <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M9.5625 11.9402H10.05C10.5375 11.9402 10.9425 11.5052 10.9425 10.9802C10.9425 10.3277 10.71 10.2002 10.3275 10.0652L9.57 9.80273V11.9402H9.5625Z" fill="#ffffff"/>
     <path d="M8.97755 1.42482C4.83755 1.43982 1.48505 4.80732 1.50005 8.94732C1.51505 13.0873 4.88255 16.4398 9.02255 16.4248C13.1626 16.4098 16.5151 13.0423 16.5001 8.90232C16.4851 4.76232 13.1176 1.41732 8.97755 1.42482ZM10.6951 8.99982C11.2801 9.20232 12.0676 9.63732 12.0676 10.9798C12.0676 12.1348 11.1601 13.0648 10.0501 13.0648H9.56255V13.4998C9.56255 13.8073 9.30755 14.0623 9.00005 14.0623C8.69255 14.0623 8.43755 13.8073 8.43755 13.4998V13.0648H8.16755C6.93755 13.0648 5.94005 12.0298 5.94005 10.7548C5.94005 10.4473 6.19505 10.1923 6.50255 10.1923C6.81005 10.1923 7.06505 10.4473 7.06505 10.7548C7.06505 11.4073 7.56005 11.9398 8.16755 11.9398H8.43755V9.40482L7.30505 8.99982C6.72005 8.79732 5.93255 8.36232 5.93255 7.01982C5.93255 5.86482 6.84005 4.93482 7.95005 4.93482H8.43755V4.49982C8.43755 4.19232 8.69255 3.93732 9.00005 3.93732C9.30755 3.93732 9.56255 4.19232 9.56255 4.49982V4.93482H9.83255C11.0626 4.93482 12.0601 5.96982 12.0601 7.24482C12.0601 7.55232 11.8051 7.80732 11.4976 7.80732C11.1901 7.80732 10.9351 7.55232 10.9351 7.24482C10.9351 6.59232 10.4401 6.05982 9.83255 6.05982H9.56255V8.59482L10.6951 8.99982Z" fill="#ffffff"/>
     <path d="M7.06641 7.02756C7.06641 7.68006 7.29891 7.80756 7.68141 7.94256L8.43891 8.20506V6.06006H7.95141C7.46391 6.06006 7.06641 6.49506 7.06641 7.02756Z" fill="#ffffff"/>
     </svg>
-    
+
     Mua Ngay  </a>
                                 </div>
                               </div>
@@ -147,7 +155,7 @@
                                         Mã: <span class="sku">#000{{ $template->id }}</span>
                                     </span>
                                     <span class="posted_in">
-                                        Danh mục: 
+                                        Danh mục:
                                         <a href=" " rel="tag">
                                             {{ $template->category->name }}
                                         </a>
@@ -170,13 +178,13 @@
                     .csd-item {
     margin-top: 25px;
     align-items: end;
-    
+
 }
 .csd-ser_inner .csd-item .xb-text {
     font-size: 12px;
 }
                     .xb-item--button a:hover {
-                  
+
     --bs-link-color-rgb: var(--bs-link-hover-color-rgb);
 }
                     .xb-item--button a:hover {
@@ -414,14 +422,14 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         {{-- <div class="sd-ser-content mt-5">
                             <h2 class="sd-title">Mô Tả</h2>
                             <div class="template_info">
 
 
                                 <p class="template-description mt-3">{!! $template->description !!}</p>
-                               
+
                             </div>
 
 
