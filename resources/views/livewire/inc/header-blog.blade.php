@@ -1,6 +1,6 @@
 <header id="xb-header-area" class="header-area header-style-two header-transparent">
     <div class="header-top">
-        <span>Nhận ngay ưu đãi 15% cho tất cả các gói dịch vụ hàng năm đến hết ngày 30/12! Cùng HG DIGITAL nâng tầm doanh nghiệp của bạn. 🚀</span>
+        <span>Nhận ưu đãi 15% cho gói dịch vụ hàng năm đến 30/12! Cùng HG DIGITAL nâng tầm doanh nghiệp bạn! 🚀</span>
         <span><a href="#!">Xem thêm</a><i class="far fa-angle-right"></i></span>
         <div class="header-shape">
             <div class="shape shape--one"><img src="/assets/img/shape/trangle-shape.png" alt=""></div>

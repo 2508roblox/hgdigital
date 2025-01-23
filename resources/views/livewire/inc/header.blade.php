@@ -385,12 +385,8 @@
                         </li>
 
 
-                        <li class="menu-item menu-item-has-children">
+                        <li class="menu-item">
                             <a href="/templates"><span>Mẫu Website</span></a>
-                            <ul class="sub-menu">
-                                <li><a href="/blogs"><span>Website bán hàng</span></a></li>
-                                <li><a href="/blog/detail"><span>Landing Page</span></a></li>
-                            </ul>
                         </li>
                         <li class="menu-item menu-item ">
                             <a href="/blogs"><span>Tin Tức</span></a>

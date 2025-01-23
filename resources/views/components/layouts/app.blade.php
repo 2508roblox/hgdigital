@@ -51,7 +51,13 @@
   font-weight: <weight>;
   font-style: normal;
 }
-
+@media (max-width: 768px) {
+    .header-style-two .header-top span {
+    font-weight: 500;
+    font-size: 8px;
+    color: var(--color-white);
+}
+}
     </style>
     <!-- Livewire Styles -->
     @livewireStyles
