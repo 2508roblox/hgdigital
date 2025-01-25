@@ -100,7 +100,7 @@
                                         <aside class="aside-item filter-menu">
                                             <div class="aside-title">
                                                 <h2 class="title-head">
-                                                    <img loading="lazy" src="http://127.0.0.1:8000/storage/template_categories/images/01JHT1V2G6CVNE6GYW9BF944S1.svg"
+                                                    <img loading="lazy" src="/storage/template_categories/images/01JHT1V2G6CVNE6GYW9BF944S1.svg"
                                                         alt="Danh mục">
                                                     <span class="filter_heading" style="font-size: 24px;">Danh mục</span>
                                                 </h2>
@@ -157,7 +157,7 @@
                                         <aside class="aside-item filter-price">
                                             <div class="aside-title">
                                                 <h2 class="title-head">
-                                                    <img loading="lazy" src="http://127.0.0.1:8000/storage/template_categories/images/01JHT1SPZZQ04SCMEBTEV20G35.svg"
+                                                    <img loading="lazy" src="/storage/template_categories/images/01JHT1SPZZQ04SCMEBTEV20G35.svg"
                                                         alt="Bán hàng">
                                                     <span class="filter_heading" style="font-size: 24px;">Khoảng giá</span>
                                                 </h2>
