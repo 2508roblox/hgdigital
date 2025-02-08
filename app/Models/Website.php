@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Str;
 
 class Website extends Model
 {
@@ -18,8 +19,12 @@ class Website extends Model
         'technologies',
         'website_url',
         'category_id',
-    ];
+        'slug', // Add slug here
 
+    ];  
+    protected $casts = [
+        'technologies' => 'array',
+    ];
     // Quan hệ với danh mục
     public function category()
     {
@@ -30,5 +35,17 @@ class Website extends Model
     public function tags()
     {
         return $this->belongsToMany(Tag::class, 'website_tag');
+    }
+    public static function boot()
+    {
+        parent::boot();
+
+        static::creating(function ($model) {
+            $model->slug = Str::slug($model->name);
+        });
+
+        static::updating(function ($model) {
+            $model->slug = Str::slug($model->name);
+        });
     }
 }

@@ -75,159 +75,33 @@
                 <section class="casestudy pt-70 pb-130 ">
                     <div class="container ">
                         <div class="row justify-content-center ">
-                            <div class="col-lg-8 ">
-                                <div class="team-menu casestudy-menu ">
-                                    <button class="active " data-filter="* ">View all</button>
-                                    <button data-filter=".cat1 " class=" ">Development</button>
-                                    <button data-filter=".cat2 ">Design</button>
-                                    <button data-filter=".cat3 ">Marketing</button>
-                                    <button data-filter=".cat4 ">Branding</button>
-                                    <button data-filter=".cat5 ">IT Services</button>
+                            <div class="col-lg-8">
+                                <div class="team-menu casestudy-menu">
+                                    <button class="active" data-filter="*">View all</button>
+                                    @foreach($categories as $category)
+                                        <button data-filter=".cat{{ $category->id }}">{{ $category->name }}</button>
+                                    @endforeach
                                 </div>
                             </div>
                         </div>
                         <div class="casestudy-content mt-70 ">
-                            <div class="row grid mt-none-30 ">
-                                <div class="col-lg-4 col-md-6 grid-item cat4 mt-30 ">
-                                    <div class="casestudy-item ">
-                                        <div class="casestudy-img ">
-                                            <a href="casestudy-details.html ">
-                                                <img src="assets/img/casestudy/img01.jpg " alt=" ">
-                                            </a>
-                                            <div class="content_wrap ">
-                                                <h3 class="item_title ">SEO tracking analysis..</h3>
-                                                <span class="item_tag ">Branding</span>
+                            <div class="row grid mt-none-30">
+                                @foreach($websites as $website)
+                                    <div class="col-lg-4 col-md-6 grid-item cat{{ $website->category_id }} mt-30">
+                                        <div class="casestudy-item">
+                                            <div class="casestudy-img" style="max-height: 300px;">
+                                                <a href="{{ route('project.detail', ['slug' => $website->slug]) }}"> <!-- Link to the project detail route -->
+                                                    <img style="height: 100%; object-fit: cover;" src="{{ asset('storage/' . $website->main_image) }}" alt="{{ $website->name }}">
+                                                </a>
+                                                <div class="content_wrap">
+                                                    <h3 class="item_title">{{ $website->name }}</h3>
+                                                    <span class="item_tag">{{ $website->category->name }}</span> <!-- Display category name -->
+                                                </div>
                                             </div>
+                                            <a class="xb-overlay" href="{{ route('project.detail', ['slug' => $website->slug]) }}"></a>
                                         </div>
-                                        <a class="xb-overlay " href="casestudy-details.html "></a>
                                     </div>
-                                </div>
-                                <div class="col-lg-8 col-md-6 grid-item cat3 mt-30 ">
-                                    <div class="casestudy-item ">
-                                        <div class="casestudy-img ">
-                                            <a href="casestudy-details.html ">
-                                                <img src="assets/img/casestudy/img02.jpg " alt=" ">
-                                            </a>
-                                            <div class="content_wrap ">
-                                                <h3 class="item_title ">Online media management..</h3>
-                                                <span class="item_tag ">Marketing</span>
-                                            </div>
-                                        </div>
-                                        <a class="xb-overlay " href="casestudy-details.html "></a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-6 grid-item cat4 mt-30 ">
-                                    <div class="casestudy-item ">
-                                        <div class="casestudy-img ">
-                                            <a href="casestudy-details.html ">
-                                                <img src="assets/img/casestudy/img03.jpg " alt=" ">
-                                            </a>
-                                            <div class="content_wrap ">
-                                                <h3 class="item_title ">Cloud infrastructure..</h3>
-                                                <span class="item_tag ">Branding</span>
-                                            </div>
-                                        </div>
-                                        <a class="xb-overlay " href="casestudy-details.html "></a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-6 grid-item cat2 mt-30 ">
-                                    <div class="casestudy-item ">
-                                        <div class="casestudy-img ">
-                                            <a href="casestudy-details.html ">
-                                                <img src="assets/img/casestudy/img04.jpg " alt=" ">
-                                            </a>
-                                            <div class="content_wrap ">
-                                                <h3 class="item_title ">Design system & Ul kit..</h3>
-                                                <span class="item_tag ">Design</span>
-                                            </div>
-                                        </div>
-                                        <a class="xb-overlay " href="casestudy-details.html "></a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-6 grid-item cat1 mt-30 ">
-                                    <div class="casestudy-item ">
-                                        <div class="casestudy-img ">
-                                            <a href="casestudy-details.html ">
-                                                <img src="assets/img/casestudy/img05.jpg " alt=" ">
-                                            </a>
-                                            <div class="content_wrap ">
-                                                <h3 class="item_title ">Offline SEO marketing..</h3>
-                                                <span class="item_tag ">Development</span>
-                                            </div>
-                                        </div>
-                                        <a class="xb-overlay " href="casestudy-details.html "></a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-6 grid-item cat5 mt-30 ">
-                                    <div class="casestudy-item ">
-                                        <div class="casestudy-img ">
-                                            <a href="casestudy-details.html ">
-                                                <img src="assets/img/casestudy/img06.jpg " alt=" ">
-                                            </a>
-                                            <div class="content_wrap ">
-                                                <h3 class="item_title ">IT security enhancement..</h3>
-                                                <span class="item_tag ">Support</span>
-                                            </div>
-                                        </div>
-                                        <a class="xb-overlay " href="casestudy-details.html "></a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-8 col-md-6 grid-item cat2 mt-30 ">
-                                    <div class="casestudy-item ">
-                                        <div class="casestudy-img ">
-                                            <a href="casestudy-details.html ">
-                                                <img src="assets/img/casestudy/img07.jpg " alt=" ">
-                                            </a>
-                                            <div class="content_wrap ">
-                                                <h3 class="item_title ">Minimalistic bottle logo concept..</h3>
-                                                <span class="item_tag ">Design</span>
-                                            </div>
-                                        </div>
-                                        <a class="xb-overlay " href="casestudy-details.html "></a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-6 grid-item cat1 mt-30 ">
-                                    <div class="casestudy-item ">
-                                        <div class="casestudy-img ">
-                                            <a href="casestudy-details.html ">
-                                                <img src="assets/img/casestudy/img08.jpg " alt=" ">
-                                            </a>
-                                            <div class="content_wrap ">
-                                                <h3 class="item_title ">Advanced Link Building..</h3>
-                                                <span class="item_tag ">Development</span>
-                                            </div>
-                                        </div>
-                                        <a class="xb-overlay " href="casestudy-details.html "></a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-6 grid-item cat5 mt-30 ">
-                                    <div class="casestudy-item ">
-                                        <div class="casestudy-img ">
-                                            <a href="casestudy-details.html ">
-                                                <img src="assets/img/casestudy/img09.jpg " alt=" ">
-                                            </a>
-                                            <div class="content_wrap ">
-                                                <h3 class="item_title ">Keyword Research..</h3>
-                                                <span class="item_tag ">Strategy</span>
-                                            </div>
-                                        </div>
-                                        <a class="xb-overlay " href="casestudy-details.html "></a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-6 grid-item cat4 mt-30 ">
-                                    <div class="casestudy-item ">
-                                        <div class="casestudy-img ">
-                                            <a href="casestudy-details.html ">
-                                                <img src="assets/img/casestudy/img10.jpg " alt=" ">
-                                            </a>
-                                            <div class="content_wrap ">
-                                                <h3 class="item_title ">Creative Logo Design..</h3>
-                                                <span class="item_tag ">Branding</span>
-                                            </div>
-                                        </div>
-                                        <a class="xb-overlay " href="casestudy-details.html "></a>
-                                    </div>
-                                </div>
+                                @endforeach
                             </div>
                             <div class=" text-center xb-btn mt-55 ">
                                 <a href="casestudy.html " class="thm-btn thm-btn--aso thm-btn--aso_black ">Load more

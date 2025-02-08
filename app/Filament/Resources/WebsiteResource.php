@@ -52,6 +52,7 @@ class WebsiteResource extends Resource
 
                     FileUpload::make('main_image')
                         ->label('Ảnh chính')
+                        ->maxSize(10000000)
                         ->image()
                         ->required(),
 
