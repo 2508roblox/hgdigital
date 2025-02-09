@@ -62,7 +62,36 @@
 
     <!-- Page Content -->
     {{ $slot }}
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg"
+    alt="Facebook Fanpage"
+    class="facebook-button"
+    onclick="openFacebook()">
+    <style>
+        /* Vị trí cố định góc dưới bên phải */
+        .facebook-button {
+    position: fixed;
+    bottom: 121px;
+    right: 56px;
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+    z-index: 999;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    animation: blink 1.2s infinite alternate;
+}
 
+        /* Hiệu ứng nháy nháy */
+        @keyframes blink {
+            0% { filter: brightness(1); }
+            100% { filter: brightness(1.5); }
+        }
+    </style>
+<script>
+   function openFacebook() {
+       window.open("https://www.facebook.com/CONG.TY.TNHH.HG.DIGITAL/", "_blank");
+   }
+</script>
     <!-- Footer -->
     <div class="gtranslate_wrapper"></div>
     <script>window.gtranslateSettings = {"default_language":"en","languages":["en","vi","fr","zh-CN","ja","ko","it"],"wrapper_selector":".gtranslate_wrapper"}</script>

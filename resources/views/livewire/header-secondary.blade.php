@@ -23,7 +23,7 @@
                                
                             </li>
                             <li class="menu-item-has-children megamenu">
-                                <a href="{{ route('home') }}#project"><span>Dự án đã làm</span></a>
+                                <a href="{{ route('project.index') }}"><span>Dự án đã làm</span></a>
                                 {{-- <ul class="submenu">
                                     <li>
                                         <div class="mega_menu_wrapper">

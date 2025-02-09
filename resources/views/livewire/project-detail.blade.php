@@ -76,8 +76,18 @@
                 <div class="csd-img pt-70 pb-65">
                     <div class="container">
                         <div class="item-details_image pos-rel">
-                            <img src="{{ asset('storage/' . $website->main_image) }}" alt="{{ $website->name }}">
-                        </div>
+                            <img src="{{ asset('storage/' . $website->thumbnail) }}" alt="{{ $website->name }}">
+                            @php
+                            $images = is_string($website->main_image) ? json_decode($website->main_image, true) : $website->main_image;
+                        @endphp
+                        
+                        @if(!empty($images) && is_array($images))
+                            @foreach($images as $image)
+                                <img src="{{ asset('storage/' . $image) }}" alt="{{ $website->name }}">
+                            @endforeach
+                        @endif
+                        
+                                                </div>
                     </div>
                 </div>
                 <div class="sd-ser-content_wrap pb-90" bis_skin_checked="1">
@@ -155,7 +165,7 @@
                                         <div class="casestudy-item">
                                             <div class="casestudy-img">
                                                 <a href="{{ route('project.detail', ['slug' => $similarWebsite->slug]) }}"> <!-- Liên kết đến chi tiết bài tương tự -->
-                                                    <img src="{{ asset('storage/' . $similarWebsite->main_image) }}" alt="{{ $similarWebsite->name }}">
+                                                    <img src="{{ asset('storage/' . $similarWebsite->thumbnail) }}" alt="{{ $similarWebsite->name }}">
                                                 </a>
                                                 <div class="content_wrap">
                                                     <h3 class="item_title">{{ $similarWebsite->name }}</h3> <!-- Hiển thị tên bài tương tự -->

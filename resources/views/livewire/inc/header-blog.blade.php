@@ -23,7 +23,7 @@
                                 <a href="/"><span>Trang Chủ</span></a>
                             </li>
                             <li class="menu-item {{ Request::is('projects') ? 'active' : '' }}">
-                                <a href="{{ route('home') }}#project"><span>Dự án đã làm</span></a>
+                                <a href="{{ route('project.index') }}"><span>Dự án đã làm</span></a>
 
                             </li>
                             <li class="menu-item   {{ Request::is('services') ? 'active' : '' }}">
@@ -324,7 +324,7 @@
                                             </ul>
                                         </li>
                                         <li class="menu-item ">
-                                            <a href="{{ route('home') }}#project"><span>Dự án đã làm</span></a>
+                                            <a href="{{ route('project.index') }}"><span>Dự án đã làm</span></a>
 
                                         </li>
                                         <li class="menu-item menu-item  ">

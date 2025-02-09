@@ -24,6 +24,7 @@ class Website extends Model
     ];  
     protected $casts = [
         'technologies' => 'array',
+        'main_image' => 'array',
     ];
     // Quan hệ với danh mục
     public function category()

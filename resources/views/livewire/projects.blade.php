@@ -91,8 +91,11 @@
                                         <div class="casestudy-item">
                                             <div class="casestudy-img" style="max-height: 300px;">
                                                 <a href="{{ route('project.detail', ['slug' => $website->slug]) }}"> <!-- Link to the project detail route -->
-                                                    <img style="height: 100%; object-fit: cover;" src="{{ asset('storage/' . $website->main_image) }}" alt="{{ $website->name }}">
-                                                </a>
+                                                    <img style="height: 100%; object-fit: cover;" 
+                                                    src="{{ asset('storage/' . $website->thumbnail) }}" 
+                                                    alt="{{ $website->name }}" 
+                                                    loading="lazy">
+                                                                                               </a>
                                                 <div class="content_wrap">
                                                     <h3 class="item_title">{{ $website->name }}</h3>
                                                     <span class="item_tag">{{ $website->category->name }}</span> <!-- Display category name -->
